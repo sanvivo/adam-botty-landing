@@ -1,0 +1,13 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "headers": {
+        "cache-control": "public, max-age=600"
+      }
+    }
+  ]
+}

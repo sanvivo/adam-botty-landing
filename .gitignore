@@ -1,0 +1,14 @@
+# Internal design/strategy docs — repo is public, keep these local
+specs/
+
+node_modules
+.nuxt
+.output
+.data
+dist
+.env
+.env.*
+!.env.example
+.DS_Store
+logs
+*.log

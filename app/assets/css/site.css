@@ -565,8 +565,44 @@ body { background: var(--surface-page); }
   .display-md { font-size: 30px; }
   .section { padding: 80px 0; }
   .hero { padding-top: 132px; }
+  .hero-cols { gap: 48px; }
   .hero-cols, .two-col { grid-template-columns: 1fr !important; }
   .cap-grid { grid-template-columns: repeat(2, 1fr); }
   .stat-trio { grid-template-columns: 1fr; }
   .site-nav a.nav-link { display: none; }
+}
+
+/* Backstage comparison — stack the two columns once they get cramped */
+@media (max-width: 768px) {
+  .backstage-card { grid-template-columns: 1fr; }
+  .bs-left { border-right: none; border-bottom: 1px solid var(--border-subtle); }
+}
+
+/* ── Phones ── */
+@media (max-width: 560px) {
+  .wrap, .wrap-narrow, .site-nav .nav-inner { padding-left: 18px; padding-right: 18px; }
+  .section { padding: 64px 0; }
+  .hero { padding-top: 116px; padding-bottom: 72px; }
+
+  .display-lg { font-size: 32px; }
+  .display-md { font-size: 25px; }
+  .lede { font-size: 17px; }
+
+  /* One-up grids on the smallest screens */
+  .cap-grid { grid-template-columns: 1fr; }
+
+  /* Tighter card interiors so nothing feels cramped against the edge */
+  .bs-left, .bs-right { padding: 24px 20px; }
+  .story-card { padding: 28px 22px; }
+  .pillar-card { padding: 26px 22px; }
+  .trust-card { padding: 26px 22px; }
+  .price-card { padding: 40px 24px; }
+  .price-num { font-size: 52px; }
+
+  /* Comparison table: slimmer cells + smaller type so 3 columns fit */
+  .compare th, .compare td { padding: 13px 12px; font-size: 13.5px; }
+  .compare td:first-child { width: 38%; }
+
+  .pain-row { font-size: 18px; gap: 12px; padding: 18px 4px; }
+  .stat-trio .num { font-size: 40px; }
 }

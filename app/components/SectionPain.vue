@@ -1,15 +1,3 @@
-<script setup lang="ts">
-import { ArrowRight } from 'lucide-vue-next'
-
-const painLines = [
-  "You're the only one who knows where everything lives",
-  'Things fall through the cracks the moment you look away',
-  'Good employees are expensive, rare, and need constant context',
-  'You repeat yourself. Every week. To everyone.',
-  'Every Sunday night: \u201CThis week I\u2019ll finally focus on the big stuff.\u201D',
-]
-</script>
-
 <template>
   <section class="section">
     <div class="wrap-narrow">
@@ -26,15 +14,6 @@ const painLines = [
           You're not building the company anymore. You're managing the noise.
         </p>
       </div>
-      <div class="pain-list reveal reveal-d2" style="margin-top: 64px">
-        <div v-for="l in painLines" :key="l" class="pain-row">
-          <span class="arrow"><ArrowRight :size="18" /></span>
-          <span>{{ l }}</span>
-        </div>
-      </div>
-      <p class="reveal reveal-d3" style="margin: 40px 0 0; text-align: center; font-size: 22px; font-weight: 500; color: var(--text-secondary)">
-        That week never comes.
-      </p>
     </div>
   </section>
 </template>

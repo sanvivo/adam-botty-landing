@@ -360,6 +360,14 @@ body { background: var(--surface-page); }
   .bs-node { position: static; transform: none; }
 }
 
+/* ── Green marker highlight ── */
+.mark-green {
+  background: linear-gradient(transparent 55%, var(--green-200) 55%, var(--green-200) 92%, transparent 92%);
+  color: var(--text-display); font-weight: 500;
+  padding: 0 2px; border-radius: 2px;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone;
+}
+
 /* ── Pain list ── */
 .pain-list { display: flex; flex-direction: column; gap: 0; }
 .pain-row {
@@ -502,18 +510,12 @@ body { background: var(--surface-page); }
 .faq-item.open .faq-a { max-height: 220px; }
 .faq-a p { margin: 0; padding: 0 4px 24px; font-size: 15px; line-height: 1.6; color: var(--text-secondary); max-width: 640px; text-wrap: pretty; }
 
-/* ── Claim strip — full-width rotating statement ── */
-.claim-strip {
-  background: var(--surface-ink); color: var(--text-on-ink);
-  padding: 72px 0; text-align: center; overflow: hidden;
-}
-.claim-line {
-  margin: 0; font-size: 40px; font-weight: 500;
-  letter-spacing: var(--tracking-display); line-height: 1.15;
-  color: var(--text-on-ink); text-wrap: balance;
-}
-/* All words stack in one grid cell so the container always has the width of
-   the longest word — the static text before it never moves. */
+/* ── Rotating headline word ── */
+/* The word lives on its own line in the hero headline; all words stack in
+   one grid cell so the surrounding lines never move. */
+.hero-headline { text-wrap: initial; font-size: clamp(40px, 6.5vw, 76px); }
+.hero-word { display: grid; }
+.hero-tail { display: block; }
 .claim-word {
   display: inline-grid;
   color: var(--green-400); white-space: nowrap;
@@ -542,10 +544,6 @@ body { background: var(--surface-page); }
     to { opacity: 0; transform: translateY(-0.45em); filter: blur(3px); }
   }
 }
-@media (max-width: 960px) {
-  .claim-strip { padding: 52px 0; }
-  .claim-line { font-size: 26px; }
-}
 
 /* ── Final CTA ── */
 .final-cta { position: relative; overflow: hidden; text-align: center; }
@@ -562,6 +560,7 @@ body { background: var(--surface-page); }
 @media (max-width: 960px) {
   .wrap, .wrap-narrow, .site-nav .nav-inner { padding-left: 24px; padding-right: 24px; }
   .display-xl { font-size: 48px; }
+  .hero-headline { font-size: clamp(34px, 11vw, 48px); }
   .display-lg { font-size: 38px; }
   .display-md { font-size: 30px; }
   .section { padding: 80px 0; }

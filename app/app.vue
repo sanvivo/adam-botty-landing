@@ -32,7 +32,6 @@ onUnmounted(() => io?.disconnect())
   <div class="site" style="--glow-a: 0.18">
     <SiteNav />
     <SiteHero />
-    <ClaimStrip />
     <SectionPain />
     <SectionReframe />
     <SectionMeetAdam />

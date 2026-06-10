@@ -10,7 +10,7 @@
         <p class="lede" style="margin: 18px 0 0">
           It's that none of them actually know your business. None of them remember
           what happened last month. None of them take initiative. They wait for
-          you — which means you're still the bottleneck.
+          you — <mark class="mark-green">which means you're still the bottleneck.</mark>
         </p>
         <p style="margin: 18px 0 0; font-size: 19px; line-height: 1.6; font-weight: 500; color: var(--text-display)">
           You don't need another tab to manage. You need someone reliable.

@@ -12,10 +12,26 @@ const props = withDefaults(
   },
 )
 
-const c = computed(() => props.size / 2)
-const r = computed(() => props.size * 0.36)
-const tile = computed(() => props.size * 0.155)
-const adam = computed(() => props.size * 0.21)
+/* Fit the diagram to its container — its full footprint is size * 1.42 wide,
+   so on narrow viewports we shrink `size` to whatever the parent can hold. */
+const root = ref<HTMLElement | null>(null)
+const dim = ref(props.size)
+
+function fit() {
+  const avail = root.value?.parentElement?.clientWidth ?? window.innerWidth
+  dim.value = Math.min(props.size, Math.floor((avail - 8) / 1.42))
+}
+
+onMounted(() => {
+  fit()
+  window.addEventListener('resize', fit)
+})
+onUnmounted(() => window.removeEventListener('resize', fit))
+
+const c = computed(() => dim.value / 2)
+const r = computed(() => dim.value * 0.36)
+const tile = computed(() => dim.value * 0.155)
+const adam = computed(() => dim.value * 0.21)
 const shown = computed(() => props.tools.slice(0, 8))
 
 const lineStyle = (i: number) => ({
@@ -33,14 +49,14 @@ const tileStyle = (i: number) => {
     top: `${c.value + r.value * Math.sin(angle) - tile.value / 2}px`,
     width: `${tile.value}px`,
     height: `${tile.value}px`,
-    fontSize: `${Math.max(10, props.size * 0.026)}px`,
+    fontSize: `${Math.max(10, dim.value * 0.026)}px`,
   }
 }
 </script>
 
 <template>
-  <div class="ab-iso" :style="{ width: `${size * 1.42}px`, height: `${size * 0.8}px` }">
-    <div class="ab-iso-plane" :style="{ width: `${size}px`, height: `${size}px` }">
+  <div ref="root" class="ab-iso" :style="{ width: `${dim * 1.42}px`, height: `${dim * 0.8}px` }">
+    <div class="ab-iso-plane" :style="{ width: `${dim}px`, height: `${dim}px` }">
       <div v-for="(t, i) in shown" :key="`l-${t}`" class="ab-iso-line" :style="lineStyle(i)">
         <i v-if="animated" class="ab-iso-dot" :style="{ animationDelay: `${i * 0.55}s` }" />
       </div>

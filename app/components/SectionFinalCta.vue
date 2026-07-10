@@ -24,7 +24,7 @@ const hireOpen = useHireModal()
         Working while you sleep.
       </p>
       <div class="reveal reveal-d3" style="margin-top: 40px; display: flex; justify-content: center">
-        <AbButton size="lg" @click="hireOpen = true">
+        <AbButton size="lg" aria-haspopup="dialog" :aria-expanded="hireOpen" @click="hireOpen = true">
           <template #icon><ArrowRight :size="18" /></template>
           Hire Adam
         </AbButton>

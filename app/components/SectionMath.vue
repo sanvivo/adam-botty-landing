@@ -65,7 +65,7 @@ const features = [
                 {{ f }}
               </span>
             </div>
-            <AbButton size="lg" @click="hireOpen = true">
+            <AbButton size="lg" aria-haspopup="dialog" :aria-expanded="hireOpen" @click="hireOpen = true">
               <template #icon><ArrowRight :size="18" /></template>
               Hire Adam
             </AbButton>

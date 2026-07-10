@@ -56,7 +56,8 @@ const clicking = computed(() => at('click') && !at('connected'))
 </script>
 
 <template>
-  <div ref="rootRef" class="connect-demo sl-window">
+  <!-- Decorative auto-playing demo: hidden from AT (its button is not focusable) -->
+  <div ref="rootRef" class="connect-demo sl-window" aria-hidden="true">
     <div class="sl-topbar">
       <span class="sl-channel"># design <ChevronDown :size="14" /></span>
     </div>

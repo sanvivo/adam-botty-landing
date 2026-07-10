@@ -22,13 +22,41 @@ function close() {
   setTimeout(() => (sent.value = false), 300)
 }
 
+/* Focus management: move focus into the dialog on open, trap Tab inside,
+   and restore focus to the trigger on close. */
+const cardRef = ref<HTMLElement | null>(null)
+let lastFocused: HTMLElement | null = null
+
+const FOCUSABLE = 'a[href], button:not([disabled]), textarea, input:not([tabindex="-1"])'
+
 function onKey(e: KeyboardEvent) {
-  if (e.key === 'Escape') close()
+  if (e.key === 'Escape') return close()
+  if (e.key !== 'Tab' || !cardRef.value) return
+  const els = [...cardRef.value.querySelectorAll<HTMLElement>(FOCUSABLE)]
+  if (!els.length) return
+  const first = els[0]!
+  const last = els[els.length - 1]!
+  if (e.shiftKey && document.activeElement === first) {
+    e.preventDefault()
+    last.focus()
+  } else if (!e.shiftKey && document.activeElement === last) {
+    e.preventDefault()
+    first.focus()
+  }
 }
-watch(open, (v) => {
+
+watch(open, async (v) => {
   document.body.style.overflow = v ? 'hidden' : ''
-  if (v) window.addEventListener('keydown', onKey)
-  else window.removeEventListener('keydown', onKey)
+  if (v) {
+    lastFocused = document.activeElement as HTMLElement | null
+    window.addEventListener('keydown', onKey)
+    await nextTick()
+    cardRef.value?.querySelector<HTMLElement>('input:not([tabindex="-1"])')?.focus()
+  } else {
+    window.removeEventListener('keydown', onKey)
+    lastFocused?.focus?.()
+    lastFocused = null
+  }
 })
 onUnmounted(() => {
   document.body.style.overflow = ''
@@ -40,7 +68,7 @@ async function submit() {
   sending.value = true
   sendError.value = false
   try {
-    await $fetch('/api/hire', { method: 'POST', body: { ...form } })
+    await $fetch('/api/hire', { method: 'POST', body: { ...form }, timeout: 15000 })
     sent.value = true
   } catch {
     sendError.value = true
@@ -54,7 +82,7 @@ async function submit() {
   <Teleport to="body">
     <Transition name="hm">
       <div v-if="open" class="hm-scrim" @click.self="close">
-        <div class="hm-card" role="dialog" aria-modal="true" aria-label="Hire Adam">
+        <div ref="cardRef" class="hm-card" role="dialog" aria-modal="true" aria-label="Hire Adam">
           <button class="hm-close" aria-label="Close" @click="close"><X :size="18" /></button>
 
           <template v-if="!sent">
@@ -94,6 +122,7 @@ async function submit() {
                     type="button"
                     class="hm-pill"
                     :class="{ on: form.platform === p }"
+                    :aria-pressed="form.platform === p"
                     @click="form.platform = p"
                   >
                     <Check v-if="form.platform === p" :size="14" />
@@ -120,7 +149,7 @@ async function submit() {
                 aria-hidden="true"
                 style="position: absolute; left: -9999px; height: 0; width: 0; opacity: 0"
               >
-              <AbButton size="lg" style="width: 100%; margin-top: 4px" :disabled="sending">
+              <AbButton size="lg" type="submit" style="width: 100%; margin-top: 4px" :disabled="sending">
                 <template #icon><ArrowRight :size="18" /></template>
                 {{ sending ? 'Sending…' : 'Send & meet Adam' }}
               </AbButton>

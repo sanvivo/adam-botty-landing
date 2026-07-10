@@ -26,7 +26,7 @@ onUnmounted(() => timers.forEach(clearTimeout))
       <div class="sl-topbar">
         <span class="sl-channel"># marketing <ChevronDown :size="14" /></span>
       </div>
-      <div class="sl-feed" style="min-height: 150px">
+      <div class="sl-feed" style="min-height: 150px" aria-live="polite">
         <div class="sl-day"><span>Today</span></div>
         <div class="sl-system">
           <AbAvatar bot :size="22" />

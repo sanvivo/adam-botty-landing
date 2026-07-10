@@ -32,6 +32,11 @@ jobs:
         env:
           NITRO_PRESET: azure
 
+      # The preset writes the generated staticwebapp.config.json to the repo
+      # root — SWA only applies it when it sits inside the deployed app folder
+      - name: Place SWA config into app artifact
+        run: cp staticwebapp.config.json .output/public/staticwebapp.config.json
+
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:

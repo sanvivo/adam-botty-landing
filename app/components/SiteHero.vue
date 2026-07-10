@@ -70,7 +70,7 @@ const openHire = () => (hireOpen.value = true)
           done.
         </p>
         <div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap">
-          <AbButton size="lg" @click="openHire">
+          <AbButton size="lg" aria-haspopup="dialog" :aria-expanded="hireOpen" @click="openHire">
             <template #icon><ArrowRight :size="18" /></template>
             Hire Adam
           </AbButton>

@@ -33,7 +33,7 @@ const hireOpen = useHireModal()
       <a class="nav-link" href="#results">Results</a>
       <a class="nav-link" href="#pricing">Pricing</a>
       <a class="nav-link" href="#faq">FAQ</a>
-      <AbButton :variant="overInk ? 'primary' : 'ink'" size="sm" @click="hireOpen = true">
+      <AbButton :variant="overInk ? 'primary' : 'ink'" size="sm" aria-haspopup="dialog" :aria-expanded="hireOpen" @click="hireOpen = true">
         <template #icon><ArrowRight :size="16" /></template>
         Hire Adam
       </AbButton>

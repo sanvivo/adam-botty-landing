@@ -55,8 +55,15 @@ export default defineNuxtConfig({
   },
 
   // Prerendered marketing page; /api/hire runs as an SWA managed function
-  // (deploy workflow builds with NITRO_PRESET=azure)
+  // (deploy workflow builds with NITRO_PRESET=azure). The azure preset
+  // generates staticwebapp.config.json at the repo root during build; the
+  // workflow copies it into .output/public so SWA actually applies it.
   nitro: {
+    azure: {
+      config: {
+        platform: { apiRuntime: 'node:20' },
+      },
+    },
     prerender: {
       routes: ['/'],
       crawlLinks: true,

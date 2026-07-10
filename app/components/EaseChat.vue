@@ -82,7 +82,8 @@ onUnmounted(() => timers.forEach(clearTimeout))
           class="ease-send"
           :class="{ pulse: !sent }"
           type="button"
-          aria-label="Send the message to Adam"
+          :disabled="sent"
+          :aria-label="sent ? 'Message sent' : 'Send the message to Adam'"
           @click="send"
         >
           <SendHorizontal :size="16" />

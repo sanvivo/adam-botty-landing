@@ -18,7 +18,9 @@ const platforms = ['Slack', 'Microsoft Teams', 'Other']
 
 function close() {
   open.value = false
-  // Reset the thank-you state a beat after the fade-out
+  sendError.value = false
+  // Reset the thank-you state a beat after the fade-out.
+  // Form fields are deliberately kept so an accidental close loses nothing.
   setTimeout(() => (sent.value = false), 300)
 }
 
@@ -153,7 +155,7 @@ async function submit() {
                 <template #icon><ArrowRight :size="18" /></template>
                 {{ sending ? 'Sending…' : 'Send & meet Adam' }}
               </AbButton>
-              <p v-if="sendError" style="margin: 0; font-size: 13.5px; color: var(--status-danger, #C2410C); text-align: center">
+              <p v-if="sendError" role="status" style="margin: 0; font-size: 13.5px; color: var(--status-danger, #C2410C); text-align: center">
                 Something went wrong sending your request. Please try again — or
                 email us directly at hire@adambotty.com.
               </p>

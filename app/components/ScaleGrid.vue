@@ -52,7 +52,9 @@ onUnmounted(() => clearTimeout(timer))
 
 const count = computed(() => stages[stage.value]!.n)
 const label = computed(() =>
-  reduced.value ? '1 Adam scales to hundreds — on demand' : stages[stage.value]!.label,
+  reduced.value
+    ? `${TOTAL} Adams on demand — and back to one when the rush is over`
+    : stages[stage.value]!.label,
 )
 </script>
 

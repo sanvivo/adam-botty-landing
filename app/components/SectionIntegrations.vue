@@ -99,6 +99,7 @@ function cardTopics(i: Item) {
                 :key="t"
                 class="ig-cat"
                 :class="{ 'ig-cat--active': !query && t === active }"
+                :aria-pressed="!query && t === active"
                 type="button"
                 @click="selectTopic(t)"
               >

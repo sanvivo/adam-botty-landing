@@ -1121,6 +1121,12 @@ body { background: var(--surface-page); }
 .site-footer a:hover { color: #fff; }
 .site-footer .col-title { font-size: 13px; font-weight: 600; color: var(--gray-500); margin-bottom: 16px; }
 
+/* ── Reduced motion: state-driven transitions become immediate ── */
+@media (prefers-reduced-motion: reduce) {
+  .bs-tilew, .scale-adam, .scale-slot,
+  .connect-btn, .claim-word .claim-word-item { transition: none !important; }
+}
+
 /* ── Scroll reveal — base state is visible; JS animates in on intersect ── */
 
 /* ── Responsive ── */

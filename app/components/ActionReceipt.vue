@@ -43,7 +43,7 @@ withDefaults(
     <span style="flex: 1; min-width: 0">
       <span class="ab-receipt__title">{{ title }}</span>
       <span v-if="tools.length" class="ab-receipt__tools">
-        <span v-for="t in tools" :key="t" class="ab-receipt__tool">
+        <span v-for="(t, i) in tools" :key="`${t}-${i}`" class="ab-receipt__tool">
           <img v-if="toolLogo(t)" :src="toolLogo(t)!" alt="" width="13" height="13" loading="lazy">
           {{ t }}
         </span>

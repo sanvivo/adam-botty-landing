@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ChevronDown, Check, Figma } from 'lucide-vue-next'
+import { ChevronDown, Check } from 'lucide-vue-next'
 
 /* Replays the one-click connect flow:
    ask → Adam requests access → button clicks itself → connected → done */
@@ -71,7 +71,7 @@ const clicking = computed(() => at('click') && !at('connected'))
         <button class="connect-btn" :class="{ pressed: clicking, ok: at('connected') }" type="button" tabindex="-1">
           <span class="connect-btn-icon">
             <Check v-if="at('connected')" :size="15" />
-            <Figma v-else :size="15" />
+            <img v-else :src="toolLogo('Figma')!" alt="" width="15" height="15">
           </span>
           {{ at('connected') ? 'Figma connected' : 'Connect Figma' }}
         </button>

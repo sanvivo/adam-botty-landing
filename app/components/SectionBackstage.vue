@@ -198,9 +198,10 @@ const wireList = computed(() => {
 
                 <SlackMsg v-if="showAsk" adam name="Adam" time="9:16 AM" class="bs-pop">
                   Should I send this dashboard to the growth team for you?
-                  <span class="bs-cta-row">
-                    <button class="bs-cta bs-cta--primary" type="button">Send to #growth</button>
-                    <button class="bs-cta" type="button">Not yet</button>
+                  <!-- Decorative demo buttons: not real controls -->
+                  <span class="bs-cta-row" aria-hidden="true">
+                    <button class="bs-cta bs-cta--primary" type="button" tabindex="-1">Send to #growth</button>
+                    <button class="bs-cta" type="button" tabindex="-1">Not yet</button>
                   </span>
                 </SlackMsg>
               </div>

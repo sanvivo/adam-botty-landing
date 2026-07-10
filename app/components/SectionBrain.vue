@@ -2,18 +2,17 @@
 import { Brain, Zap } from 'lucide-vue-next'
 
 /* Sources feeding the company brain — thousands of memory blocks streaming
-   in from every connected tool. Positions in %; logos from the catalog.
+   in from every connected tool. Positions in %; logos from the shared map.
    mx/my = compact mobile layout (chips and wires share the same coords). */
-const LOGOS = 'https://app.nango.dev/images/template-logos'
 const allFragments = [
-  { label: 'Teams · every public channel', logo: `${LOGOS}/microsoft-teams.svg`, x: 13, y: 14, mx: 26, my: 5 },
-  { label: 'Notion · 3,120 pages', logo: `${LOGOS}/notion.svg`, x: 82, y: 11, mx: 76, my: 15 },
-  { label: 'GitHub · 840 pull requests', logo: `${LOGOS}/github.svg`, x: 11, y: 52, mx: 22, my: 30 },
-  { label: 'Zendesk · 12,400 tickets', logo: `${LOGOS}/zendesk.svg`, x: 87, y: 49, mx: 80, my: 44 },
-  { label: 'ClickUp · every task', logo: `${LOGOS}/clickup.svg`, x: 19, y: 90, mx: 20, my: 82 },
-  { label: 'Outlook · email threads', logo: `${LOGOS}/outlook.svg`, x: 77, y: 88, mx: 78, my: 94 },
-  { label: 'Slack · full scrollback', logo: `${LOGOS}/slack.svg`, x: 43, y: 7, mx: 68, my: 4 },
-  { label: 'HubSpot · every deal', logo: `${LOGOS}/hubspot.svg`, x: 40, y: 98, mx: 30, my: 95 },
+  { label: 'Teams · every public channel', logo: toolLogo('Teams')!, x: 13, y: 14, mx: 26, my: 5 },
+  { label: 'Notion · 3,120 pages', logo: toolLogo('Notion')!, x: 82, y: 11, mx: 76, my: 15 },
+  { label: 'GitHub · 840 pull requests', logo: toolLogo('GitHub')!, x: 11, y: 52, mx: 22, my: 30 },
+  { label: 'Zendesk · 12,400 tickets', logo: toolLogo('Zendesk')!, x: 87, y: 49, mx: 80, my: 44 },
+  { label: 'ClickUp · every task', logo: toolLogo('ClickUp')!, x: 19, y: 90, mx: 20, my: 82 },
+  { label: 'Outlook · email threads', logo: toolLogo('Outlook')!, x: 77, y: 88, mx: 78, my: 94 },
+  { label: 'Slack · full scrollback', logo: toolLogo('Slack')!, x: 43, y: 7, mx: 68, my: 4 },
+  { label: 'HubSpot · every deal', logo: toolLogo('HubSpot')!, x: 40, y: 98, mx: 30, my: 95 },
 ]
 
 const isMobile = ref(false)
@@ -24,18 +23,19 @@ const fragments = computed(() =>
   allFragments.map((f) => (isMobile.value ? { ...f, x: f.mx, y: f.my } : f)),
 )
 
-/* Second ring: unlabeled background sources — "and many more" */
+/* Second ring: unlabeled background sources — "and many more".
+   Hidden on mobile via CSS, so desktop coords are the only ones needed. */
 const minors = [
-  { name: 'Stripe', logo: `${LOGOS}/stripe-api-key.svg`, x: 31, y: 27 },
-  { name: 'Jira', logo: `${LOGOS}/jira.svg`, x: 67, y: 23 },
-  { name: 'Google Drive', logo: `${LOGOS}/google-drive.svg`, x: 28, y: 74 },
-  { name: 'Figma', logo: `${LOGOS}/figma.svg`, x: 70, y: 73 },
-  { name: 'Salesforce', logo: `${LOGOS}/salesforce.svg`, x: 3, y: 28 },
-  { name: 'Linear', logo: `${LOGOS}/linear.svg`, x: 96, y: 25 },
-  { name: 'Shopify', logo: `${LOGOS}/shopify.svg`, x: 3, y: 76 },
-  { name: 'Gmail', logo: `${LOGOS}/google-mail.svg`, x: 96, y: 74 },
-  { name: 'Asana', logo: `${LOGOS}/asana.svg`, x: 22, y: 44 },
-  { name: 'Intercom', logo: `${LOGOS}/intercom.svg`, x: 79, y: 62 },
+  { name: 'Stripe', logo: toolLogo('Stripe')!, x: 31, y: 27 },
+  { name: 'Jira', logo: toolLogo('Jira')!, x: 67, y: 23 },
+  { name: 'Google Drive', logo: toolLogo('Google Drive')!, x: 28, y: 74 },
+  { name: 'Figma', logo: toolLogo('Figma')!, x: 70, y: 73 },
+  { name: 'Salesforce', logo: toolLogo('Salesforce')!, x: 3, y: 28 },
+  { name: 'Linear', logo: toolLogo('Linear')!, x: 96, y: 25 },
+  { name: 'Shopify', logo: toolLogo('Shopify')!, x: 3, y: 76 },
+  { name: 'Gmail', logo: toolLogo('Gmail')!, x: 96, y: 74 },
+  { name: 'Asana', logo: toolLogo('Asana')!, x: 22, y: 44 },
+  { name: 'Intercom', logo: toolLogo('Intercom')!, x: 79, y: 62 },
 ]
 
 /* Live memory counter — big, plausible, always growing */

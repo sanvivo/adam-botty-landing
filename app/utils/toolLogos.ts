@@ -22,6 +22,12 @@ const MAP: Record<string, string> = {
   'ClickUp': `${LOGOS}/clickup.svg`,
   'Zendesk': `${LOGOS}/zendesk.svg`,
   'Stripe': `${LOGOS}/stripe-api-key.svg`,
+  'Jira': `${LOGOS}/jira.svg`,
+  'Google Drive': `${LOGOS}/google-drive.svg`,
+  'Salesforce': `${LOGOS}/salesforce.svg`,
+  'Linear': `${LOGOS}/linear.svg`,
+  'Asana': `${LOGOS}/asana.svg`,
+  'Intercom': `${LOGOS}/intercom.svg`,
 }
 
 export const toolLogo = (name: string): string | null => MAP[name] ?? null

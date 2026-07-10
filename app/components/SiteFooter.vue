@@ -4,7 +4,7 @@ import { Linkedin, Twitter } from 'lucide-vue-next'
 const footerCols = [
   { title: 'Product', links: ['How it works', 'Integrations', 'Pricing', 'Changelog'] },
   { title: 'Company', links: ['About', 'Contact', 'Stories'] },
-  { title: 'Legal', links: ['Privacy policy', 'Terms of service', 'Data processing agreement', 'GDPR information', 'Imprint'] },
+  { title: 'Legal', links: ['Privacy Policy', 'Terms of Service', 'Data Processing Agreement', 'GDPR Information', 'Imprint'] },
 ]
 </script>
 

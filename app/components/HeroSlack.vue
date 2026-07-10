@@ -50,7 +50,7 @@ const typing = computed(() => step.value === 2)
         <AbAvatar bot :size="22" />
         <span>Adam joined #operations</span>
       </div>
-      <SlackMsg v-if="show('user')" name="Eva" initials="E" time="9:41 AM">
+      <SlackMsg v-if="show('user')" name="Eva" avatar="/eva.png" time="9:41 AM">
         <span class="sl-mention">@Adam</span> prep the May invoices and chase the late ones.
       </SlackMsg>
       <div v-if="typing" class="sl-typing">

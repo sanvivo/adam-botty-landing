@@ -1,0 +1,678 @@
+{
+  "count": 168,
+  "curated": 134,
+  "items": [
+    {
+      "name": "Slack",
+      "logo": "https://app.nango.dev/images/template-logos/slack.svg"
+    },
+    {
+      "name": "Microsoft Teams",
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-teams.svg"
+    },
+    {
+      "name": "Discord",
+      "logo": "https://app.nango.dev/images/template-logos/discord.svg"
+    },
+    {
+      "name": "Zoom",
+      "logo": "https://app.nango.dev/images/template-logos/zoom.svg"
+    },
+    {
+      "name": "Google Meet",
+      "logo": "https://app.nango.dev/images/template-logos/google-meet.svg"
+    },
+    {
+      "name": "Gmail",
+      "logo": "https://app.nango.dev/images/template-logos/google-mail.svg"
+    },
+    {
+      "name": "Outlook",
+      "logo": "https://app.nango.dev/images/template-logos/outlook.svg"
+    },
+    {
+      "name": "Google Calendar",
+      "logo": "https://app.nango.dev/images/template-logos/google-calendar.svg"
+    },
+    {
+      "name": "Google Drive",
+      "logo": "https://app.nango.dev/images/template-logos/google-drive.svg"
+    },
+    {
+      "name": "Microsoft OneDrive",
+      "logo": "https://pipedream.com/s.v0/app_mjEhWP/logo/orig"
+    },
+    {
+      "name": "Dropbox",
+      "logo": "https://app.nango.dev/images/template-logos/dropbox.svg"
+    },
+    {
+      "name": "Box",
+      "logo": "https://app.nango.dev/images/template-logos/box.svg"
+    },
+    {
+      "name": "Notion",
+      "logo": "https://app.nango.dev/images/template-logos/notion.svg"
+    },
+    {
+      "name": "Confluence",
+      "logo": "https://app.nango.dev/images/template-logos/confluence.svg"
+    },
+    {
+      "name": "Coda",
+      "logo": "https://app.nango.dev/images/template-logos/coda.svg"
+    },
+    {
+      "name": "Evernote",
+      "logo": "https://pipedream.com/s.v0/app_Oz6hGj/logo/orig"
+    },
+    {
+      "name": "Airtable",
+      "logo": "https://app.nango.dev/images/template-logos/airtable.svg"
+    },
+    {
+      "name": "Asana",
+      "logo": "https://app.nango.dev/images/template-logos/asana.svg"
+    },
+    {
+      "name": "Trello",
+      "logo": "https://app.nango.dev/images/template-logos/trello.svg"
+    },
+    {
+      "name": "Monday",
+      "logo": "https://app.nango.dev/images/template-logos/monday.svg"
+    },
+    {
+      "name": "ClickUp",
+      "logo": "https://app.nango.dev/images/template-logos/clickup.svg"
+    },
+    {
+      "name": "Jira",
+      "logo": "https://app.nango.dev/images/template-logos/jira.svg"
+    },
+    {
+      "name": "Linear",
+      "logo": "https://app.nango.dev/images/template-logos/linear.svg"
+    },
+    {
+      "name": "Basecamp",
+      "logo": "https://app.nango.dev/images/template-logos/basecamp.svg"
+    },
+    {
+      "name": "Todoist",
+      "logo": "https://app.nango.dev/images/template-logos/todoist.svg"
+    },
+    {
+      "name": "Miro",
+      "logo": "https://app.nango.dev/images/template-logos/miro.svg"
+    },
+    {
+      "name": "Figma",
+      "logo": "https://app.nango.dev/images/template-logos/figma.svg"
+    },
+    {
+      "name": "Canva",
+      "logo": "https://app.nango.dev/images/template-logos/canva.svg"
+    },
+    {
+      "name": "GitHub",
+      "logo": "https://app.nango.dev/images/template-logos/github.svg"
+    },
+    {
+      "name": "GitLab",
+      "logo": "https://app.nango.dev/images/template-logos/gitlab.svg"
+    },
+    {
+      "name": "Bitbucket",
+      "logo": "https://app.nango.dev/images/template-logos/bitbucket.svg"
+    },
+    {
+      "name": "Jenkins",
+      "logo": "https://pipedream.com/s.v0/app_gKhgEd/logo/orig"
+    },
+    {
+      "name": "CircleCI",
+      "logo": "https://pipedream.com/s.v0/app_XGehpk/logo/orig"
+    },
+    {
+      "name": "Vercel",
+      "logo": "https://app.nango.dev/images/template-logos/vercel.svg"
+    },
+    {
+      "name": "Netlify",
+      "logo": "https://pipedream.com/s.v0/app_1w0hvd/logo/orig"
+    },
+    {
+      "name": "Cloudflare",
+      "logo": "https://app.nango.dev/images/template-logos/cloudflare.svg"
+    },
+    {
+      "name": "AWS",
+      "logo": "https://app.nango.dev/images/template-logos/aws.svg"
+    },
+    {
+      "name": "Google Cloud",
+      "logo": "https://pipedream.com/s.v0/app_mvNhoj/logo/orig"
+    },
+    {
+      "name": "DigitalOcean",
+      "logo": "https://app.nango.dev/images/template-logos/digitalocean.svg"
+    },
+    {
+      "name": "Heroku",
+      "logo": "https://pipedream.com/s.v0/app_1Z2hxw/logo/orig"
+    },
+    {
+      "name": "Datadog",
+      "logo": "https://app.nango.dev/images/template-logos/datadog.svg"
+    },
+    {
+      "name": "Grafana",
+      "logo": "https://app.nango.dev/images/template-logos/grafana.svg"
+    },
+    {
+      "name": "Sentry",
+      "logo": "https://app.nango.dev/images/template-logos/sentry.svg"
+    },
+    {
+      "name": "PagerDuty",
+      "logo": "https://app.nango.dev/images/template-logos/pagerduty.svg"
+    },
+    {
+      "name": "New Relic",
+      "logo": "https://pipedream.com/s.v0/app_1YMhVQ/logo/orig"
+    },
+    {
+      "name": "Salesforce",
+      "logo": "https://app.nango.dev/images/template-logos/salesforce.svg"
+    },
+    {
+      "name": "HubSpot",
+      "logo": "https://app.nango.dev/images/template-logos/hubspot.svg"
+    },
+    {
+      "name": "Pipedrive",
+      "logo": "https://app.nango.dev/images/template-logos/pipedrive.svg"
+    },
+    {
+      "name": "Zoho CRM",
+      "logo": "https://app.nango.dev/images/template-logos/zoho-crm.svg"
+    },
+    {
+      "name": "Zendesk",
+      "logo": "https://app.nango.dev/images/template-logos/zendesk.svg"
+    },
+    {
+      "name": "Intercom",
+      "logo": "https://app.nango.dev/images/template-logos/intercom.svg"
+    },
+    {
+      "name": "FreshDesk",
+      "logo": "https://app.nango.dev/images/template-logos/freshdesk.svg"
+    },
+    {
+      "name": "Help Scout",
+      "logo": "https://pipedream.com/s.v0/app_1lxhwz/logo/orig"
+    },
+    {
+      "name": "Front",
+      "logo": "https://app.nango.dev/images/template-logos/front.svg"
+    },
+    {
+      "name": "Stripe",
+      "logo": "https://app.nango.dev/images/template-logos/stripe-api-key.svg"
+    },
+    {
+      "name": "Paypal",
+      "logo": "https://app.nango.dev/images/template-logos/paypal.svg"
+    },
+    {
+      "name": "Square",
+      "logo": "https://pipedream.com/s.v0/app_1M0hQd/logo/orig"
+    },
+    {
+      "name": "Braintree",
+      "logo": "https://app.nango.dev/images/template-logos/braintree.svg"
+    },
+    {
+      "name": "Chargebee",
+      "logo": "https://app.nango.dev/images/template-logos/chargebee.svg"
+    },
+    {
+      "name": "Recurly",
+      "logo": "https://pipedream.com/s.v0/app_XKvhYR/logo/orig"
+    },
+    {
+      "name": "Quickbooks",
+      "logo": "https://app.nango.dev/images/template-logos/quickbooks.svg"
+    },
+    {
+      "name": "Xero",
+      "logo": "https://app.nango.dev/images/template-logos/xero.svg"
+    },
+    {
+      "name": "FreshBooks",
+      "logo": "https://app.nango.dev/images/template-logos/freshbooks.svg"
+    },
+    {
+      "name": "Shopify",
+      "logo": "https://app.nango.dev/images/template-logos/shopify.svg"
+    },
+    {
+      "name": "WooCommerce",
+      "logo": "https://app.nango.dev/images/template-logos/woocommerce.svg"
+    },
+    {
+      "name": "BigCommerce",
+      "logo": "https://app.nango.dev/images/template-logos/bigcommerce.svg"
+    },
+    {
+      "name": "Squarespace",
+      "logo": "https://app.nango.dev/images/template-logos/squarespace.svg"
+    },
+    {
+      "name": "Wix",
+      "logo": "https://pipedream.com/s.v0/app_E7h2lj/logo/orig"
+    },
+    {
+      "name": "Webflow",
+      "logo": "https://app.nango.dev/images/template-logos/webflow.svg"
+    },
+    {
+      "name": "WordPress",
+      "logo": "https://app.nango.dev/images/template-logos/wordpress.svg"
+    },
+    {
+      "name": "Mailchimp",
+      "logo": "https://app.nango.dev/images/template-logos/mailchimp.svg"
+    },
+    {
+      "name": "SendGrid",
+      "logo": "https://app.nango.dev/images/template-logos/sendgrid.svg"
+    },
+    {
+      "name": "Klaviyo",
+      "logo": "https://app.nango.dev/images/template-logos/klaviyo.svg"
+    },
+    {
+      "name": "ActiveCampaign",
+      "logo": "https://app.nango.dev/images/template-logos/active-campaign.svg"
+    },
+    {
+      "name": "ConvertKit",
+      "logo": "https://pipedream.com/s.v0/app_XGehja/logo/orig"
+    },
+    {
+      "name": "Marketo",
+      "logo": "https://app.nango.dev/images/template-logos/marketo.svg"
+    },
+    {
+      "name": "Customer.io",
+      "logo": "https://app.nango.dev/images/template-logos/customer-io.svg"
+    },
+    {
+      "name": "Twilio",
+      "logo": "https://app.nango.dev/images/template-logos/twilio.svg"
+    },
+    {
+      "name": "Vonage",
+      "logo": "https://pipedream.com/s.v0/app_7LhoJ6/logo/orig"
+    },
+    {
+      "name": "Google Ads",
+      "logo": "https://app.nango.dev/images/template-logos/google-ads.svg"
+    },
+    {
+      "name": "Facebook",
+      "logo": "https://app.nango.dev/images/template-logos/facebook.svg"
+    },
+    {
+      "name": "Instagram",
+      "logo": "https://app.nango.dev/images/template-logos/instagram.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "logo": "https://app.nango.dev/images/template-logos/linkedin.svg"
+    },
+    {
+      "name": "YouTube",
+      "logo": "https://app.nango.dev/images/template-logos/youtube.svg"
+    },
+    {
+      "name": "Pinterest",
+      "logo": "https://app.nango.dev/images/template-logos/pinterest.svg"
+    },
+    {
+      "name": "Reddit",
+      "logo": "https://app.nango.dev/images/template-logos/reddit.svg"
+    },
+    {
+      "name": "Google Analytics",
+      "logo": "https://app.nango.dev/images/template-logos/google-analytics.svg"
+    },
+    {
+      "name": "Mixpanel",
+      "logo": "https://app.nango.dev/images/template-logos/mixpanel.svg"
+    },
+    {
+      "name": "Amplitude",
+      "logo": "https://app.nango.dev/images/template-logos/amplitude.svg"
+    },
+    {
+      "name": "Segment",
+      "logo": "https://app.nango.dev/images/template-logos/segment.svg"
+    },
+    {
+      "name": "Hotjar",
+      "logo": "https://pipedream.com/s.v0/app_YMhJJl/logo/orig"
+    },
+    {
+      "name": "Looker",
+      "logo": "https://app.nango.dev/images/template-logos/looker.svg"
+    },
+    {
+      "name": "Tableau",
+      "logo": "https://app.nango.dev/images/template-logos/tableau.svg"
+    },
+    {
+      "name": "Snowflake",
+      "logo": "https://app.nango.dev/images/template-logos/snowflake.svg"
+    },
+    {
+      "name": "Google BigQuery",
+      "logo": "https://app.nango.dev/images/template-logos/google-bigquery.svg"
+    },
+    {
+      "name": "Databricks",
+      "logo": "https://app.nango.dev/images/template-logos/databricks-account.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "logo": "https://pipedream.com/s.v0/app_1M0hNB/logo/orig"
+    },
+    {
+      "name": "MySQL",
+      "logo": "https://pipedream.com/s.v0/app_1YMhwo/logo/orig"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "https://pipedream.com/s.v0/app_mvNhea/logo/orig"
+    },
+    {
+      "name": "Supabase",
+      "logo": "https://app.nango.dev/images/template-logos/supabase.svg"
+    },
+    {
+      "name": "Typeform",
+      "logo": "https://app.nango.dev/images/template-logos/typeform.svg"
+    },
+    {
+      "name": "SurveyMonkey",
+      "logo": "https://app.nango.dev/images/template-logos/survey-monkey.svg"
+    },
+    {
+      "name": "Jotform",
+      "logo": "https://app.nango.dev/images/template-logos/jotform.svg"
+    },
+    {
+      "name": "Calendly",
+      "logo": "https://app.nango.dev/images/template-logos/calendly.svg"
+    },
+    {
+      "name": "DocuSign",
+      "logo": "https://app.nango.dev/images/template-logos/docusign.svg"
+    },
+    {
+      "name": "Pandadoc",
+      "logo": "https://app.nango.dev/images/template-logos/pandadoc.svg"
+    },
+    {
+      "name": "Zapier",
+      "logo": "https://app.nango.dev/images/template-logos/zapier.svg"
+    },
+    {
+      "name": "Make",
+      "logo": "https://app.nango.dev/images/template-logos/make.svg"
+    },
+    {
+      "name": "OpenAI",
+      "logo": "https://app.nango.dev/images/template-logos/openai.svg"
+    },
+    {
+      "name": "Anthropic",
+      "logo": "https://app.nango.dev/images/template-logos/anthropic.svg"
+    },
+    {
+      "name": "Hugging Face",
+      "logo": "https://pipedream.com/s.v0/app_OD5hp8/logo/orig"
+    },
+    {
+      "name": "Perplexity",
+      "logo": "https://app.nango.dev/images/template-logos/perplexity.svg"
+    },
+    {
+      "name": "Cohere",
+      "logo": "https://pipedream.com/s.v0/app_mLNh2e/logo/orig"
+    },
+    {
+      "name": "ElevenLabs",
+      "logo": "https://app.nango.dev/images/template-logos/elevenlabs.svg"
+    },
+    {
+      "name": "Workday",
+      "logo": "https://app.nango.dev/images/template-logos/workday.svg"
+    },
+    {
+      "name": "BambooHR",
+      "logo": "https://app.nango.dev/images/template-logos/bamboohr.svg"
+    },
+    {
+      "name": "Gusto",
+      "logo": "https://app.nango.dev/images/template-logos/gusto.svg"
+    },
+    {
+      "name": "Rippling",
+      "logo": "https://app.nango.dev/images/template-logos/rippling.svg"
+    },
+    {
+      "name": "Deel",
+      "logo": "https://app.nango.dev/images/template-logos/deel.svg"
+    },
+    {
+      "name": "Greenhouse",
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse.svg"
+    },
+    {
+      "name": "Lever",
+      "logo": "https://app.nango.dev/images/template-logos/lever.svg"
+    },
+    {
+      "name": "Ashby",
+      "logo": "https://app.nango.dev/images/template-logos/ashby.svg"
+    },
+    {
+      "name": "Okta",
+      "logo": "https://app.nango.dev/images/template-logos/okta.svg"
+    },
+    {
+      "name": "Auth0",
+      "logo": "https://app.nango.dev/images/template-logos/auth0.svg"
+    },
+    {
+      "name": "1Password",
+      "logo": "https://app.nango.dev/images/template-logos/1password-scim.svg"
+    },
+    {
+      "name": "ServiceNow",
+      "logo": "https://app.nango.dev/images/template-logos/servicenow.svg"
+    },
+    {
+      "name": "NetSuite",
+      "logo": "https://app.nango.dev/images/template-logos/netsuite.svg"
+    },
+    {
+      "name": "Braze",
+      "logo": "https://app.nango.dev/images/template-logos/braze.svg"
+    },
+    {
+      "name": "Google Sheets",
+      "logo": "https://pipedream.com/s.v0/app_168hvn/logo/orig"
+    },
+    {
+      "name": "Google Forms",
+      "logo": "https://app.nango.dev/images/template-logos/google-forms.svg"
+    },
+    {
+      "name": "Microsoft Excel",
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-excel.svg"
+    },
+    {
+      "name": "Snyk",
+      "logo": "https://pipedream.com/s.v0/app_mo7hVx/logo/orig"
+    },
+    {
+      "name": "Twitch",
+      "logo": "https://app.nango.dev/images/template-logos/twitch.svg"
+    },
+    {
+      "name": "Spotify",
+      "logo": "https://app.nango.dev/images/template-logos/spotify.svg"
+    },
+    {
+      "name": "Accelo",
+      "logo": "https://app.nango.dev/images/template-logos/accelo.svg"
+    },
+    {
+      "name": "Acuity Scheduling",
+      "logo": "https://app.nango.dev/images/template-logos/acuity-scheduling.svg"
+    },
+    {
+      "name": "ADP",
+      "logo": "https://app.nango.dev/images/template-logos/adp.svg"
+    },
+    {
+      "name": "Adyen",
+      "logo": "https://app.nango.dev/images/template-logos/adyen.svg"
+    },
+    {
+      "name": "Adyntel",
+      "logo": "https://app.nango.dev/images/template-logos/adyntel.svg"
+    },
+    {
+      "name": "Affinity",
+      "logo": "https://app.nango.dev/images/template-logos/affinity.svg"
+    },
+    {
+      "name": "Ahrefs",
+      "logo": "https://app.nango.dev/images/template-logos/ahrefs.svg"
+    },
+    {
+      "name": "Aircall",
+      "logo": "https://app.nango.dev/images/template-logos/aircall.svg"
+    },
+    {
+      "name": "Algolia",
+      "logo": "https://app.nango.dev/images/template-logos/algolia.svg"
+    },
+    {
+      "name": "Amazon",
+      "logo": "https://app.nango.dev/images/template-logos/amazon.svg"
+    },
+    {
+      "name": "Apaleo",
+      "logo": "https://app.nango.dev/images/template-logos/apaleo.svg"
+    },
+    {
+      "name": "Apify",
+      "logo": "https://app.nango.dev/images/template-logos/apify.svg"
+    },
+    {
+      "name": "Apollo",
+      "logo": "https://app.nango.dev/images/template-logos/apollo.svg"
+    },
+    {
+      "name": "Attio",
+      "logo": "https://app.nango.dev/images/template-logos/attio.svg"
+    },
+    {
+      "name": "Autodesk",
+      "logo": "https://app.nango.dev/images/template-logos/autodesk.svg"
+    },
+    {
+      "name": "Azure DevOps",
+      "logo": "https://app.nango.dev/images/template-logos/azure-devops.svg"
+    },
+    {
+      "name": "Beehiiv",
+      "logo": "https://app.nango.dev/images/template-logos/beehiiv.svg"
+    },
+    {
+      "name": "BetterContact",
+      "logo": "https://app.nango.dev/images/template-logos/bettercontact.svg"
+    },
+    {
+      "name": "Bill",
+      "logo": "https://app.nango.dev/images/template-logos/bill.svg"
+    },
+    {
+      "name": "Bird",
+      "logo": "https://app.nango.dev/images/template-logos/bird.svg"
+    },
+    {
+      "name": "Bitly",
+      "logo": "https://app.nango.dev/images/template-logos/bitly.svg"
+    },
+    {
+      "name": "BlandAI",
+      "logo": "https://app.nango.dev/images/template-logos/blandai.svg"
+    },
+    {
+      "name": "BoldSign",
+      "logo": "https://app.nango.dev/images/template-logos/boldsign.svg"
+    },
+    {
+      "name": "Breezy HR",
+      "logo": "https://app.nango.dev/images/template-logos/breezy-hr.svg"
+    },
+    {
+      "name": "Brevo",
+      "logo": "https://app.nango.dev/images/template-logos/brevo-api-key.svg"
+    },
+    {
+      "name": "Brex",
+      "logo": "https://app.nango.dev/images/template-logos/brex.svg"
+    },
+    {
+      "name": "Builder.io",
+      "logo": "https://app.nango.dev/images/template-logos/builder-io-public.svg"
+    },
+    {
+      "name": "BuiltWith",
+      "logo": "https://app.nango.dev/images/template-logos/builtwith.svg"
+    },
+    {
+      "name": "Cal.com",
+      "logo": "https://app.nango.dev/images/template-logos/cal-com-v1.svg"
+    },
+    {
+      "name": "Callrail",
+      "logo": "https://app.nango.dev/images/template-logos/callrail.svg"
+    },
+    {
+      "name": "Canny",
+      "logo": "https://app.nango.dev/images/template-logos/canny.svg"
+    },
+    {
+      "name": "Chattermill",
+      "logo": "https://app.nango.dev/images/template-logos/chattermill.svg"
+    },
+    {
+      "name": "Checkout.com",
+      "logo": "https://app.nango.dev/images/template-logos/checkout-com.svg"
+    },
+    {
+      "name": "Clerk",
+      "logo": "https://app.nango.dev/images/template-logos/clerk.svg"
+    }
+  ]
+}

@@ -3,13 +3,14 @@ withDefaults(
   defineProps<{
     variant?: 'primary' | 'secondary' | 'ink' | 'ghost'
     size?: 'sm' | 'md' | 'lg'
+    type?: 'button' | 'submit'
   }>(),
-  { variant: 'primary', size: 'md' },
+  { variant: 'primary', size: 'md', type: 'button' },
 )
 </script>
 
 <template>
-  <button :class="`ab-btn ab-btn--${variant} ab-btn--${size}`">
+  <button :type="type" :class="`ab-btn ab-btn--${variant} ab-btn--${size}`">
     <slot name="icon" />
     <slot />
   </button>

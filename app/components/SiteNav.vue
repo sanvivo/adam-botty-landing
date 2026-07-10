@@ -18,6 +18,8 @@ onMounted(() => {
   window.addEventListener('scroll', onScroll, { passive: true })
 })
 onUnmounted(() => window.removeEventListener('scroll', onScroll))
+
+const hireOpen = useHireModal()
 </script>
 
 <template>
@@ -31,7 +33,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       <a class="nav-link" href="#results">Results</a>
       <a class="nav-link" href="#pricing">Pricing</a>
       <a class="nav-link" href="#faq">FAQ</a>
-      <AbButton :variant="overInk ? 'primary' : 'ink'" size="sm">
+      <AbButton :variant="overInk ? 'primary' : 'ink'" size="sm" aria-haspopup="dialog" :aria-expanded="hireOpen" @click="hireOpen = true">
         <template #icon><ArrowRight :size="16" /></template>
         Hire Adam
       </AbButton>

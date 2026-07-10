@@ -33,16 +33,17 @@ onUnmounted(() => io?.disconnect())
     <SiteNav />
     <SiteHero />
     <SectionPain />
-    <SectionReframe />
     <SectionMeetAdam />
     <SectionBackstage />
-    <SectionPillars />
-    <SectionProof />
-    <SectionCapabilities />
+    <SectionBrain />
+    <SectionEase />
     <SectionIntegrations />
+    <SectionWorklog />
+    <SectionScale />
     <SectionMath />
     <SectionTrust />
     <SectionFinalCta />
     <SiteFooter />
+    <HireModal />
   </div>
 </template>

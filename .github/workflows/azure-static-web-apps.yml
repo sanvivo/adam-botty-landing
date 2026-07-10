@@ -9,6 +9,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   build_and_deploy:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
@@ -25,8 +29,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate static site
-        run: npm run generate
+      # Azure preset: prerenders the page into .output/public and emits the
+      # /api/hire server route as an SWA managed function in .output/server
+      - name: Build site + API
+        run: npm run build
+        env:
+          NITRO_PRESET: azure
+
+      # The preset writes the generated staticwebapp.config.json to the repo
+      # root — SWA only applies it when it sits inside the deployed app folder
+      - name: Place SWA config into app artifact
+        run: cp staticwebapp.config.json .output/public/staticwebapp.config.json
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
@@ -35,8 +48,10 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
           app_location: ".output/public"
+          api_location: ".output/server"
           output_location: ""
           skip_app_build: true
+          skip_api_build: true
 
   close_pull_request:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

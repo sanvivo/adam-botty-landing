@@ -1,124 +1,211 @@
 <script setup lang="ts">
-import { Check, Loader2, Brain, Landmark, Cloud, Mail, AlarmClock, ShoppingBag, ChartLine } from 'lucide-vue-next'
+import { Check, Loader2, ExternalLink } from 'lucide-vue-next'
+import showcase from '~/data/integrations-showcase.json'
 
+const wallAll = (showcase as { items: { name: string; logo: string }[] }).items
+const logoByName: Record<string, string> = Object.fromEntries(wallAll.map((w) => [w.name, w.logo]))
+const grafanaLogo = logoByName['Grafana']
+
+// Each step maps to a real integration that lights up + gets a live connection.
 const bsSteps = [
-  { text: "Pulled this morning's transactions from the bank account", tool: 'Bank' },
-  { text: 'Searched OneDrive for the missing invoices — found 7', tool: 'OneDrive' },
-  { text: "Emailed the tax firm about 3 receipts he couldn't find", tool: 'Outlook' },
-  { text: 'No reply by 4pm — called the tax firm and confirmed', tool: 'Phone' },
-  { text: 'Pulled May refunds from Shopify and reconciled them', tool: 'Shopify' },
-  { text: 'Built a revenue dashboard for the growth team', tool: 'Grafana' },
+  { text: "Pulled this morning's transactions from the bank account", label: 'QuickBooks', match: 'Quickbooks' },
+  { text: 'Searched OneDrive for the missing invoices — found 7', label: 'OneDrive', match: 'Microsoft OneDrive' },
+  { text: "Emailed the tax firm about 3 receipts he couldn't find", label: 'Outlook', match: 'Outlook' },
+  { text: 'No reply by 4pm — called the tax firm and confirmed', label: 'Twilio', match: 'Twilio' },
+  { text: 'Pulled May refunds from Shopify and reconciled them', label: 'Shopify', match: 'Shopify' },
+  { text: 'Built a revenue dashboard for the growth team', label: 'Grafana', match: 'Grafana' },
 ]
 
-const bsNodes = [
-  { icon: Landmark, label: 'Bank', x: 42, y: 78 },
-  { icon: Cloud, label: 'OneDrive', x: 79, y: 8 },
-  { icon: Mail, label: 'Outlook', x: 11, y: 34 },
-  { icon: AlarmClock, label: 'Phone', x: 61, y: 104 },
-  { icon: ShoppingBag, label: 'Shopify', x: 91, y: 86 },
-  { icon: ChartLine, label: 'Grafana', x: 26, y: 118 },
-]
+// Scatter the connected tools across the grid (not a 1-2-3 line).
+const DEMO_SLOTS = [34, 9, 52, 20, 44, 15]
+const demoNames = new Set(bsSteps.map((s) => s.match))
+const wallRest = wallAll.filter((w) => !demoNames.has(w.name))
 
-const active = ref(0)
+interface Tile { name: string; logo: string; step: number | null }
+const tiles: Tile[] = (() => {
+  const arr: (Tile | null)[] = new Array(bsSteps.length + wallRest.length).fill(null)
+  DEMO_SLOTS.forEach((slot, step) => {
+    const s = bsSteps[step]!
+    arr[slot] = { name: s.match, logo: logoByName[s.match]!, step }
+  })
+  let r = 0
+  for (let i = 0; i < arr.length; i++) {
+    if (!arr[i]) arr[i] = { ...wallRest[r++]!, step: null }
+  }
+  return arr as Tile[]
+})()
+
+/* Timeline (one frame per entry, looping):
+   0        Eva's message pops in
+   1..6     the six steps run on the right — Adam is "typing" on the left
+   7        all done → Adam posts "Done…"
+   8        Adam delivers the Grafana dashboard link (a real result, not text)
+   9        Adam proactively offers to share it
+   10,11    hold, then loop */
+const FRAMES = [1200, 950, 950, 950, 950, 950, 950, 850, 1150, 1350, 2600, 1500]
+const LAST = FRAMES.length - 1
+
+const frame = ref(0)
+const cycle = ref(0)
 const reduced = ref(false)
-const wrapRef = ref<HTMLElement | null>(null)
-const wires = ref<string[]>([])
-const brainWire = ref<string | null>(null)
+const stageRef = ref<HTMLElement | null>(null)
+const tilePaths = ref<(string | null)[]>(new Array(bsSteps.length).fill(null))
 
-let interval: ReturnType<typeof setInterval> | undefined
+let timer: ReturnType<typeof setTimeout> | undefined
 let measureTimer: ReturnType<typeof setTimeout> | undefined
 
+function tickLoop() {
+  timer = setTimeout(() => {
+    if (frame.value >= LAST) {
+      frame.value = 0
+      cycle.value += 1
+    } else {
+      frame.value += 1
+    }
+    tickLoop()
+  }, FRAMES[frame.value])
+}
+
 function measure() {
-  const wrap = wrapRef.value
-  if (!wrap) return
-  const wr = wrap.getBoundingClientRect()
-  const card = wrap.querySelector('.backstage-card')
-  const items = wrap.querySelectorAll('.bs-item')
-  const nodes = wrap.querySelectorAll('.bs-node:not(.bs-brain)')
-  if (!card || !items.length || !nodes.length) return
-  const cardRect = card.getBoundingClientRect()
-  const cb = cardRect.bottom - wr.top
-  const cx = cardRect.left + cardRect.width / 2 - wr.left
-  const ws: string[] = []
-  items.forEach((_, i) => {
-    const node = nodes[i]
-    if (!node) return
-    const nr = node.getBoundingClientRect()
-    const nx = nr.left + nr.width / 2 - wr.left
-    const ny = nr.top - wr.top - 4
-    ws.push(`M ${cx} ${cb} C ${cx} ${cb + (ny - cb) * 0.6}, ${nx} ${cb + (ny - cb) * 0.35}, ${nx} ${ny}`)
+  const stage = stageRef.value
+  if (!stage) return
+  const wr = stage.getBoundingClientRect()
+  const card = stage.querySelector('.backstage-card')
+  const els = stage.querySelectorAll<HTMLElement>('.bs-demo')
+  if (!card || !els.length) return
+  const cr = card.getBoundingClientRect()
+  const cx = cr.left + cr.width / 2 - wr.left
+  const cb = cr.bottom - wr.top
+  const paths: (string | null)[] = new Array(bsSteps.length).fill(null)
+  els.forEach((el) => {
+    const step = Number(el.dataset.step)
+    const r = el.getBoundingClientRect()
+    const tx = r.left + r.width / 2 - wr.left
+    const ty = r.top - wr.top - 2
+    paths[step] = `M ${cx} ${cb} C ${cx} ${cb + (ty - cb) * 0.55}, ${tx} ${cb + (ty - cb) * 0.4}, ${tx} ${ty}`
   })
-  wires.value = ws
-  const brain = wrap.querySelector('.bs-brain')
-  if (brain) {
-    const br = brain.getBoundingClientRect()
-    const bx = br.left + br.width / 2 - wr.left
-    const by = br.top - wr.top - 4
-    brainWire.value = `M ${cx} ${cb} C ${cx} ${cb + (by - cb) * 0.6}, ${bx} ${cb + (by - cb) * 0.4}, ${bx} ${by}`
-  }
+  tilePaths.value = paths
 }
 
 onMounted(() => {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     reduced.value = true
-    active.value = bsSteps.length
+    frame.value = 9
   } else {
-    interval = setInterval(() => {
-      active.value = active.value >= bsSteps.length + 2 ? 0 : active.value + 1
-    }, 1300)
+    tickLoop()
   }
   measureTimer = setTimeout(measure, 350)
   window.addEventListener('resize', measure)
-  if (document.fonts?.ready) document.fonts.ready.then(() => measure())
+  if (document.fonts?.ready) document.fonts.ready.then(measure)
 })
 onUnmounted(() => {
-  clearInterval(interval)
+  clearTimeout(timer)
   clearTimeout(measureTimer)
   window.removeEventListener('resize', measure)
 })
 
-const saving = computed(() => !reduced.value && active.value >= bsSteps.length)
+// Right-side (Adam's work log) — driven by the frame.
+const rightActive = computed(() => {
+  if (reduced.value) return bsSteps.length
+  if (frame.value === 0) return -1
+  if (frame.value <= 6) return frame.value - 1
+  return bsSteps.length
+})
+const liveIndex = computed(() =>
+  rightActive.value >= 0 && rightActive.value < bsSteps.length ? rightActive.value : -1,
+)
+const itemState = (i: number) => {
+  const a = rightActive.value
+  if (a < 0) return 'pending'
+  return i < a ? 'done' : i === a ? 'live' : 'pending'
+}
+const tileOn = (step: number) => reduced.value || step === liveIndex.value
 
-const itemState = (i: number) => (i < active.value ? 'done' : i === active.value ? 'live' : '')
-const nodeState = (i: number) =>
-  reduced.value ? 'still' : i === active.value ? 'live' : i < active.value ? 'gone' : 'idle'
+// Left-side (the Slack thread) phases.
+const adamTyping = computed(() => !reduced.value && frame.value >= 1 && frame.value <= 6)
+const showDone = computed(() => reduced.value || frame.value >= 7)
+const showDash = computed(() => reduced.value || frame.value >= 8)
+const showAsk = computed(() => reduced.value || frame.value >= 9)
+
+const wireList = computed(() => {
+  if (reduced.value) return []
+  const out: { i: number; d: string; state: string }[] = []
+  const upto = Math.min(rightActive.value, bsSteps.length - 1)
+  for (let i = 0; i <= upto; i++) {
+    const d = tilePaths.value[i]
+    if (!d) continue
+    out.push({ i, d, state: i === liveIndex.value ? 'live' : 'gone' })
+  }
+  return out
+})
 </script>
 
 <template>
   <section class="section">
     <div class="wrap">
       <h2 class="display-lg reveal" style="text-align: center; max-width: 680px; margin: 0 auto">
-        One message in Slack. Two hundred moves behind it
+        One message in Slack. Hundreds of moves done for you
       </h2>
       <p class="lede reveal reveal-d1" style="text-align: center; margin: 18px auto 0; max-width: 520px">
-        You see a &ldquo;Done.&rdquo; Behind it, Adam works across every interface your
-        company runs on — pulling data, chasing people, building things.
+        You send one line. Adam wires himself into every tool your company runs on, does the work,
+        and hands you the result.
       </p>
+
       <div class="reveal reveal-d2" style="margin: 56px auto 0; max-width: 980px">
-        <div ref="wrapRef" style="position: relative">
+        <div ref="stageRef" class="bs-stage">
           <svg class="bs-wires" aria-hidden="true">
-            <g v-if="brainWire && !reduced" :class="['brain', { saving }]">
-              <path class="bs-wire-brain" :d="brainWire" />
-            </g>
-            <g
-              v-for="(d, i) in wires"
-              :key="i"
-              :class="reduced ? '' : i === active ? 'live' : i < active ? 'gone' : 'idle'"
-            >
-              <path class="bs-wire-glow" :d="d" />
+            <g v-for="w in wireList" :key="w.i" :class="w.state">
+              <path class="bs-wire-glow" :d="w.d" />
             </g>
           </svg>
+
           <div class="backstage-card">
             <div class="bs-left sl-window" style="border-radius: 0; box-shadow: none; border: none">
               <span class="bs-col-label" style="font-family: var(--font-sans)">What you see</span>
-              <SlackMsg name="Eva" initials="E" time="9:02 AM">
-                <span class="sl-mention">@Adam</span> close out May and get the growth team their numbers.
-              </SlackMsg>
-              <SlackMsg adam name="Adam" time="9:16 AM">
-                Done. Books closed — 2 receipts still open with the tax firm, chased by email and phone.
-                The growth dashboard is live.
-              </SlackMsg>
+              <div :key="cycle" class="bs-slackfeed">
+                <SlackMsg name="Eva" avatar="/eva.png" time="9:02 AM" class="bs-pop">
+                  <span class="sl-mention">@Adam</span> close out May and get the growth team their numbers.
+                </SlackMsg>
+
+                <div v-if="adamTyping" class="sl-typing bs-pop">
+                  <AbAvatar bot :size="26" />
+                  <span class="typing-dots"><i /><i /><i /></span>
+                  Adam is working…
+                </div>
+
+                <SlackMsg v-if="showDone" adam name="Adam" time="9:16 AM" class="bs-pop">
+                  Done. Books closed — 2 receipts still open with the tax firm, chased by email and
+                  phone. The growth dashboard is live.
+                  <a v-if="showDash" class="bs-deliverable bs-pop" href="#" @click.prevent>
+                    <span class="bs-deliv-icon"><img :src="grafanaLogo" alt="Grafana" /></span>
+                    <span class="bs-deliv-main">
+                      <span class="bs-deliv-title">May Growth Dashboard</span>
+                      <span class="bs-deliv-sub">Grafana · MRR, pipeline &amp; refunds</span>
+                      <svg class="bs-deliv-spark" viewBox="0 0 120 30" preserveAspectRatio="none" aria-hidden="true">
+                        <path
+                          class="bs-spark-area"
+                          d="M0 24 L13 21 L26 23 L40 15 L53 18 L66 11 L80 13 L93 7 L106 9 L120 4 L120 30 L0 30 Z"
+                        />
+                        <path
+                          class="bs-spark-line"
+                          d="M0 24 L13 21 L26 23 L40 15 L53 18 L66 11 L80 13 L93 7 L106 9 L120 4"
+                        />
+                      </svg>
+                    </span>
+                    <ExternalLink :size="15" class="bs-deliv-ext" />
+                  </a>
+                </SlackMsg>
+
+                <SlackMsg v-if="showAsk" adam name="Adam" time="9:16 AM" class="bs-pop">
+                  Should I send this dashboard to the growth team for you?
+                  <span class="bs-cta-row">
+                    <button class="bs-cta bs-cta--primary" type="button">Send to #growth</button>
+                    <button class="bs-cta" type="button">Not yet</button>
+                  </span>
+                </SlackMsg>
+              </div>
             </div>
+
             <div class="bs-right">
               <span class="bs-col-label">What Adam did in those 14 minutes</span>
               <div class="bs-feed" style="margin-top: 12px">
@@ -128,7 +215,10 @@ const nodeState = (i: number) =>
                     <span v-else class="bs-spin"><Loader2 :size="14" /></span>
                   </span>
                   <span class="bs-text">{{ s.text }}</span>
-                  <span class="bs-tool">{{ s.tool }}</span>
+                  <span class="bs-tool">
+                    <img v-if="logoByName[s.match]" :src="logoByName[s.match]" :alt="`${s.label} logo`" />
+                    {{ s.label }}
+                  </span>
                 </div>
               </div>
               <div class="bs-foot">
@@ -137,27 +227,21 @@ const nodeState = (i: number) =>
               </div>
             </div>
           </div>
-          <div class="bs-nodes">
-            <div class="bs-node bs-brain" :class="{ saving }" style="--x: 50%; --y: 150px">
-              <div class="bs-node-float">
-                <span class="bs-node-tile"><Brain :size="24" /></span>
-                <span class="bs-node-label">{{ saving ? 'Saving what he learned…' : 'Company brain' }}</span>
-              </div>
-            </div>
+
+          <div class="bs-wall" aria-hidden="true">
             <div
-              v-for="(n, i) in bsNodes"
-              :key="n.label"
-              class="bs-node"
-              :class="nodeState(i)"
-              :style="{ '--x': `${n.x}%`, '--y': `${n.y}px` }"
+              v-for="(t, idx) in tiles"
+              :key="idx"
+              class="bs-tilew"
+              :class="{
+                'bs-demo': t.step !== null,
+                on: t.step !== null && tileOn(t.step),
+                live: t.step !== null && !reduced && t.step === liveIndex,
+              }"
+              :data-step="t.step ?? undefined"
+              :title="t.name"
             >
-              <div
-                class="bs-node-float"
-                :style="{ animationDuration: `${4.6 + i * 0.9}s`, animationDelay: `${-i * 1.4}s` }"
-              >
-                <span class="bs-node-tile"><component :is="n.icon" :size="21" /></span>
-                <span class="bs-node-label">{{ n.label }}</span>
-              </div>
+              <img :src="t.logo" :alt="t.name" loading="lazy" decoding="async" />
             </div>
           </div>
         </div>

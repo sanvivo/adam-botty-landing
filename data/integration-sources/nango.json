@@ -1,0 +1,7381 @@
+{
+  "source": "nango",
+  "url": "https://nango.dev/api-integrations",
+  "fetched_at": "2026-07-10T14:49:17Z",
+  "count": 876,
+  "integrations": [
+    {
+      "name": "1Password (Events API)",
+      "slug": "1password-events",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/1password-events.svg"
+    },
+    {
+      "name": "1Password (SCIM)",
+      "slug": "1password-scim",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/1password-scim.svg"
+    },
+    {
+      "name": "1Password (Users API)",
+      "slug": "1password-users",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/1password-users.svg"
+    },
+    {
+      "name": "3CX",
+      "slug": "3cx",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/3cx.svg"
+    },
+    {
+      "name": "8x8",
+      "slug": "8x8",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/8x8.svg"
+    },
+    {
+      "name": "A-Leads",
+      "slug": "a-leads",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/a-leads.svg"
+    },
+    {
+      "name": "Absorb LMS",
+      "slug": "absorb-lms",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/absorb-lms.svg"
+    },
+    {
+      "name": "Accelo",
+      "slug": "accelo",
+      "categories": [
+        "invoicing",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/accelo.svg"
+    },
+    {
+      "name": "ActiveCampaign",
+      "slug": "active-campaign",
+      "categories": [
+        "marketing",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/active-campaign.svg"
+    },
+    {
+      "name": "Acuity Scheduling",
+      "slug": "acuity-scheduling",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/acuity-scheduling.svg"
+    },
+    {
+      "name": "Acumatica",
+      "slug": "acumatica",
+      "categories": [
+        "erp",
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/acumatica.svg"
+    },
+    {
+      "name": "Addepar (Basic Auth)",
+      "slug": "addepar-basic",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/addepar-basic.svg"
+    },
+    {
+      "name": "Addepar (OAuth)",
+      "slug": "addepar",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/addepar.svg"
+    },
+    {
+      "name": "Adobe",
+      "slug": "adobe",
+      "categories": [
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adobe.svg"
+    },
+    {
+      "name": "Adobe Commerce",
+      "slug": "adobe-commerce",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adobe-commerce.svg"
+    },
+    {
+      "name": "Adobe Workfront",
+      "slug": "adobe-workfront",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adobe-workfront.svg"
+    },
+    {
+      "name": "ADP",
+      "slug": "adp",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adp.svg"
+    },
+    {
+      "name": "ADP Lyric",
+      "slug": "adp-lyric",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adp-lyric.svg"
+    },
+    {
+      "name": "ADP Workforce Now",
+      "slug": "adp-workforce-now",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adp-workforce-now.svg"
+    },
+    {
+      "name": "ADP Workforce Now Next Generation",
+      "slug": "adp-workforce-now-next-gen",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adp-workforce-now-next-gen.svg"
+    },
+    {
+      "name": "Adyen",
+      "slug": "adyen",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adyen.svg"
+    },
+    {
+      "name": "Adyntel",
+      "slug": "adyntel",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adyntel.svg"
+    },
+    {
+      "name": "Affinity (v1)",
+      "slug": "affinity",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/affinity.svg"
+    },
+    {
+      "name": "Affinity (v2)",
+      "slug": "affinity-v2",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/affinity-v2.svg"
+    },
+    {
+      "name": "Agiloft",
+      "slug": "agiloft",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/agiloft.svg"
+    },
+    {
+      "name": "Agiloft (Client Credentials)",
+      "slug": "agiloft-cc",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/agiloft-cc.svg"
+    },
+    {
+      "name": "Ahrefs",
+      "slug": "ahrefs",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ahrefs.svg"
+    },
+    {
+      "name": "Aimfox",
+      "slug": "aimfox",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aimfox.svg"
+    },
+    {
+      "name": "Aimfox (OAuth)",
+      "slug": "aimfox-oauth",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aimfox-oauth.svg"
+    },
+    {
+      "name": "Aircall (Basic Auth)",
+      "slug": "aircall-basic",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aircall-basic.svg"
+    },
+    {
+      "name": "Aircall (OAuth)",
+      "slug": "aircall",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aircall.svg"
+    },
+    {
+      "name": "Airtable",
+      "slug": "airtable",
+      "categories": [
+        "popular",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/airtable.svg"
+    },
+    {
+      "name": "Airtable (Personal Access Token)",
+      "slug": "airtable-pat",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/airtable-pat.svg"
+    },
+    {
+      "name": "Algolia",
+      "slug": "algolia",
+      "categories": [
+        "search"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/algolia.svg"
+    },
+    {
+      "name": "Altrata",
+      "slug": "altrata",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/altrata.svg"
+    },
+    {
+      "name": "Amazon",
+      "slug": "amazon",
+      "categories": [
+        "dev-tools",
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/amazon.svg"
+    },
+    {
+      "name": "Amazon Selling Partner",
+      "slug": "amazon-selling-partner",
+      "categories": [
+        "dev-tools",
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/amazon-selling-partner.svg"
+    },
+    {
+      "name": "Amazon Selling Partner (Beta)",
+      "slug": "amazon-selling-partner-beta",
+      "categories": [
+        "dev-tools",
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/amazon-selling-partner-beta.svg"
+    },
+    {
+      "name": "Amplitude (Event Streaming API)",
+      "slug": "amplitude",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/amplitude.svg"
+    },
+    {
+      "name": "Amplitude (MCP EU)",
+      "slug": "amplitude-mcp-eu",
+      "categories": [
+        "analytics",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/amplitude-mcp-eu.svg"
+    },
+    {
+      "name": "Amplitude (MCP US)",
+      "slug": "amplitude-mcp",
+      "categories": [
+        "analytics",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/amplitude-mcp.svg"
+    },
+    {
+      "name": "Anrok",
+      "slug": "anrok",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/anrok.svg"
+    },
+    {
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "categories": [
+        "productivity",
+        "dev-tools",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/anthropic.svg"
+    },
+    {
+      "name": "Anthropic Administrator",
+      "slug": "anthropic-admin",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/anthropic-admin.svg"
+    },
+    {
+      "name": "Anvil",
+      "slug": "anvil",
+      "categories": [
+        "legal",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/anvil.svg"
+    },
+    {
+      "name": "Apaleo",
+      "slug": "apaleo",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/apaleo.svg"
+    },
+    {
+      "name": "Apify",
+      "slug": "apify",
+      "categories": [
+        "dev-tools",
+        "analytics",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/apify.svg"
+    },
+    {
+      "name": "Apollo (API Key)",
+      "slug": "apollo",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/apollo.svg"
+    },
+    {
+      "name": "Apollo (OAuth)",
+      "slug": "apollo-oauth",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/apollo-oauth.svg"
+    },
+    {
+      "name": "Apple App Store",
+      "slug": "apple-app-store",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/apple-app-store.svg"
+    },
+    {
+      "name": "Apple Business Manager",
+      "slug": "apple-business-manager",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/apple-business-manager.svg"
+    },
+    {
+      "name": "Appstle Subscriptions",
+      "slug": "appstle-subscriptions",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/appstle-subscriptions.svg"
+    },
+    {
+      "name": "Asana",
+      "slug": "asana",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/asana.svg"
+    },
+    {
+      "name": "Asana (MCP)",
+      "slug": "asana-mcp",
+      "categories": [
+        "productivity",
+        "ticketing",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/asana-mcp.svg"
+    },
+    {
+      "name": "Asana (SCIM API)",
+      "slug": "asana-scim",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/asana-scim.svg"
+    },
+    {
+      "name": "Ashby",
+      "slug": "ashby",
+      "categories": [
+        "ats",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ashby.svg"
+    },
+    {
+      "name": "Aspire",
+      "slug": "aspire",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aspire.svg"
+    },
+    {
+      "name": "Atlas.so",
+      "slug": "atlas-so",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/atlas-so.svg"
+    },
+    {
+      "name": "Atlassian",
+      "slug": "atlassian",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/atlassian.svg"
+    },
+    {
+      "name": "Atlassian Cloud Admin",
+      "slug": "atlassian-admin",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/atlassian-admin.svg"
+    },
+    {
+      "name": "Atlassian Government Cloud",
+      "slug": "atlassian-government-cloud",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/atlassian-government-cloud.svg"
+    },
+    {
+      "name": "Atlassian Service Account (API Token)",
+      "slug": "atlassian-service-account-api-token",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/atlassian-service-account-api-token.svg"
+    },
+    {
+      "name": "Atlassian Service Account (OAuth 2.0)",
+      "slug": "atlassian-service-account-oauth2",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/atlassian-service-account-oauth2.svg"
+    },
+    {
+      "name": "Attention",
+      "slug": "attention",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/attention.svg"
+    },
+    {
+      "name": "Attio",
+      "slug": "attio",
+      "categories": [
+        "crm",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/attio.svg"
+    },
+    {
+      "name": "Attio (MCP)",
+      "slug": "attio-mcp",
+      "categories": [
+        "crm",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/attio-mcp.svg"
+    },
+    {
+      "name": "Auth0",
+      "slug": "auth0",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/auth0.svg"
+    },
+    {
+      "name": "Auth0 (Client Credentials)",
+      "slug": "auth0-cc",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/auth0-cc.svg"
+    },
+    {
+      "name": "Autodesk",
+      "slug": "autodesk",
+      "categories": [
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/autodesk.svg"
+    },
+    {
+      "name": "AutoTask",
+      "slug": "autotask",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/autotask.svg"
+    },
+    {
+      "name": "Auvik",
+      "slug": "auvik",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/auvik.svg"
+    },
+    {
+      "name": "Availity",
+      "slug": "availity",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/availity.svg"
+    },
+    {
+      "name": "Avalara",
+      "slug": "avalara",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/avalara.svg"
+    },
+    {
+      "name": "Avalara (Sandbox)",
+      "slug": "avalara-sandbox",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/avalara-sandbox.svg"
+    },
+    {
+      "name": "Avanan",
+      "slug": "avanan",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/avanan.svg"
+    },
+    {
+      "name": "Avoma",
+      "slug": "avoma",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/avoma.svg"
+    },
+    {
+      "name": "AWS",
+      "slug": "aws",
+      "categories": [
+        "dev-tools",
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aws.svg"
+    },
+    {
+      "name": "AWS (SCIM)",
+      "slug": "aws-scim",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aws-scim.svg"
+    },
+    {
+      "name": "AWS IAM",
+      "slug": "aws-iam",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aws-iam.svg"
+    },
+    {
+      "name": "AWS Inspector2",
+      "slug": "aws-inspector2",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aws-inspector2.svg"
+    },
+    {
+      "name": "AWS Multi-Service",
+      "slug": "aws-multi-service",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aws-multi-service.svg"
+    },
+    {
+      "name": "AWS SigV4 Proxy",
+      "slug": "aws-sigv4",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/aws-sigv4.svg"
+    },
+    {
+      "name": "Axiom",
+      "slug": "axiom",
+      "categories": [
+        "dev-tools",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/axiom.svg"
+    },
+    {
+      "name": "Azure Blob Storage",
+      "slug": "azure-blob-storage",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/azure-blob-storage.svg"
+    },
+    {
+      "name": "Azure DevOps",
+      "slug": "azure-devops",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/azure-devops.svg"
+    },
+    {
+      "name": "BambooHR (Basic Auth)",
+      "slug": "bamboohr-basic",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bamboohr-basic.svg"
+    },
+    {
+      "name": "BambooHR (OAuth)",
+      "slug": "bamboohr",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bamboohr.svg"
+    },
+    {
+      "name": "Basecamp",
+      "slug": "basecamp",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/basecamp.svg"
+    },
+    {
+      "name": "Battle.net",
+      "slug": "battlenet",
+      "categories": [
+        "gaming"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/battlenet.svg"
+    },
+    {
+      "name": "Beehiiv",
+      "slug": "beehiiv",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/beehiiv.svg"
+    },
+    {
+      "name": "BetterContact",
+      "slug": "bettercontact",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bettercontact.svg"
+    },
+    {
+      "name": "BigChange",
+      "slug": "bigchange",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bigchange.svg"
+    },
+    {
+      "name": "BigCommerce",
+      "slug": "bigcommerce",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bigcommerce.svg"
+    },
+    {
+      "name": "Bill (Connect API Sandbox)",
+      "slug": "bill-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bill-sandbox.svg"
+    },
+    {
+      "name": "Bill (Connect API)",
+      "slug": "bill",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bill.svg"
+    },
+    {
+      "name": "Bing Webmasters",
+      "slug": "bing-webmasters",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bing-webmasters.svg"
+    },
+    {
+      "name": "Bird",
+      "slug": "bird",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bird.svg"
+    },
+    {
+      "name": "Bitbucket",
+      "slug": "bitbucket",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bitbucket.svg"
+    },
+    {
+      "name": "Bitdefender",
+      "slug": "bitdefender",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bitdefender.svg"
+    },
+    {
+      "name": "Bitly",
+      "slug": "bitly",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bitly.svg"
+    },
+    {
+      "name": "Blackbaud",
+      "slug": "blackbaud",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/blackbaud.svg"
+    },
+    {
+      "name": "Blackbaud (Basic Auth)",
+      "slug": "blackbaud-basic",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/blackbaud-basic.svg"
+    },
+    {
+      "name": "BlandAI",
+      "slug": "blandai",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/blandai.svg"
+    },
+    {
+      "name": "Bliro",
+      "slug": "bliro",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bliro.svg"
+    },
+    {
+      "name": "BoldSign",
+      "slug": "boldsign",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/boldsign.svg"
+    },
+    {
+      "name": "Booking.com",
+      "slug": "booking-com",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/booking-com.svg"
+    },
+    {
+      "name": "BoondManager",
+      "slug": "boondmanager",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/boondmanager.svg"
+    },
+    {
+      "name": "Box",
+      "slug": "box",
+      "categories": [
+        "knowledge-base",
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/box.svg"
+    },
+    {
+      "name": "Braintree",
+      "slug": "braintree",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/braintree.svg"
+    },
+    {
+      "name": "Braintree (Sandbox)",
+      "slug": "braintree-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/braintree-sandbox.svg"
+    },
+    {
+      "name": "Braze",
+      "slug": "braze",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/braze.svg"
+    },
+    {
+      "name": "Breezy HR",
+      "slug": "breezy-hr",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/breezy-hr.svg"
+    },
+    {
+      "name": "Brevo",
+      "slug": "brevo-api-key",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/brevo-api-key.svg"
+    },
+    {
+      "name": "Brex (API Key)",
+      "slug": "brex-api-key",
+      "categories": [
+        "banking"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/brex-api-key.svg"
+    },
+    {
+      "name": "Brex (OAuth)",
+      "slug": "brex",
+      "categories": [
+        "banking"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/brex.svg"
+    },
+    {
+      "name": "Brex (Staging OAuth)",
+      "slug": "brex-staging",
+      "categories": [
+        "banking"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/brex-staging.svg"
+    },
+    {
+      "name": "BrightCrowd",
+      "slug": "brightcrowd",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/brightcrowd.svg"
+    },
+    {
+      "name": "Buffer",
+      "slug": "buffer",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/buffer.svg"
+    },
+    {
+      "name": "Builder.io (Private)",
+      "slug": "builder-io-private",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/builder-io-private.svg"
+    },
+    {
+      "name": "Builder.io (Public)",
+      "slug": "builder-io-public",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/builder-io-public.svg"
+    },
+    {
+      "name": "Buildium",
+      "slug": "buildium",
+      "categories": [
+        "accounting",
+        "crm",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/buildium.svg"
+    },
+    {
+      "name": "BuiltWith",
+      "slug": "builtwith",
+      "categories": [
+        "dev-tools",
+        "analytics",
+        "crm",
+        "marketing",
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/builtwith.svg"
+    },
+    {
+      "name": "Bullhorn",
+      "slug": "bullhorn",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/bullhorn.svg"
+    },
+    {
+      "name": "Cal.com (OAuth)",
+      "slug": "cal-com-oauth",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cal-com-oauth.svg"
+    },
+    {
+      "name": "Cal.com (v1)",
+      "slug": "cal-com-v1",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cal-com-v1.svg"
+    },
+    {
+      "name": "Cal.com (v2)",
+      "slug": "cal-com-v2",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cal-com-v2.svg"
+    },
+    {
+      "name": "Calendly",
+      "slug": "calendly",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/calendly.svg"
+    },
+    {
+      "name": "Callrail",
+      "slug": "callrail",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/callrail.svg"
+    },
+    {
+      "name": "Candis",
+      "slug": "candis",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/candis.svg"
+    },
+    {
+      "name": "Canny",
+      "slug": "canny",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/canny.svg"
+    },
+    {
+      "name": "Canva",
+      "slug": "canva",
+      "categories": [
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/canva.svg"
+    },
+    {
+      "name": "Canva (MCP)",
+      "slug": "canva-mcp",
+      "categories": [
+        "design",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/canva-mcp.svg"
+    },
+    {
+      "name": "Canva (SCIM API)",
+      "slug": "canva-scim",
+      "categories": [
+        "design",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/canva-scim.svg"
+    },
+    {
+      "name": "Canvas LMS",
+      "slug": "canvas-lms",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/canvas-lms.svg"
+    },
+    {
+      "name": "Certn",
+      "slug": "certn",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/certn.svg"
+    },
+    {
+      "name": "Certn Partner",
+      "slug": "certn-partner",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/certn-partner.svg"
+    },
+    {
+      "name": "Chargebee",
+      "slug": "chargebee",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/chargebee.svg"
+    },
+    {
+      "name": "Chatarmin",
+      "slug": "chatarmin",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/chatarmin.svg"
+    },
+    {
+      "name": "Chattermill",
+      "slug": "chattermill",
+      "categories": [
+        "support",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/chattermill.svg"
+    },
+    {
+      "name": "Check",
+      "slug": "checkhq",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/checkhq.svg"
+    },
+    {
+      "name": "Checkout.com",
+      "slug": "checkout-com",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/checkout-com.svg"
+    },
+    {
+      "name": "Checkout.com (Sandbox)",
+      "slug": "checkout-com-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/checkout-com-sandbox.svg"
+    },
+    {
+      "name": "Checkr Partner",
+      "slug": "checkr-partner",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/checkr-partner.svg"
+    },
+    {
+      "name": "Checkr Partner (Staging)",
+      "slug": "checkr-partner-staging",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/checkr-partner-staging.svg"
+    },
+    {
+      "name": "Chorus",
+      "slug": "chorus",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/chorus.svg"
+    },
+    {
+      "name": "Cin7 Core",
+      "slug": "cin7-core",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cin7-core.svg"
+    },
+    {
+      "name": "Circle.so",
+      "slug": "circle-so",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/circle-so.svg"
+    },
+    {
+      "name": "Circleback (MCP)",
+      "slug": "circleback-mcp",
+      "categories": [
+        "productivity",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/circleback-mcp.svg"
+    },
+    {
+      "name": "Cisco Duo Admin API",
+      "slug": "cisco-duo-admin",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cisco-duo-admin.svg"
+    },
+    {
+      "name": "Clari Copilot",
+      "slug": "clari-copilot",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clari-copilot.svg"
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "categories": [
+        "crm",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clay.svg"
+    },
+    {
+      "name": "Clerk",
+      "slug": "clerk",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clerk.svg"
+    },
+    {
+      "name": "CleverReach",
+      "slug": "cleverreach",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cleverreach.svg"
+    },
+    {
+      "name": "ClickHouse",
+      "slug": "clickhouse",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clickhouse.svg"
+    },
+    {
+      "name": "ClickSend",
+      "slug": "clicksend",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clicksend.svg"
+    },
+    {
+      "name": "ClickUp",
+      "slug": "clickup",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clickup.svg"
+    },
+    {
+      "name": "Clio",
+      "slug": "clio",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clio.svg"
+    },
+    {
+      "name": "Close",
+      "slug": "close",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/close.svg"
+    },
+    {
+      "name": "Cloudbeds",
+      "slug": "cloudbeds",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cloudbeds.svg"
+    },
+    {
+      "name": "Cloudentity",
+      "slug": "cloudentity",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cloudentity.svg"
+    },
+    {
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cloudflare.svg"
+    },
+    {
+      "name": "Cloudflare (MCP)",
+      "slug": "cloudflare-mcp",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cloudflare-mcp.svg"
+    },
+    {
+      "name": "CloudTalk",
+      "slug": "cloudtalk",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cloudtalk.svg"
+    },
+    {
+      "name": "Clover",
+      "slug": "clover",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/clover.svg"
+    },
+    {
+      "name": "Coda",
+      "slug": "coda",
+      "categories": [
+        "knowledge-base",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/coda.svg"
+    },
+    {
+      "name": "Code Climate",
+      "slug": "codeclimate",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/codeclimate.svg"
+    },
+    {
+      "name": "Codegen",
+      "slug": "codegen",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/codegen.svg"
+    },
+    {
+      "name": "Commercetools",
+      "slug": "commercetools",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/commercetools.svg"
+    },
+    {
+      "name": "CompanyCam",
+      "slug": "companycam",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/companycam.svg"
+    },
+    {
+      "name": "ConductorOne",
+      "slug": "conductorone",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/conductorone.svg"
+    },
+    {
+      "name": "Confluence",
+      "slug": "confluence",
+      "categories": [
+        "knowledge-base",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/confluence.svg"
+    },
+    {
+      "name": "Confluence (Basic Auth)",
+      "slug": "confluence-basic",
+      "categories": [
+        "knowledge-base"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/confluence-basic.svg"
+    },
+    {
+      "name": "Confluence Data Center",
+      "slug": "confluence-data-center",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/confluence-data-center.svg"
+    },
+    {
+      "name": "ConnectWise PSA",
+      "slug": "connectwise-psa",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/connectwise-psa.svg"
+    },
+    {
+      "name": "ConnectWise PSA (Staging)",
+      "slug": "connectwise-psa-staging",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/connectwise-psa-staging.svg"
+    },
+    {
+      "name": "ConnectWise RMM",
+      "slug": "connectwise-rmm",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/connectwise-rmm.svg"
+    },
+    {
+      "name": "Constant Contact",
+      "slug": "constant-contact",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/constant-contact.svg"
+    },
+    {
+      "name": "Conta Azul",
+      "slug": "conta-azul",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/conta-azul.svg"
+    },
+    {
+      "name": "ContactOut",
+      "slug": "contactout",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/contactout.svg"
+    },
+    {
+      "name": "Contentful",
+      "slug": "contentful",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/contentful.svg"
+    },
+    {
+      "name": "Contentstack",
+      "slug": "contentstack",
+      "categories": [
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/contentstack.svg"
+    },
+    {
+      "name": "Copper (API Key)",
+      "slug": "copper-api-key",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/copper-api-key.svg"
+    },
+    {
+      "name": "Copper (OAuth)",
+      "slug": "copper",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/copper.svg"
+    },
+    {
+      "name": "Coros",
+      "slug": "coros",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/coros.svg"
+    },
+    {
+      "name": "Coros (Sandbox)",
+      "slug": "coros-sandbox",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/coros-sandbox.svg"
+    },
+    {
+      "name": "Coupa Compass",
+      "slug": "coupa-compass",
+      "categories": [
+        "payment",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/coupa-compass.svg"
+    },
+    {
+      "name": "Crisp",
+      "slug": "crisp",
+      "categories": [
+        "communication",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/crisp.svg"
+    },
+    {
+      "name": "Crisp (Plugin Install)",
+      "slug": "crisp-plugin-install",
+      "categories": [
+        "communication",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/crisp-plugin-install.svg"
+    },
+    {
+      "name": "CrowdStrike",
+      "slug": "crowdstrike",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/crowdstrike.svg"
+    },
+    {
+      "name": "Crunchbase",
+      "slug": "crunchbase",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/crunchbase.svg"
+    },
+    {
+      "name": "Cursor",
+      "slug": "cursor",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cursor.svg"
+    },
+    {
+      "name": "Cursor Admin",
+      "slug": "cursor-admin",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cursor-admin.svg"
+    },
+    {
+      "name": "Customer.io",
+      "slug": "customer-io",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/customer-io.svg"
+    },
+    {
+      "name": "Cyberimpact",
+      "slug": "cyberimpact",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/cyberimpact.svg"
+    },
+    {
+      "name": "Databricks (Account Level)",
+      "slug": "databricks-account",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/databricks-account.svg"
+    },
+    {
+      "name": "Databricks (Workspace Level)",
+      "slug": "databricks-workspace",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/databricks-workspace.svg"
+    },
+    {
+      "name": "DataCandy",
+      "slug": "datacandy",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/datacandy.svg"
+    },
+    {
+      "name": "Datadog",
+      "slug": "datadog",
+      "categories": [
+        "analytics",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/datadog.svg"
+    },
+    {
+      "name": "Datev",
+      "slug": "datev",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/datev.svg"
+    },
+    {
+      "name": "Datto RMM",
+      "slug": "datto-rmm",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/datto-rmm.svg"
+    },
+    {
+      "name": "Datto RMM (Password Grant)",
+      "slug": "datto-rmm-password-grant",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/datto-rmm-password-grant.svg"
+    },
+    {
+      "name": "Dayforce",
+      "slug": "dayforce",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dayforce.svg"
+    },
+    {
+      "name": "Deel",
+      "slug": "deel",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/deel.svg"
+    },
+    {
+      "name": "Deel (Sandbox)",
+      "slug": "deel-sandbox",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/deel-sandbox.svg"
+    },
+    {
+      "name": "DemoDesk",
+      "slug": "demodesk",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/demodesk.svg"
+    },
+    {
+      "name": "Devin",
+      "slug": "devin",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/devin.svg"
+    },
+    {
+      "name": "Dialpad",
+      "slug": "dialpad",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dialpad.svg"
+    },
+    {
+      "name": "Dialpad (Sandbox)",
+      "slug": "dialpad-sandbox",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dialpad-sandbox.svg"
+    },
+    {
+      "name": "Dialpad WFM",
+      "slug": "dialpad-wfm",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dialpad-wfm.svg"
+    },
+    {
+      "name": "Diffbot",
+      "slug": "diffbot",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/diffbot.svg"
+    },
+    {
+      "name": "DigitalOcean",
+      "slug": "digitalocean",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/digitalocean.svg"
+    },
+    {
+      "name": "Digits",
+      "slug": "digits",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/digits.svg"
+    },
+    {
+      "name": "Digits (MCP)",
+      "slug": "digits-mcp",
+      "categories": [
+        "accounting",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/digits-mcp.svg"
+    },
+    {
+      "name": "DiscoLike",
+      "slug": "discolike",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/discolike.svg"
+    },
+    {
+      "name": "Discord",
+      "slug": "discord",
+      "categories": [
+        "gaming",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/discord.svg"
+    },
+    {
+      "name": "Discourse",
+      "slug": "discourse",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/discourse.svg"
+    },
+    {
+      "name": "Dixa",
+      "slug": "dixa",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dixa.svg"
+    },
+    {
+      "name": "Document360",
+      "slug": "document360",
+      "categories": [
+        "knowledge-base"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/document360.svg"
+    },
+    {
+      "name": "DocuSign",
+      "slug": "docusign",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/docusign.svg"
+    },
+    {
+      "name": "DocuSign (Sandbox)",
+      "slug": "docusign-sandbox",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/docusign-sandbox.svg"
+    },
+    {
+      "name": "DocuWare",
+      "slug": "docuware",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/docuware.svg"
+    },
+    {
+      "name": "Domo",
+      "slug": "domo",
+      "categories": [
+        "productivity",
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/domo.svg"
+    },
+    {
+      "name": "Drata",
+      "slug": "drata",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/drata.svg"
+    },
+    {
+      "name": "DrChrono",
+      "slug": "drchrono",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/drchrono.svg"
+    },
+    {
+      "name": "Dropbox",
+      "slug": "dropbox",
+      "categories": [
+        "knowledge-base",
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dropbox.svg"
+    },
+    {
+      "name": "Dropbox Sign",
+      "slug": "dropbox-sign",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dropbox-sign.svg"
+    },
+    {
+      "name": "Drupal",
+      "slug": "drupal",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/drupal.svg"
+    },
+    {
+      "name": "Dualentry (MCP)",
+      "slug": "dualentry-mcp",
+      "categories": [
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dualentry-mcp.svg"
+    },
+    {
+      "name": "Dynatrace",
+      "slug": "dynatrace",
+      "categories": [
+        "analytics",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dynatrace.svg"
+    },
+    {
+      "name": "Dynatrace (OAuth)",
+      "slug": "dynatrace-oauth",
+      "categories": [
+        "analytics",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/dynatrace-oauth.svg"
+    },
+    {
+      "name": "e-conomic",
+      "slug": "e-conomic",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/e-conomic.svg"
+    },
+    {
+      "name": "EasyPost",
+      "slug": "easypost",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/easypost.svg"
+    },
+    {
+      "name": "eBay",
+      "slug": "ebay",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ebay.svg"
+    },
+    {
+      "name": "eBay (Sandbox)",
+      "slug": "ebay-sandbox",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ebay-sandbox.svg"
+    },
+    {
+      "name": "ECU360 (Production)",
+      "slug": "ecu360-production",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ecu360-production.svg"
+    },
+    {
+      "name": "ECU360 (Test)",
+      "slug": "ecu360",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ecu360.svg"
+    },
+    {
+      "name": "Egnyte",
+      "slug": "egnyte",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/egnyte.svg"
+    },
+    {
+      "name": "Eleven Labs",
+      "slug": "elevenlabs",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/elevenlabs.svg"
+    },
+    {
+      "name": "Elevio",
+      "slug": "elevio",
+      "categories": [
+        "knowledge-base",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/elevio.svg"
+    },
+    {
+      "name": "Emarsys (OAuth)",
+      "slug": "emarsys-oauth",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/emarsys-oauth.svg"
+    },
+    {
+      "name": "Emarsys Core API (WSSE)",
+      "slug": "emarsys",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/emarsys.svg"
+    },
+    {
+      "name": "Employment Hero",
+      "slug": "employment-hero",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/employment-hero.svg"
+    },
+    {
+      "name": "Energy Performance Certificates (Gov.UK)",
+      "slug": "epc-gov-uk",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/epc-gov-uk.svg"
+    },
+    {
+      "name": "Entrata",
+      "slug": "entrata",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/entrata.svg"
+    },
+    {
+      "name": "Envoy",
+      "slug": "envoy",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/envoy.svg"
+    },
+    {
+      "name": "Epic Games",
+      "slug": "epic-games",
+      "categories": [
+        "gaming"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/epic-games.svg"
+    },
+    {
+      "name": "Etsy",
+      "slug": "etsy",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/etsy.svg"
+    },
+    {
+      "name": "EvaluAgent",
+      "slug": "evaluagent",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/evaluagent.svg"
+    },
+    {
+      "name": "Eventbrite",
+      "slug": "eventbrite",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/eventbrite.svg"
+    },
+    {
+      "name": "Everflow",
+      "slug": "everflow",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/everflow.svg"
+    },
+    {
+      "name": "Exa",
+      "slug": "exa",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/exa.svg"
+    },
+    {
+      "name": "Exact Online",
+      "slug": "exact-online",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/exact-online.svg"
+    },
+    {
+      "name": "Exist",
+      "slug": "exist",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/exist.svg"
+    },
+    {
+      "name": "Expensify",
+      "slug": "expensify",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/expensify.svg"
+    },
+    {
+      "name": "Facebook",
+      "slug": "facebook",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/facebook.svg"
+    },
+    {
+      "name": "Factorial",
+      "slug": "factorial",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/factorial.svg"
+    },
+    {
+      "name": "Fairing",
+      "slug": "fairing",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fairing.svg"
+    },
+    {
+      "name": "fal.ai",
+      "slug": "falai",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/falai.svg"
+    },
+    {
+      "name": "Fanvue",
+      "slug": "fanvue",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fanvue.svg"
+    },
+    {
+      "name": "Fathom",
+      "slug": "fathom",
+      "categories": [
+        "communication",
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fathom.svg"
+    },
+    {
+      "name": "Fathom (OAuth)",
+      "slug": "fathom-oauth",
+      "categories": [
+        "communication",
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fathom-oauth.svg"
+    },
+    {
+      "name": "Fellow",
+      "slug": "fellow",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fellow.svg"
+    },
+    {
+      "name": "Fern (Public API)",
+      "slug": "fern",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fern.svg"
+    },
+    {
+      "name": "Fiber AI",
+      "slug": "fiber-ai",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fiber-ai.svg"
+    },
+    {
+      "name": "FigJam",
+      "slug": "figjam",
+      "categories": [
+        "design",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/figjam.svg"
+    },
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "categories": [
+        "design",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/figma.svg"
+    },
+    {
+      "name": "Figma (SCIM)",
+      "slug": "figma-scim",
+      "categories": [
+        "design",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/figma-scim.svg"
+    },
+    {
+      "name": "Fillout (API Key)",
+      "slug": "fillout-api-key",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fillout-api-key.svg"
+    },
+    {
+      "name": "Fillout (Oauth)",
+      "slug": "fillout",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fillout.svg"
+    },
+    {
+      "name": "FindyMail",
+      "slug": "findymail",
+      "categories": [
+        "marketing",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/findymail.svg"
+    },
+    {
+      "name": "Firefish",
+      "slug": "firefish",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/firefish.svg"
+    },
+    {
+      "name": "Fireflies",
+      "slug": "fireflies",
+      "categories": [
+        "analytics",
+        "communication",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fireflies.svg"
+    },
+    {
+      "name": "Firstbase",
+      "slug": "firstbase",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/firstbase.svg"
+    },
+    {
+      "name": "Fiserv (API Key)",
+      "slug": "fiserv-api-key",
+      "categories": [
+        "banking",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fiserv-api-key.svg"
+    },
+    {
+      "name": "Fiserv (OAuth)",
+      "slug": "fiserv",
+      "categories": [
+        "banking",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fiserv.svg"
+    },
+    {
+      "name": "Fitbit",
+      "slug": "fitbit",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fitbit.svg"
+    },
+    {
+      "name": "Float",
+      "slug": "float",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/float.svg"
+    },
+    {
+      "name": "Folk",
+      "slug": "folk",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/folk.svg"
+    },
+    {
+      "name": "Follow Up Boss",
+      "slug": "followupboss",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/followupboss.svg"
+    },
+    {
+      "name": "Fortnox",
+      "slug": "fortnox",
+      "categories": [
+        "accounting",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fortnox.svg"
+    },
+    {
+      "name": "FreeAgent",
+      "slug": "freeagent",
+      "categories": [
+        "accounting",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freeagent.svg"
+    },
+    {
+      "name": "FreeAgent (Sandbox)",
+      "slug": "freeagent-sandbox",
+      "categories": [
+        "accounting",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freeagent-sandbox.svg"
+    },
+    {
+      "name": "Freepik",
+      "slug": "freepik",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freepik.svg"
+    },
+    {
+      "name": "FreshBooks",
+      "slug": "freshbooks",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freshbooks.svg"
+    },
+    {
+      "name": "FreshDesk",
+      "slug": "freshdesk",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freshdesk.svg"
+    },
+    {
+      "name": "Freshsales",
+      "slug": "freshsales",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freshsales.svg"
+    },
+    {
+      "name": "Freshservice",
+      "slug": "freshservice",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freshservice.svg"
+    },
+    {
+      "name": "Freshteam",
+      "slug": "freshteam",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freshteam.svg"
+    },
+    {
+      "name": "Freshworks",
+      "slug": "freshworks",
+      "categories": [
+        "crm",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/freshworks.svg"
+    },
+    {
+      "name": "Front",
+      "slug": "front",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/front.svg"
+    },
+    {
+      "name": "Front (API Key)",
+      "slug": "front-api-key",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/front-api-key.svg"
+    },
+    {
+      "name": "FullEnrich",
+      "slug": "fullenrich",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/fullenrich.svg"
+    },
+    {
+      "name": "Gainsight CC",
+      "slug": "gainsight-cc",
+      "categories": [
+        "support",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gainsight-cc.svg"
+    },
+    {
+      "name": "Gamma",
+      "slug": "gamma",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gamma.svg"
+    },
+    {
+      "name": "Garmin",
+      "slug": "garmin",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/garmin.svg"
+    },
+    {
+      "name": "Gebrüder Weiss",
+      "slug": "gebruder-weiss",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gebruder-weiss.svg"
+    },
+    {
+      "name": "Gem",
+      "slug": "gem",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gem.svg"
+    },
+    {
+      "name": "Gerrit",
+      "slug": "gerrit",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gerrit.svg"
+    },
+    {
+      "name": "Getty Images",
+      "slug": "getty-images",
+      "categories": [
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/getty-images.svg"
+    },
+    {
+      "name": "Ghost (Admin API)",
+      "slug": "ghost-admin",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ghost-admin.svg"
+    },
+    {
+      "name": "Ghost (Content API)",
+      "slug": "ghost-content",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ghost-content.svg"
+    },
+    {
+      "name": "GitHub (App OAuth)",
+      "slug": "github-app-oauth",
+      "categories": [
+        "dev-tools",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/github-app-oauth.svg"
+    },
+    {
+      "name": "GitHub (App)",
+      "slug": "github-app",
+      "categories": [
+        "dev-tools",
+        "popular",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/github-app.svg"
+    },
+    {
+      "name": "Github (Personal Access Token)",
+      "slug": "github-pat",
+      "categories": [
+        "dev-tools",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/github-pat.svg"
+    },
+    {
+      "name": "GitHub (User OAuth)",
+      "slug": "github",
+      "categories": [
+        "dev-tools",
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/github.svg"
+    },
+    {
+      "name": "GitLab",
+      "slug": "gitlab",
+      "categories": [
+        "dev-tools",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gitlab.svg"
+    },
+    {
+      "name": "GitLab  (Personal Access Token)",
+      "slug": "gitlab-pat",
+      "categories": [
+        "dev-tools",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gitlab-pat.svg"
+    },
+    {
+      "name": "Glyphic",
+      "slug": "glyphic",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/glyphic.svg"
+    },
+    {
+      "name": "Gmail",
+      "slug": "google-mail",
+      "categories": [
+        "popular",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-mail.svg"
+    },
+    {
+      "name": "Gong (Basic Auth)",
+      "slug": "gong",
+      "categories": [
+        "communication",
+        "marketing",
+        "productivity",
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gong.svg"
+    },
+    {
+      "name": "Gong (Oauth)",
+      "slug": "gong-oauth",
+      "categories": [
+        "communication",
+        "marketing",
+        "productivity",
+        "video",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gong-oauth.svg"
+    },
+    {
+      "name": "Google",
+      "slug": "google",
+      "categories": [
+        "communication",
+        "dev-tools",
+        "productivity",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google.svg"
+    },
+    {
+      "name": "Google Ads",
+      "slug": "google-ads",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-ads.svg"
+    },
+    {
+      "name": "Google Analytics",
+      "slug": "google-analytics",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-analytics.svg"
+    },
+    {
+      "name": "Google BigQuery",
+      "slug": "google-bigquery",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-bigquery.svg"
+    },
+    {
+      "name": "Google Calendar",
+      "slug": "google-calendar",
+      "categories": [
+        "popular",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-calendar.svg"
+    },
+    {
+      "name": "Google Chat",
+      "slug": "google-chat",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-chat.svg"
+    },
+    {
+      "name": "Google Cloud Storage",
+      "slug": "google-cloud-storage",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-cloud-storage.svg"
+    },
+    {
+      "name": "Google Contacts",
+      "slug": "google-contacts",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-contacts.svg"
+    },
+    {
+      "name": "Google Docs",
+      "slug": "google-docs",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-docs.svg"
+    },
+    {
+      "name": "Google Drive",
+      "slug": "google-drive",
+      "categories": [
+        "knowledge-base",
+        "popular",
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-drive.svg"
+    },
+    {
+      "name": "Google Forms",
+      "slug": "google-forms",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-forms.svg"
+    },
+    {
+      "name": "Google Gemini",
+      "slug": "google-gemini",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-gemini.svg"
+    },
+    {
+      "name": "Google Health",
+      "slug": "google-health",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-health.svg"
+    },
+    {
+      "name": "Google Maps",
+      "slug": "google-maps",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-maps.svg"
+    },
+    {
+      "name": "Google Meet",
+      "slug": "google-meet",
+      "categories": [
+        "communication",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-meet.svg"
+    },
+    {
+      "name": "Google Play",
+      "slug": "google-play",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-play.svg"
+    },
+    {
+      "name": "Google Search Console",
+      "slug": "google-search-console",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-search-console.svg"
+    },
+    {
+      "name": "Google Service Account",
+      "slug": "google-service-account",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-service-account.svg"
+    },
+    {
+      "name": "Google Sheet",
+      "slug": "google-sheet",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-sheet.svg"
+    },
+    {
+      "name": "Google Slides",
+      "slug": "google-slides",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-slides.svg"
+    },
+    {
+      "name": "Google Tasks",
+      "slug": "google-tasks",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-tasks.svg"
+    },
+    {
+      "name": "Google Workspace Admin",
+      "slug": "google-workspace-admin",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/google-workspace-admin.svg"
+    },
+    {
+      "name": "Gorgias",
+      "slug": "gorgias",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gorgias.svg"
+    },
+    {
+      "name": "Gorgias (Basic Auth)",
+      "slug": "gorgias-basic",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gorgias-basic.svg"
+    },
+    {
+      "name": "Grafana",
+      "slug": "grafana",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/grafana.svg"
+    },
+    {
+      "name": "Grain (API Key)",
+      "slug": "grain-api-key",
+      "categories": [
+        "video",
+        "communication",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/grain-api-key.svg"
+    },
+    {
+      "name": "Grain (OAuth)",
+      "slug": "grain",
+      "categories": [
+        "video",
+        "communication",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/grain.svg"
+    },
+    {
+      "name": "Grammarly",
+      "slug": "grammarly",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/grammarly.svg"
+    },
+    {
+      "name": "Grammarly SCIM",
+      "slug": "grammarly-scim",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/grammarly-scim.svg"
+    },
+    {
+      "name": "Granola",
+      "slug": "granola",
+      "categories": [
+        "productivity",
+        "knowledge-base"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/granola.svg"
+    },
+    {
+      "name": "Granola (MCP)",
+      "slug": "granola-mcp",
+      "categories": [
+        "productivity",
+        "knowledge-base",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/granola-mcp.svg"
+    },
+    {
+      "name": "Greenhouse (Assessment API)",
+      "slug": "greenhouse-assessment",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-assessment.svg"
+    },
+    {
+      "name": "Greenhouse (Basic Auth)",
+      "slug": "greenhouse-basic",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-basic.svg"
+    },
+    {
+      "name": "Greenhouse (Harvest API)",
+      "slug": "greenhouse-harvest",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-harvest.svg"
+    },
+    {
+      "name": "Greenhouse (Ingestion API)",
+      "slug": "greenhouse-ingestion",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-ingestion.svg"
+    },
+    {
+      "name": "Greenhouse (Job Board API)",
+      "slug": "greenhouse-job-board",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-job-board.svg"
+    },
+    {
+      "name": "Greenhouse (OAuth)",
+      "slug": "greenhouse",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse.svg"
+    },
+    {
+      "name": "Greenhouse (Onboarding API)",
+      "slug": "greenhouse-onboarding",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-onboarding.svg"
+    },
+    {
+      "name": "Greenhouse Harvest (Client Credentials V3)",
+      "slug": "greenhouse-harvest-oauth2-cc",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-harvest-oauth2-cc.svg"
+    },
+    {
+      "name": "Greenhouse Harvest Partner (V3)",
+      "slug": "greenhouse-harvest-partner",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/greenhouse-harvest-partner.svg"
+    },
+    {
+      "name": "Grist",
+      "slug": "grist",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/grist.svg"
+    },
+    {
+      "name": "Gumroad",
+      "slug": "gumroad",
+      "categories": [
+        "design",
+        "e-commerce",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gumroad.svg"
+    },
+    {
+      "name": "Guru",
+      "slug": "guru",
+      "categories": [
+        "knowledge-base"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/guru.svg"
+    },
+    {
+      "name": "Guru (SCIM)",
+      "slug": "guru-scim",
+      "categories": [
+        "knowledge-base"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/guru-scim.svg"
+    },
+    {
+      "name": "Gusto",
+      "slug": "gusto",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gusto.svg"
+    },
+    {
+      "name": "Gusto (Demo)",
+      "slug": "gusto-demo",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/gusto-demo.svg"
+    },
+    {
+      "name": "HackerRank Work",
+      "slug": "hackerrank-work",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/hackerrank-work.svg"
+    },
+    {
+      "name": "Halo PSA",
+      "slug": "halo-psa",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/halo-psa.svg"
+    },
+    {
+      "name": "Harvest",
+      "slug": "harvest",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/harvest.svg"
+    },
+    {
+      "name": "Health Gorilla",
+      "slug": "health-gorilla",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/health-gorilla.svg"
+    },
+    {
+      "name": "Heap",
+      "slug": "heap",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/heap.svg"
+    },
+    {
+      "name": "Help Scout Docs",
+      "slug": "helpscout-docs",
+      "categories": [
+        "knowledge-base",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/helpscout-docs.svg"
+    },
+    {
+      "name": "Help Scout Mailbox",
+      "slug": "helpscout-mailbox",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/helpscout-mailbox.svg"
+    },
+    {
+      "name": "Hex",
+      "slug": "hex",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/hex.svg"
+    },
+    {
+      "name": "HeyGen",
+      "slug": "heygen",
+      "categories": [
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/heygen.svg"
+    },
+    {
+      "name": "Heymarket",
+      "slug": "heymarket",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/heymarket.svg"
+    },
+    {
+      "name": "HeyReach",
+      "slug": "heyreach",
+      "categories": [
+        "social",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/heyreach.svg"
+    },
+    {
+      "name": "Hibob Service User",
+      "slug": "hibob-service-user",
+      "categories": [
+        "hr",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/hibob-service-user.svg"
+    },
+    {
+      "name": "HighLevel",
+      "slug": "highlevel",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/highlevel.svg"
+    },
+    {
+      "name": "HighLevel (LeadConnector)",
+      "slug": "highlevel-white-label",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/highlevel-white-label.svg"
+    },
+    {
+      "name": "Holded",
+      "slug": "holded",
+      "categories": [
+        "accounting",
+        "crm",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/holded.svg"
+    },
+    {
+      "name": "Hover",
+      "slug": "hover",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/hover.svg"
+    },
+    {
+      "name": "HubSpot",
+      "slug": "hubspot",
+      "categories": [
+        "marketing",
+        "support",
+        "crm",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/hubspot.svg"
+    },
+    {
+      "name": "HubSpot (MCP)",
+      "slug": "hubspot-mcp",
+      "categories": [
+        "marketing",
+        "support",
+        "crm",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/hubspot-mcp.svg"
+    },
+    {
+      "name": "Huntress",
+      "slug": "huntress",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/huntress.svg"
+    },
+    {
+      "name": "Icypeas",
+      "slug": "icypeas",
+      "categories": [
+        "marketing",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/icypeas.svg"
+    },
+    {
+      "name": "ImmyBot",
+      "slug": "immybot",
+      "categories": [
+        "dev-tools",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/immybot.svg"
+    },
+    {
+      "name": "Incident.io",
+      "slug": "incident-io",
+      "categories": [
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/incident-io.svg"
+    },
+    {
+      "name": "Insightly",
+      "slug": "insightly",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/insightly.svg"
+    },
+    {
+      "name": "Instagram",
+      "slug": "instagram",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/instagram.svg"
+    },
+    {
+      "name": "Instantly",
+      "slug": "instantly",
+      "categories": [
+        "marketing",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/instantly.svg"
+    },
+    {
+      "name": "Intercom",
+      "slug": "intercom",
+      "categories": [
+        "marketing",
+        "popular",
+        "support",
+        "surveys",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/intercom.svg"
+    },
+    {
+      "name": "Intuit",
+      "slug": "intuit",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/intuit.svg"
+    },
+    {
+      "name": "Ironclad",
+      "slug": "ironclad",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ironclad.svg"
+    },
+    {
+      "name": "Ironclad (Client Credentials)",
+      "slug": "ironclad-cc",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ironclad-cc.svg"
+    },
+    {
+      "name": "IT Glue",
+      "slug": "itglue",
+      "categories": [
+        "productivity",
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/itglue.svg"
+    },
+    {
+      "name": "Jamf Pro (Basic Auth)",
+      "slug": "jamf-basic",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jamf-basic.svg"
+    },
+    {
+      "name": "Jamf Pro (Client Credentials)",
+      "slug": "jamf",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jamf.svg"
+    },
+    {
+      "name": "Jamie",
+      "slug": "jamie",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jamie.svg"
+    },
+    {
+      "name": "JazzHR",
+      "slug": "jazzhr",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jazzhr.svg"
+    },
+    {
+      "name": "Jiminny",
+      "slug": "jiminny",
+      "categories": [
+        "productivity",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jiminny.svg"
+    },
+    {
+      "name": "Jira (Basic Auth)",
+      "slug": "jira-basic",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jira-basic.svg"
+    },
+    {
+      "name": "Jira (OAuth)",
+      "slug": "jira",
+      "categories": [
+        "popular",
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jira.svg"
+    },
+    {
+      "name": "Jira Data Center",
+      "slug": "jira-data-center",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jira-data-center.svg"
+    },
+    {
+      "name": "Jira Data Center (API Key)",
+      "slug": "jira-data-center-api-key",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jira-data-center-api-key.svg"
+    },
+    {
+      "name": "Jira Data Center (Basic Auth)",
+      "slug": "jira-data-center-basic",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jira-data-center-basic.svg"
+    },
+    {
+      "name": "Jobadder",
+      "slug": "jobadder",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jobadder.svg"
+    },
+    {
+      "name": "Jobber",
+      "slug": "jobber",
+      "categories": [
+        "crm",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jobber.svg"
+    },
+    {
+      "name": "JobDiva",
+      "slug": "jobdiva",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jobdiva.svg"
+    },
+    {
+      "name": "Jobvite",
+      "slug": "jobvite",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jobvite.svg"
+    },
+    {
+      "name": "Jotform",
+      "slug": "jotform",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jotform.svg"
+    },
+    {
+      "name": "JumpCloud",
+      "slug": "jumpcloud",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/jumpcloud.svg"
+    },
+    {
+      "name": "Juniper Mist",
+      "slug": "juniper-mist",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/juniper-mist.svg"
+    },
+    {
+      "name": "Justworks",
+      "slug": "justworks",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/justworks.svg"
+    },
+    {
+      "name": "Kandji",
+      "slug": "kandji",
+      "categories": [
+        "support",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/kandji.svg"
+    },
+    {
+      "name": "Keap",
+      "slug": "keap",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/keap.svg"
+    },
+    {
+      "name": "Keeper (SCIM)",
+      "slug": "keeper-scim",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/keeper-scim.svg"
+    },
+    {
+      "name": "Kintone",
+      "slug": "kintone",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/kintone.svg"
+    },
+    {
+      "name": "Kintone User API",
+      "slug": "kintone-user-api",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/kintone-user-api.svg"
+    },
+    {
+      "name": "Klaviyo (API Key)",
+      "slug": "klaviyo",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/klaviyo.svg"
+    },
+    {
+      "name": "Klaviyo (OAuth)",
+      "slug": "klaviyo-oauth",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/klaviyo-oauth.svg"
+    },
+    {
+      "name": "KlickTipp",
+      "slug": "klicktipp",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/klicktipp.svg"
+    },
+    {
+      "name": "Klipfolio",
+      "slug": "klipfolio",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/klipfolio.svg"
+    },
+    {
+      "name": "Kno Commerce",
+      "slug": "kno-commerce",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/kno-commerce.svg"
+    },
+    {
+      "name": "KnowBe4",
+      "slug": "knowbe4",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/knowbe4.svg"
+    },
+    {
+      "name": "Konnektive",
+      "slug": "konnektive",
+      "categories": [
+        "crm",
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/konnektive.svg"
+    },
+    {
+      "name": "Kustomer",
+      "slug": "kustomer",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/kustomer.svg"
+    },
+    {
+      "name": "La Growth Machine",
+      "slug": "lagrowthmachine",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lagrowthmachine.svg"
+    },
+    {
+      "name": "LastPass",
+      "slug": "lastpass",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lastpass.svg"
+    },
+    {
+      "name": "Lattice",
+      "slug": "lattice",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lattice.svg"
+    },
+    {
+      "name": "Leadfeeder",
+      "slug": "leadfeeder",
+      "categories": [
+        "marketing",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/leadfeeder.svg"
+    },
+    {
+      "name": "LeadMagic",
+      "slug": "leadmagic",
+      "categories": [
+        "marketing",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/leadmagic.svg"
+    },
+    {
+      "name": "lemlist",
+      "slug": "lemlist",
+      "categories": [
+        "marketing",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lemlist.svg"
+    },
+    {
+      "name": "Lessonly",
+      "slug": "lessonly",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lessonly.svg"
+    },
+    {
+      "name": "Lever (Basic Auth Sandbox))",
+      "slug": "lever-basic-sandbox",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lever-basic-sandbox.svg"
+    },
+    {
+      "name": "Lever (Basic Auth)",
+      "slug": "lever-basic",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lever-basic.svg"
+    },
+    {
+      "name": "Lever (OAuth Sandbox)",
+      "slug": "lever-sandbox",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lever-sandbox.svg"
+    },
+    {
+      "name": "Lever (OAuth)",
+      "slug": "lever",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lever.svg"
+    },
+    {
+      "name": "Lightfield",
+      "slug": "lightfield",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lightfield.svg"
+    },
+    {
+      "name": "Lightspeed Retail (X-Series)",
+      "slug": "lightspeed-retail",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lightspeed-retail.svg"
+    },
+    {
+      "name": "Linear",
+      "slug": "linear",
+      "categories": [
+        "popular",
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/linear.svg"
+    },
+    {
+      "name": "Linear (MCP)",
+      "slug": "linear-mcp",
+      "categories": [
+        "popular",
+        "productivity",
+        "ticketing",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/linear-mcp.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "slug": "linkedin",
+      "categories": [
+        "ats",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/linkedin.svg"
+    },
+    {
+      "name": "LinkHut",
+      "slug": "linkhut",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/linkhut.svg"
+    },
+    {
+      "name": "Listmonk",
+      "slug": "listmonk",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/listmonk.svg"
+    },
+    {
+      "name": "Listrak",
+      "slug": "listrak",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/listrak.svg"
+    },
+    {
+      "name": "Lob",
+      "slug": "lob",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lob.svg"
+    },
+    {
+      "name": "Lokalise",
+      "slug": "lokalise",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lokalise.svg"
+    },
+    {
+      "name": "Looker",
+      "slug": "looker",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/looker.svg"
+    },
+    {
+      "name": "Looker (OAuth)",
+      "slug": "looker-oauth",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/looker-oauth.svg"
+    },
+    {
+      "name": "Loom (SCIM)",
+      "slug": "loom-scim",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/loom-scim.svg"
+    },
+    {
+      "name": "Loop Returns",
+      "slug": "loop-returns",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/loop-returns.svg"
+    },
+    {
+      "name": "Loops.so",
+      "slug": "loops-so",
+      "categories": [
+        "marketing",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/loops-so.svg"
+    },
+    {
+      "name": "Lucid (SCIM)",
+      "slug": "lucid-scim",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lucid-scim.svg"
+    },
+    {
+      "name": "Luma",
+      "slug": "luma",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/luma.svg"
+    },
+    {
+      "name": "Lumos",
+      "slug": "lumos",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/lumos.svg"
+    },
+    {
+      "name": "Mailchimp",
+      "slug": "mailchimp",
+      "categories": [
+        "marketing",
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mailchimp.svg"
+    },
+    {
+      "name": "Mailgun",
+      "slug": "mailgun",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mailgun.svg"
+    },
+    {
+      "name": "Mailjet",
+      "slug": "mailjet",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mailjet.svg"
+    },
+    {
+      "name": "Make",
+      "slug": "make",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/make.svg"
+    },
+    {
+      "name": "Malwarebytes",
+      "slug": "malwarebytes",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/malwarebytes.svg"
+    },
+    {
+      "name": "Manatal",
+      "slug": "manatal",
+      "categories": [
+        "crm",
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/manatal.svg"
+    },
+    {
+      "name": "Marketo",
+      "slug": "marketo",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/marketo.svg"
+    },
+    {
+      "name": "Mattermost",
+      "slug": "mattermost",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mattermost.svg"
+    },
+    {
+      "name": "Maximizer (Cloud)",
+      "slug": "maximizer",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/maximizer.svg"
+    },
+    {
+      "name": "Maximizer (On-Premise)",
+      "slug": "maximizer-on-premise",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/maximizer-on-premise.svg"
+    },
+    {
+      "name": "Maxio",
+      "slug": "maxio",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/maxio.svg"
+    },
+    {
+      "name": "MCP Server OAuth2 (Generic)",
+      "slug": "mcp-generic",
+      "categories": [
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mcp-generic.svg"
+    },
+    {
+      "name": "Medallia",
+      "slug": "medallia",
+      "categories": [
+        "crm",
+        "support",
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/medallia.svg"
+    },
+    {
+      "name": "Mercury",
+      "slug": "mercury",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mercury.svg"
+    },
+    {
+      "name": "Meta Marketing API",
+      "slug": "meta-marketing-api",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/meta-marketing-api.svg"
+    },
+    {
+      "name": "Metabase",
+      "slug": "metabase",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/metabase.svg"
+    },
+    {
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "categories": [
+        "communication",
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft.svg"
+    },
+    {
+      "name": "Microsoft (Admin)",
+      "slug": "microsoft-admin",
+      "categories": [
+        "communication",
+        "dev-tools",
+        "productivity",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-admin.svg"
+    },
+    {
+      "name": "Microsoft (Client Credentials - Certificate)",
+      "slug": "microsoft-oauth2-cc-cert",
+      "categories": [
+        "communication",
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-oauth2-cc-cert.svg"
+    },
+    {
+      "name": "Microsoft (Client Credentials)",
+      "slug": "microsoft-oauth2-cc",
+      "categories": [
+        "communication",
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-oauth2-cc.svg"
+    },
+    {
+      "name": "Microsoft (Tenant)",
+      "slug": "microsoft-tenant-specific",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-tenant-specific.svg"
+    },
+    {
+      "name": "Microsoft Ads",
+      "slug": "microsoft-ads",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-ads.svg"
+    },
+    {
+      "name": "Microsoft Business Central",
+      "slug": "microsoft-business-central",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-business-central.svg"
+    },
+    {
+      "name": "Microsoft Entra ID",
+      "slug": "microsoft-entra-id",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-entra-id.svg"
+    },
+    {
+      "name": "Microsoft Excel",
+      "slug": "microsoft-excel",
+      "categories": [
+        "productivity",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-excel.svg"
+    },
+    {
+      "name": "Microsoft Intune",
+      "slug": "microsoft-intune",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-intune.svg"
+    },
+    {
+      "name": "Microsoft People",
+      "slug": "microsoft-people",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-people.svg"
+    },
+    {
+      "name": "Microsoft Planner",
+      "slug": "microsoft-planner",
+      "categories": [
+        "productivity",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-planner.svg"
+    },
+    {
+      "name": "Microsoft Power BI",
+      "slug": "microsoft-power-bi",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-power-bi.svg"
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "slug": "microsoft-powerpoint",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-powerpoint.svg"
+    },
+    {
+      "name": "Microsoft Teams",
+      "slug": "microsoft-teams",
+      "categories": [
+        "productivity",
+        "video",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-teams.svg"
+    },
+    {
+      "name": "Microsoft Teams Bot",
+      "slug": "microsoft-teams-bot",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-teams-bot.svg"
+    },
+    {
+      "name": "Microsoft Word",
+      "slug": "microsoft-word",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/microsoft-word.svg"
+    },
+    {
+      "name": "Mimecast",
+      "slug": "mimecast",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mimecast.svg"
+    },
+    {
+      "name": "Mindbody",
+      "slug": "mindbody",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mindbody.svg"
+    },
+    {
+      "name": "MiniMax",
+      "slug": "minimax",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/minimax.svg"
+    },
+    {
+      "name": "MIP Cloud",
+      "slug": "mip-cloud",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mip-cloud.svg"
+    },
+    {
+      "name": "MIP On Premise",
+      "slug": "mip-on-premise",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mip-on-premise.svg"
+    },
+    {
+      "name": "Miro",
+      "slug": "miro",
+      "categories": [
+        "design",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/miro.svg"
+    },
+    {
+      "name": "Miro (SCIM API)",
+      "slug": "miro-scim",
+      "categories": [
+        "design",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/miro-scim.svg"
+    },
+    {
+      "name": "Missive",
+      "slug": "missive",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/missive.svg"
+    },
+    {
+      "name": "Mixpanel",
+      "slug": "mixpanel",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mixpanel.svg"
+    },
+    {
+      "name": "Modjo AI",
+      "slug": "modjo-ai",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/modjo-ai.svg"
+    },
+    {
+      "name": "ModMed",
+      "slug": "modmed",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/modmed.svg"
+    },
+    {
+      "name": "Mollie",
+      "slug": "mollie",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mollie.svg"
+    },
+    {
+      "name": "Momentum.io",
+      "slug": "momentum-io",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/momentum-io.svg"
+    },
+    {
+      "name": "Monday",
+      "slug": "monday",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/monday.svg"
+    },
+    {
+      "name": "Mural",
+      "slug": "mural",
+      "categories": [
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/mural.svg"
+    },
+    {
+      "name": "N-able N-central",
+      "slug": "nable-ncentral",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/nable-ncentral.svg"
+    },
+    {
+      "name": "Namely",
+      "slug": "namely",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/namely.svg"
+    },
+    {
+      "name": "Namely (PAT)",
+      "slug": "namely-pat",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/namely-pat.svg"
+    },
+    {
+      "name": "NationBuilder",
+      "slug": "nationbuilder",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/nationbuilder.svg"
+    },
+    {
+      "name": "Nerdio",
+      "slug": "nerdio",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/nerdio.svg"
+    },
+    {
+      "name": "NetSuite (Client Credentials)",
+      "slug": "netsuite-client-credentials",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/netsuite-client-credentials.svg"
+    },
+    {
+      "name": "NetSuite (OAuth)",
+      "slug": "netsuite",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/netsuite.svg"
+    },
+    {
+      "name": "NetSuite (TBA)",
+      "slug": "netsuite-tba",
+      "categories": [
+        "accounting",
+        "erp",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/netsuite-tba.svg"
+    },
+    {
+      "name": "Next Cloud OCS",
+      "slug": "next-cloud-ocs",
+      "categories": [
+        "storage",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/next-cloud-ocs.svg"
+    },
+    {
+      "name": "Nexthink",
+      "slug": "nexthink",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/nexthink.svg"
+    },
+    {
+      "name": "NinjaOne RMM",
+      "slug": "ninjaone-rmm",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ninjaone-rmm.svg"
+    },
+    {
+      "name": "NinjaOne RMM (OAuth2)",
+      "slug": "ninjaone-rmm-oauth2",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ninjaone-rmm-oauth2.svg"
+    },
+    {
+      "name": "NinjaOne SaaS Backup",
+      "slug": "ninjaone-saas-backup",
+      "categories": [
+        "storage",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ninjaone-saas-backup.svg"
+    },
+    {
+      "name": "nocrm.io",
+      "slug": "nocrm",
+      "categories": [
+        "crm",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/nocrm.svg"
+    },
+    {
+      "name": "Northbeam",
+      "slug": "northbeam",
+      "categories": [
+        "analytics",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/northbeam.svg"
+    },
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "categories": [
+        "knowledge-base",
+        "popular",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/notion.svg"
+    },
+    {
+      "name": "Notion (MCP)",
+      "slug": "notion-mcp",
+      "categories": [
+        "knowledge-base",
+        "productivity",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/notion-mcp.svg"
+    },
+    {
+      "name": "Notion (SCIM API)",
+      "slug": "notion-scim",
+      "categories": [
+        "knowledge-base",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/notion-scim.svg"
+    },
+    {
+      "name": "Nyne AI",
+      "slug": "nyne-ai",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/nyne-ai.svg"
+    },
+    {
+      "name": "Ocean.io",
+      "slug": "ocean-io",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ocean-io.svg"
+    },
+    {
+      "name": "Odoo (Client Credentials)",
+      "slug": "odoo-cc",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/odoo-cc.svg"
+    },
+    {
+      "name": "Odoo (OAuth)",
+      "slug": "odoo",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/odoo.svg"
+    },
+    {
+      "name": "Okta",
+      "slug": "okta",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/okta.svg"
+    },
+    {
+      "name": "Okta (Client Credentials)",
+      "slug": "okta-cc",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/okta-cc.svg"
+    },
+    {
+      "name": "Okta (Preview)",
+      "slug": "okta-preview",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/okta-preview.svg"
+    },
+    {
+      "name": "One Note",
+      "slug": "one-note",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/one-note.svg"
+    },
+    {
+      "name": "OneDrive for Business",
+      "slug": "one-drive",
+      "categories": [
+        "knowledge-base",
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/one-drive.svg"
+    },
+    {
+      "name": "OneDrive Personal",
+      "slug": "one-drive-personal",
+      "categories": [
+        "knowledge-base",
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/one-drive-personal.svg"
+    },
+    {
+      "name": "OneLogin",
+      "slug": "onelogin",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/onelogin.svg"
+    },
+    {
+      "name": "Onlogist",
+      "slug": "onlogist",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/onlogist.svg"
+    },
+    {
+      "name": "Oomnitza",
+      "slug": "oomnitza",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/oomnitza.svg"
+    },
+    {
+      "name": "Open Hands",
+      "slug": "open-hands",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/open-hands.svg"
+    },
+    {
+      "name": "OpenAI",
+      "slug": "openai",
+      "categories": [
+        "productivity",
+        "dev-tools",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/openai.svg"
+    },
+    {
+      "name": "OpenAI (Admin)",
+      "slug": "openai-admin",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/openai-admin.svg"
+    },
+    {
+      "name": "Oracle Cloud Identity",
+      "slug": "oracle-cloud-identity",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/oracle-cloud-identity.svg"
+    },
+    {
+      "name": "Oracle Fusion Cloud (HCM)",
+      "slug": "oracle-hcm",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/oracle-hcm.svg"
+    },
+    {
+      "name": "Orange Logic",
+      "slug": "orange-logic",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/orange-logic.svg"
+    },
+    {
+      "name": "Ordinal",
+      "slug": "ordinal",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ordinal.svg"
+    },
+    {
+      "name": "Ory",
+      "slug": "ory",
+      "categories": [
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ory.svg"
+    },
+    {
+      "name": "Osu",
+      "slug": "osu",
+      "categories": [
+        "gaming"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/osu.svg"
+    },
+    {
+      "name": "Oura",
+      "slug": "oura",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/oura.svg"
+    },
+    {
+      "name": "Outlook",
+      "slug": "outlook",
+      "categories": [
+        "communication",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/outlook.svg"
+    },
+    {
+      "name": "Outreach",
+      "slug": "outreach",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/outreach.svg"
+    },
+    {
+      "name": "Paddle",
+      "slug": "paddle",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paddle.svg"
+    },
+    {
+      "name": "PagerDuty",
+      "slug": "pagerduty",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pagerduty.svg"
+    },
+    {
+      "name": "Paligo",
+      "slug": "paligo",
+      "categories": [
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paligo.svg"
+    },
+    {
+      "name": "Pandadoc",
+      "slug": "pandadoc",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pandadoc.svg"
+    },
+    {
+      "name": "Pandadoc (API Key)",
+      "slug": "pandadoc-api-key",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pandadoc-api-key.svg"
+    },
+    {
+      "name": "Passportal",
+      "slug": "passportal",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/passportal.svg"
+    },
+    {
+      "name": "Pax8",
+      "slug": "pax8",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pax8.svg"
+    },
+    {
+      "name": "Paychex",
+      "slug": "paychex",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paychex.svg"
+    },
+    {
+      "name": "Paycom",
+      "slug": "paycom",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paycom.svg"
+    },
+    {
+      "name": "Paycor",
+      "slug": "paycor",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paycor.svg"
+    },
+    {
+      "name": "Paycor (Sandbox)",
+      "slug": "paycor-sandbox",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paycor-sandbox.svg"
+    },
+    {
+      "name": "Payfit",
+      "slug": "payfit",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/payfit.svg"
+    },
+    {
+      "name": "Paylocity (NextGen)",
+      "slug": "paylocity-nextgen",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paylocity-nextgen.svg"
+    },
+    {
+      "name": "Paylocity (Weblink)",
+      "slug": "paylocity",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paylocity.svg"
+    },
+    {
+      "name": "Paypal",
+      "slug": "paypal",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paypal.svg"
+    },
+    {
+      "name": "Paypal (Sandbox)",
+      "slug": "paypal-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/paypal-sandbox.svg"
+    },
+    {
+      "name": "Pendo",
+      "slug": "pendo",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pendo.svg"
+    },
+    {
+      "name": "Pendo (OAuth)",
+      "slug": "pendo-oauth",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pendo-oauth.svg"
+    },
+    {
+      "name": "Pennylane",
+      "slug": "pennylane",
+      "categories": [
+        "accounting",
+        "banking",
+        "invoicing",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pennylane.svg"
+    },
+    {
+      "name": "Pennylane (Company API)",
+      "slug": "pennylane-company-api",
+      "categories": [
+        "accounting",
+        "banking",
+        "invoicing",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pennylane-company-api.svg"
+    },
+    {
+      "name": "People Data Labs",
+      "slug": "peopledatalabs",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/peopledatalabs.svg"
+    },
+    {
+      "name": "Perdoo",
+      "slug": "perdoo",
+      "categories": [
+        "productivity",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/perdoo.svg"
+    },
+    {
+      "name": "Perimeter81",
+      "slug": "perimeter81",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/perimeter81.svg"
+    },
+    {
+      "name": "Perk",
+      "slug": "perk",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/perk.svg"
+    },
+    {
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/perplexity.svg"
+    },
+    {
+      "name": "Personio (v1)",
+      "slug": "personio",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/personio.svg"
+    },
+    {
+      "name": "Personio (v2)",
+      "slug": "personio-v2",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/personio-v2.svg"
+    },
+    {
+      "name": "Personio Recruiting",
+      "slug": "personio-recruiting",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/personio-recruiting.svg"
+    },
+    {
+      "name": "Pingboard",
+      "slug": "pingboard",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pingboard.svg"
+    },
+    {
+      "name": "PingOne",
+      "slug": "pingone",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pingone.svg"
+    },
+    {
+      "name": "PingOne (Client Credentials)",
+      "slug": "pingone-cc",
+      "categories": [
+        "dev-tools",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pingone-cc.svg"
+    },
+    {
+      "name": "Pinterest",
+      "slug": "pinterest",
+      "categories": [
+        "design",
+        "marketing",
+        "social",
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pinterest.svg"
+    },
+    {
+      "name": "Pipedream (API Key)",
+      "slug": "pipedream",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pipedream.svg"
+    },
+    {
+      "name": "Pipedream (Client Credentials)",
+      "slug": "pipedream-oauth2-cc",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pipedream-oauth2-cc.svg"
+    },
+    {
+      "name": "Pipedrive",
+      "slug": "pipedrive",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pipedrive.svg"
+    },
+    {
+      "name": "Pivotal Tracker",
+      "slug": "pivotaltracker",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pivotaltracker.svg"
+    },
+    {
+      "name": "Plain",
+      "slug": "plain",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/plain.svg"
+    },
+    {
+      "name": "Planning Center Online (OAuth)",
+      "slug": "planning-center-online",
+      "categories": [
+        "crm",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/planning-center-online.svg"
+    },
+    {
+      "name": "Planning Center Online (Personal Access Token)",
+      "slug": "planning-center-online-pat",
+      "categories": [
+        "crm",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/planning-center-online-pat.svg"
+    },
+    {
+      "name": "Pleo",
+      "slug": "pleo",
+      "categories": [
+        "payment",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pleo.svg"
+    },
+    {
+      "name": "Podium",
+      "slug": "podium",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/podium.svg"
+    },
+    {
+      "name": "Podscribe",
+      "slug": "podscribe",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/podscribe.svg"
+    },
+    {
+      "name": "PostHog",
+      "slug": "posthog",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/posthog.svg"
+    },
+    {
+      "name": "PostHog (OAuth)",
+      "slug": "posthog-oauth",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/posthog-oauth.svg"
+    },
+    {
+      "name": "PracticeFusion",
+      "slug": "practicefusion",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/practicefusion.svg"
+    },
+    {
+      "name": "PreciseFP",
+      "slug": "precisefp",
+      "categories": [
+        "crm",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/precisefp.svg"
+    },
+    {
+      "name": "Printful",
+      "slug": "printful",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/printful.svg"
+    },
+    {
+      "name": "Private API (Basic Auth)",
+      "slug": "private-api-basic",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/private-api-basic.svg"
+    },
+    {
+      "name": "Private API (Bearer Auth)",
+      "slug": "private-api-bearer",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/private-api-bearer.svg"
+    },
+    {
+      "name": "Private API (Generic)",
+      "slug": "private-api-generic",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/private-api-generic.svg"
+    },
+    {
+      "name": "Prive",
+      "slug": "prive",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/prive.svg"
+    },
+    {
+      "name": "Procore",
+      "slug": "procore",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/procore.svg"
+    },
+    {
+      "name": "Productboard",
+      "slug": "productboard",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/productboard.svg"
+    },
+    {
+      "name": "Prospeo",
+      "slug": "prospeo",
+      "categories": [
+        "crm",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/prospeo.svg"
+    },
+    {
+      "name": "ProvenExpert",
+      "slug": "provenexpert",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/provenexpert.svg"
+    },
+    {
+      "name": "PRTG Classic",
+      "slug": "prtg-classic",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/prtg-classic.svg"
+    },
+    {
+      "name": "Pushpay ChMS (v1)",
+      "slug": "pushpay-chms-v1",
+      "categories": [
+        "crm",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pushpay-chms-v1.svg"
+    },
+    {
+      "name": "pVerify",
+      "slug": "pverify",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pverify.svg"
+    },
+    {
+      "name": "Pylon",
+      "slug": "pylon",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/pylon.svg"
+    },
+    {
+      "name": "Qualia",
+      "slug": "qualia",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/qualia.svg"
+    },
+    {
+      "name": "Qualtrics",
+      "slug": "qualtrics",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/qualtrics.svg"
+    },
+    {
+      "name": "Quentn",
+      "slug": "quentn",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/quentn.svg"
+    },
+    {
+      "name": "Quickbase",
+      "slug": "quickbase",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/quickbase.svg"
+    },
+    {
+      "name": "Quickbooks",
+      "slug": "quickbooks",
+      "categories": [
+        "accounting",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/quickbooks.svg"
+    },
+    {
+      "name": "Quickbooks (Sandbox)",
+      "slug": "quickbooks-sandbox",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/quickbooks-sandbox.svg"
+    },
+    {
+      "name": "Quipteams",
+      "slug": "quipteams",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/quipteams.svg"
+    },
+    {
+      "name": "Ragie AI",
+      "slug": "ragieai",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ragieai.svg"
+    },
+    {
+      "name": "Raindrop (MCP)",
+      "slug": "raindrop-mcp",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/raindrop-mcp.svg"
+    },
+    {
+      "name": "Ramp",
+      "slug": "ramp",
+      "categories": [
+        "banking"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ramp.svg"
+    },
+    {
+      "name": "Ramp (Sandbox)",
+      "slug": "ramp-sandbox",
+      "categories": [
+        "banking"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ramp-sandbox.svg"
+    },
+    {
+      "name": "RapidAPI",
+      "slug": "rapidapi",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rapidapi.svg"
+    },
+    {
+      "name": "Razorpay",
+      "slug": "razorpay",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/razorpay.svg"
+    },
+    {
+      "name": "Read.ai",
+      "slug": "read-ai",
+      "categories": [
+        "productivity",
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/read-ai.svg"
+    },
+    {
+      "name": "Readwise",
+      "slug": "readwise",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/readwise.svg"
+    },
+    {
+      "name": "Readwise Reader",
+      "slug": "readwise-reader",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/readwise-reader.svg"
+    },
+    {
+      "name": "Reapit Connect",
+      "slug": "reapit",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/reapit.svg"
+    },
+    {
+      "name": "Recall.ai",
+      "slug": "recall-ai",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/recall-ai.svg"
+    },
+    {
+      "name": "Recharge",
+      "slug": "recharge",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/recharge.svg"
+    },
+    {
+      "name": "Recruitcrm",
+      "slug": "recruitcrm",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/recruitcrm.svg"
+    },
+    {
+      "name": "Recruitee",
+      "slug": "recruitee",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/recruitee.svg"
+    },
+    {
+      "name": "Recruiterflow",
+      "slug": "recruiterflow",
+      "categories": [
+        "hr",
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/recruiterflow.svg"
+    },
+    {
+      "name": "Reddit",
+      "slug": "reddit",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/reddit.svg"
+    },
+    {
+      "name": "Redtail CRM (Sandbox)",
+      "slug": "redtail-crm-sandbox",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/redtail-crm-sandbox.svg"
+    },
+    {
+      "name": "Refiner",
+      "slug": "refiner",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/refiner.svg"
+    },
+    {
+      "name": "Render (MCP)",
+      "slug": "render-mcp",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/render-mcp.svg"
+    },
+    {
+      "name": "Replicate",
+      "slug": "replicate",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/replicate.svg"
+    },
+    {
+      "name": "Reply.io",
+      "slug": "reply-io",
+      "categories": [
+        "marketing",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/reply-io.svg"
+    },
+    {
+      "name": "ResearchDesk",
+      "slug": "researchdesk",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/researchdesk.svg"
+    },
+    {
+      "name": "Resend",
+      "slug": "resend",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/resend.svg"
+    },
+    {
+      "name": "Retell AI",
+      "slug": "retell-ai",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/retell-ai.svg"
+    },
+    {
+      "name": "Revivn",
+      "slug": "revivn",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/revivn.svg"
+    },
+    {
+      "name": "RingCentral",
+      "slug": "ring-central",
+      "categories": [
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ring-central.svg"
+    },
+    {
+      "name": "RingCentral (Sandbox)",
+      "slug": "ring-central-sandbox",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ring-central-sandbox.svg"
+    },
+    {
+      "name": "Ringover",
+      "slug": "ringover",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ringover.svg"
+    },
+    {
+      "name": "Rippling",
+      "slug": "rippling",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rippling.svg"
+    },
+    {
+      "name": "Rippling Shop App",
+      "slug": "rippling-shop-app",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rippling-shop-app.svg"
+    },
+    {
+      "name": "Roam (SCIM API)",
+      "slug": "roam-scim",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/roam-scim.svg"
+    },
+    {
+      "name": "Robinhood (MCP)",
+      "slug": "robinhood-mcp",
+      "categories": [
+        "payment",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/robinhood-mcp.svg"
+    },
+    {
+      "name": "Rock Gym Pro",
+      "slug": "rock-gym-pro",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rock-gym-pro.svg"
+    },
+    {
+      "name": "Rocketlane",
+      "slug": "rocketlane",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rocketlane.svg"
+    },
+    {
+      "name": "RocketReach",
+      "slug": "rocketreach",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rocketreach.svg"
+    },
+    {
+      "name": "Roller",
+      "slug": "roller",
+      "categories": [
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/roller.svg"
+    },
+    {
+      "name": "Rootly",
+      "slug": "rootly",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rootly.svg"
+    },
+    {
+      "name": "RUN Powered by ADP",
+      "slug": "adp-run",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adp-run.svg"
+    },
+    {
+      "name": "Rydoo",
+      "slug": "rydoo",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/rydoo.svg"
+    },
+    {
+      "name": "Sage",
+      "slug": "sage",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage.svg"
+    },
+    {
+      "name": "Sage 200",
+      "slug": "sage-200",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage-200.svg"
+    },
+    {
+      "name": "Sage HR",
+      "slug": "sage-hr",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage-hr.svg"
+    },
+    {
+      "name": "Sage Intacct",
+      "slug": "sage-intacct",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage-intacct.svg"
+    },
+    {
+      "name": "Sage Intacct (Client Credentials)",
+      "slug": "sage-intacct-cc",
+      "categories": [
+        "accounting",
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage-intacct-cc.svg"
+    },
+    {
+      "name": "Sage Intacct (OAuth)",
+      "slug": "sage-intacct-oauth",
+      "categories": [
+        "accounting",
+        "erp",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage-intacct-oauth.svg"
+    },
+    {
+      "name": "Sage People",
+      "slug": "sage-people",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sage-people.svg"
+    },
+    {
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "categories": [
+        "crm",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesforce.svg"
+    },
+    {
+      "name": "Salesforce (Client Credentials)",
+      "slug": "salesforce-cc",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesforce-cc.svg"
+    },
+    {
+      "name": "Salesforce (Data Cloud)",
+      "slug": "salesforce-cdp",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesforce-cdp.svg"
+    },
+    {
+      "name": "Salesforce (JWT)",
+      "slug": "salesforce-jwt",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesforce-jwt.svg"
+    },
+    {
+      "name": "Salesforce (Sandbox)",
+      "slug": "salesforce-sandbox",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesforce-sandbox.svg"
+    },
+    {
+      "name": "Salesforce Experience Cloud",
+      "slug": "salesforce-experience-cloud",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesforce-experience-cloud.svg"
+    },
+    {
+      "name": "Salesloft",
+      "slug": "salesloft",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesloft.svg"
+    },
+    {
+      "name": "Salesmsg (OAuth2)",
+      "slug": "salesmsg-oauth2",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesmsg-oauth2.svg"
+    },
+    {
+      "name": "Salesmsg (PAT)",
+      "slug": "salesmsg",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/salesmsg.svg"
+    },
+    {
+      "name": "SAP Ariba",
+      "slug": "sap-ariba",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-ariba.svg"
+    },
+    {
+      "name": "SAP Business One",
+      "slug": "sap-business-one",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-business-one.svg"
+    },
+    {
+      "name": "SAP Concur",
+      "slug": "sap-concur",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-concur.svg"
+    },
+    {
+      "name": "SAP Concur (Password Grant)",
+      "slug": "sap-concur-password",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-concur-password.svg"
+    },
+    {
+      "name": "SAP Fieldglass",
+      "slug": "sap-fieldglass",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-fieldglass.svg"
+    },
+    {
+      "name": "SAP S/4HANA Cloud (Basic Auth)",
+      "slug": "sap-odata-basic",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-odata-basic.svg"
+    },
+    {
+      "name": "SAP S/4HANA Cloud (Client Credentials)",
+      "slug": "sap-odata-oauth2-cc",
+      "categories": [
+        "erp",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-odata-oauth2-cc.svg"
+    },
+    {
+      "name": "SAP SuccessFactors",
+      "slug": "sap-success-factors",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sap-success-factors.svg"
+    },
+    {
+      "name": "Schwab",
+      "slug": "schwab",
+      "categories": [
+        "banking",
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/schwab.svg"
+    },
+    {
+      "name": "Scrape.do",
+      "slug": "scrapedo",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/scrapedo.svg"
+    },
+    {
+      "name": "Sedna (Basic Auth)",
+      "slug": "sedna-basic",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sedna-basic.svg"
+    },
+    {
+      "name": "Sedna (OAuth)",
+      "slug": "sedna",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sedna.svg"
+    },
+    {
+      "name": "Segment",
+      "slug": "segment",
+      "categories": [
+        "analytics",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/segment.svg"
+    },
+    {
+      "name": "Sellercloud",
+      "slug": "sellercloud",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sellercloud.svg"
+    },
+    {
+      "name": "Sellsy",
+      "slug": "sellsy",
+      "categories": [
+        "invoicing",
+        "accounting",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sellsy.svg"
+    },
+    {
+      "name": "Sellsy (Client Credentials)",
+      "slug": "sellsy-oauth2-cc",
+      "categories": [
+        "invoicing",
+        "accounting",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sellsy-oauth2-cc.svg"
+    },
+    {
+      "name": "Semrush (v3)",
+      "slug": "semrush",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/semrush.svg"
+    },
+    {
+      "name": "SendGrid",
+      "slug": "sendgrid",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sendgrid.svg"
+    },
+    {
+      "name": "SentinelOne",
+      "slug": "sentinelone",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sentinelone.svg"
+    },
+    {
+      "name": "Sentry",
+      "slug": "sentry",
+      "categories": [
+        "dev-tools",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sentry.svg"
+    },
+    {
+      "name": "Sentry (Public Integrations)",
+      "slug": "sentry-oauth",
+      "categories": [
+        "dev-tools",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sentry-oauth.svg"
+    },
+    {
+      "name": "ServiceM8",
+      "slug": "servicem8",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/servicem8.svg"
+    },
+    {
+      "name": "ServiceNow",
+      "slug": "servicenow",
+      "categories": [
+        "productivity",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/servicenow.svg"
+    },
+    {
+      "name": "ServiceNow (Client Credentials)",
+      "slug": "servicenow-oauth2-cc",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/servicenow-oauth2-cc.svg"
+    },
+    {
+      "name": "Setmore",
+      "slug": "setmore",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/setmore.svg"
+    },
+    {
+      "name": "SharePoint Online (Client Credentials V2)",
+      "slug": "sharepoint-online-oauth2-cc",
+      "categories": [
+        "storage",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sharepoint-online-oauth2-cc.svg"
+    },
+    {
+      "name": "SharePoint Online (v1)",
+      "slug": "sharepoint-online-v1",
+      "categories": [
+        "storage",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sharepoint-online-v1.svg"
+    },
+    {
+      "name": "SharePoint Online (v2)",
+      "slug": "sharepoint-online",
+      "categories": [
+        "storage",
+        "communication",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sharepoint-online.svg"
+    },
+    {
+      "name": "ShipBob (Personal Access Token)",
+      "slug": "shipbob-pat",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shipbob-pat.svg"
+    },
+    {
+      "name": "Shippo",
+      "slug": "shippo",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shippo.svg"
+    },
+    {
+      "name": "Shipstation (v1)",
+      "slug": "shipstation",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shipstation.svg"
+    },
+    {
+      "name": "Shipstation (v2)",
+      "slug": "shipstation-v2",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shipstation-v2.svg"
+    },
+    {
+      "name": "Shopify (API Key)",
+      "slug": "shopify-api-key",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopify-api-key.svg"
+    },
+    {
+      "name": "Shopify (Client Credentials)",
+      "slug": "shopify-cc",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopify-cc.svg"
+    },
+    {
+      "name": "Shopify (OAuth)",
+      "slug": "shopify",
+      "categories": [
+        "e-commerce",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopify.svg"
+    },
+    {
+      "name": "Shopify (SCIM API)",
+      "slug": "shopify-scim",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopify-scim.svg"
+    },
+    {
+      "name": "Shopify Partner",
+      "slug": "shopify-partner",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopify-partner.svg"
+    },
+    {
+      "name": "ShopVox",
+      "slug": "shopvox",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopvox.svg"
+    },
+    {
+      "name": "Shopware (Admin API)",
+      "slug": "shopware",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopware.svg"
+    },
+    {
+      "name": "ShopWorks",
+      "slug": "shopworks",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shopworks.svg"
+    },
+    {
+      "name": "Shortcut",
+      "slug": "shortcut",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/shortcut.svg"
+    },
+    {
+      "name": "SignNow",
+      "slug": "signnow",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/signnow.svg"
+    },
+    {
+      "name": "SignNow (Sandbox)",
+      "slug": "signnow-sandbox",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/signnow-sandbox.svg"
+    },
+    {
+      "name": "Simpro",
+      "slug": "simpro",
+      "categories": [
+        "productivity",
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/simpro.svg"
+    },
+    {
+      "name": "Skio",
+      "slug": "skio",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/skio.svg"
+    },
+    {
+      "name": "Slab",
+      "slug": "slab",
+      "categories": [
+        "productivity",
+        "knowledge-base"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/slab.svg"
+    },
+    {
+      "name": "Slack",
+      "slug": "slack",
+      "categories": [
+        "popular",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/slack.svg"
+    },
+    {
+      "name": "Slack (MCP)",
+      "slug": "slack-mcp",
+      "categories": [
+        "popular",
+        "productivity",
+        "communication",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/slack-mcp.svg"
+    },
+    {
+      "name": "Smartlead.ai",
+      "slug": "smartlead-ai",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/smartlead-ai.svg"
+    },
+    {
+      "name": "Smartrecruiters",
+      "slug": "smartrecruiters-api-key",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/smartrecruiters-api-key.svg"
+    },
+    {
+      "name": "Smartsheet",
+      "slug": "smartsheet",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/smartsheet.svg"
+    },
+    {
+      "name": "Smugmug",
+      "slug": "smugmug",
+      "categories": [
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/smugmug.svg"
+    },
+    {
+      "name": "Snapchat (Ads API)",
+      "slug": "snapchat",
+      "categories": [
+        "video",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/snapchat.svg"
+    },
+    {
+      "name": "Snipe-IT",
+      "slug": "snipe-it",
+      "categories": [
+        "productivity",
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/snipe-it.svg"
+    },
+    {
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/snowflake.svg"
+    },
+    {
+      "name": "Snowflake (JWT)",
+      "slug": "snowflake-jwt",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/snowflake-jwt.svg"
+    },
+    {
+      "name": "Sophos Central",
+      "slug": "sophos-central",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/sophos-central.svg"
+    },
+    {
+      "name": "Splitwise",
+      "slug": "splitwise",
+      "categories": [
+        "payment",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/splitwise.svg"
+    },
+    {
+      "name": "Spotify (Client Credentials)",
+      "slug": "spotify-oauth2-cc",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/spotify-oauth2-cc.svg"
+    },
+    {
+      "name": "Spotify (OAuth)",
+      "slug": "spotify",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/spotify.svg"
+    },
+    {
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "categories": [
+        "dev-tools",
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/squarespace.svg"
+    },
+    {
+      "name": "Squareup",
+      "slug": "squareup",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/squareup.svg"
+    },
+    {
+      "name": "Squareup (Sandbox)",
+      "slug": "squareup-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/squareup-sandbox.svg"
+    },
+    {
+      "name": "Stack Exchange",
+      "slug": "stackexchange",
+      "categories": [
+        "knowledge-base",
+        "support"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stackexchange.svg"
+    },
+    {
+      "name": "Statamic",
+      "slug": "statamic",
+      "categories": [
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/statamic.svg"
+    },
+    {
+      "name": "Statista",
+      "slug": "statista",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/statista.svg"
+    },
+    {
+      "name": "Stay AI",
+      "slug": "stay-ai",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stay-ai.svg"
+    },
+    {
+      "name": "Stitch (MCP)",
+      "slug": "stitch-mcp",
+      "categories": [
+        "design",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stitch-mcp.svg"
+    },
+    {
+      "name": "Store Leads",
+      "slug": "store-leads",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/store-leads.svg"
+    },
+    {
+      "name": "StoreCensus",
+      "slug": "store-census",
+      "categories": [
+        "e-commerce",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/store-census.svg"
+    },
+    {
+      "name": "Strava (Mobile)",
+      "slug": "strava",
+      "categories": [
+        "social",
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/strava.svg"
+    },
+    {
+      "name": "Strava (Web)",
+      "slug": "strava-web",
+      "categories": [
+        "social",
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/strava-web.svg"
+    },
+    {
+      "name": "Streak",
+      "slug": "streak",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/streak.svg"
+    },
+    {
+      "name": "Stripe (API Key)",
+      "slug": "stripe-api-key",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stripe-api-key.svg"
+    },
+    {
+      "name": "Stripe App",
+      "slug": "stripe-app",
+      "categories": [
+        "payment",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stripe-app.svg"
+    },
+    {
+      "name": "Stripe App (Sandbox)",
+      "slug": "stripe-app-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stripe-app-sandbox.svg"
+    },
+    {
+      "name": "Stripe Connect",
+      "slug": "stripe",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stripe.svg"
+    },
+    {
+      "name": "Stripe Express",
+      "slug": "stripe-express",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/stripe-express.svg"
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "categories": [
+        "dev-tools",
+        "storage"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/supabase.svg"
+    },
+    {
+      "name": "Supabase (MCP OAuth)",
+      "slug": "supabase-mcp-oauth",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/supabase-mcp-oauth.svg"
+    },
+    {
+      "name": "Supabase (MCP)",
+      "slug": "supabase-mcp",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/supabase-mcp.svg"
+    },
+    {
+      "name": "Superhuman (MCP)",
+      "slug": "superhuman-mcp",
+      "categories": [
+        "communication",
+        "productivity",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/superhuman-mcp.svg"
+    },
+    {
+      "name": "SureContact",
+      "slug": "surecontact",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/surecontact.svg"
+    },
+    {
+      "name": "SurveyMonkey",
+      "slug": "survey-monkey",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/survey-monkey.svg"
+    },
+    {
+      "name": "Swoogo",
+      "slug": "swoogo",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/swoogo.svg"
+    },
+    {
+      "name": "Tableau (PAT)",
+      "slug": "tableau",
+      "categories": [
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tableau.svg"
+    },
+    {
+      "name": "Tailscale (API Key)",
+      "slug": "tailscale-api-key",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tailscale-api-key.svg"
+    },
+    {
+      "name": "Tailscale (OAuth)",
+      "slug": "tailscale",
+      "categories": [
+        "dev-tools",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tailscale.svg"
+    },
+    {
+      "name": "TalentLMS",
+      "slug": "talentlms",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/talentlms.svg"
+    },
+    {
+      "name": "Tally",
+      "slug": "tally",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tally.svg"
+    },
+    {
+      "name": "Tanium",
+      "slug": "tanium",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tanium.svg"
+    },
+    {
+      "name": "TapClicks",
+      "slug": "tapclicks",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tapclicks.svg"
+    },
+    {
+      "name": "Teamleader Focus",
+      "slug": "teamleader",
+      "categories": [
+        "invoicing",
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/teamleader.svg"
+    },
+    {
+      "name": "Teamtailor",
+      "slug": "teamtailor",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/teamtailor.svg"
+    },
+    {
+      "name": "Teamwork",
+      "slug": "teamwork",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/teamwork.svg"
+    },
+    {
+      "name": "Telegram",
+      "slug": "telegram",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/telegram.svg"
+    },
+    {
+      "name": "Tempo",
+      "slug": "tempo",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tempo.svg"
+    },
+    {
+      "name": "Terraform",
+      "slug": "terraform",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/terraform.svg"
+    },
+    {
+      "name": "The Swarm",
+      "slug": "the-swarm",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/the-swarm.svg"
+    },
+    {
+      "name": "TheirStack",
+      "slug": "theirstack",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/theirstack.svg"
+    },
+    {
+      "name": "Thomson Reuters Legal Tracker",
+      "slug": "thomson-reuters-legal-tracker",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/thomson-reuters-legal-tracker.svg"
+    },
+    {
+      "name": "Thomson Reuters Legal Tracker (TR Account)",
+      "slug": "thomson-reuters-legal-tracker-tr-account",
+      "categories": [
+        "legal"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/thomson-reuters-legal-tracker-tr-account.svg"
+    },
+    {
+      "name": "ThriveCart (API Key)",
+      "slug": "thrivecart-api-key",
+      "categories": [
+        "e-commerce",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/thrivecart-api-key.svg"
+    },
+    {
+      "name": "ThriveCart (OAuth)",
+      "slug": "thrivecart-oauth",
+      "categories": [
+        "e-commerce",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/thrivecart-oauth.svg"
+    },
+    {
+      "name": "TickTick",
+      "slug": "ticktick",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ticktick.svg"
+    },
+    {
+      "name": "TikTok Accounts",
+      "slug": "tiktok-accounts",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tiktok-accounts.svg"
+    },
+    {
+      "name": "TikTok Ads",
+      "slug": "tiktok-ads",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tiktok-ads.svg"
+    },
+    {
+      "name": "TikTok Personal",
+      "slug": "tiktok-personal",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tiktok-personal.svg"
+    },
+    {
+      "name": "Timely",
+      "slug": "timely",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/timely.svg"
+    },
+    {
+      "name": "Timify",
+      "slug": "timify",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/timify.svg"
+    },
+    {
+      "name": "tl;dv",
+      "slug": "tldv",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tldv.svg"
+    },
+    {
+      "name": "Toast",
+      "slug": "toast",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/toast.svg"
+    },
+    {
+      "name": "Todoist",
+      "slug": "todoist",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/todoist.svg"
+    },
+    {
+      "name": "Toggl Track",
+      "slug": "toggl",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/toggl.svg"
+    },
+    {
+      "name": "Torii",
+      "slug": "torii",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/torii.svg"
+    },
+    {
+      "name": "Trafft",
+      "slug": "trafft",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/trafft.svg"
+    },
+    {
+      "name": "Trakstar Hire",
+      "slug": "trakstar-hire",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/trakstar-hire.svg"
+    },
+    {
+      "name": "Trello",
+      "slug": "trello",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/trello.svg"
+    },
+    {
+      "name": "Trello (SCIM API)",
+      "slug": "trello-scim",
+      "categories": [
+        "productivity",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/trello-scim.svg"
+    },
+    {
+      "name": "Tremendous",
+      "slug": "tremendous",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tremendous.svg"
+    },
+    {
+      "name": "Tremendous (Sandbox)",
+      "slug": "tremendous-sandbox",
+      "categories": [
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tremendous-sandbox.svg"
+    },
+    {
+      "name": "Trigger.dev",
+      "slug": "trigger-dev",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/trigger-dev.svg"
+    },
+    {
+      "name": "Trigify IO (MCP)",
+      "slug": "trigify-io-mcp",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/trigify-io-mcp.svg"
+    },
+    {
+      "name": "Triple Whale",
+      "slug": "triple-whale",
+      "categories": [
+        "analytics",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/triple-whale.svg"
+    },
+    {
+      "name": "TSheets",
+      "slug": "tsheetsteam",
+      "categories": [
+        "hr",
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tsheetsteam.svg"
+    },
+    {
+      "name": "Tumblr",
+      "slug": "tumblr",
+      "categories": [
+        "social",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/tumblr.svg"
+    },
+    {
+      "name": "Twenty CRM",
+      "slug": "twenty-crm",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twenty-crm.svg"
+    },
+    {
+      "name": "Twenty CRM (Self Hosted)",
+      "slug": "twenty-crm-self-hosted",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twenty-crm-self-hosted.svg"
+    },
+    {
+      "name": "Twilio",
+      "slug": "twilio",
+      "categories": [
+        "dev-tools",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twilio.svg"
+    },
+    {
+      "name": "Twinfield",
+      "slug": "twinfield",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twinfield.svg"
+    },
+    {
+      "name": "Twitch",
+      "slug": "twitch",
+      "categories": [
+        "gaming",
+        "social",
+        "sports",
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twitch.svg"
+    },
+    {
+      "name": "Twitter (Client Credentials)",
+      "slug": "twitter-oauth2-cc",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twitter-oauth2-cc.svg"
+    },
+    {
+      "name": "Twitter (v1)",
+      "slug": "twitter",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twitter.svg"
+    },
+    {
+      "name": "Twitter (v2)",
+      "slug": "twitter-v2",
+      "categories": [
+        "marketing",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/twitter-v2.svg"
+    },
+    {
+      "name": "Typeform",
+      "slug": "typeform",
+      "categories": [
+        "surveys"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/typeform.svg"
+    },
+    {
+      "name": "Typefully",
+      "slug": "typefully",
+      "categories": [
+        "analytics",
+        "communication",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/typefully.svg"
+    },
+    {
+      "name": "Typefully (API v2)",
+      "slug": "typefully-v2",
+      "categories": [
+        "analytics",
+        "communication",
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/typefully-v2.svg"
+    },
+    {
+      "name": "Uber",
+      "slug": "uber",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/uber.svg"
+    },
+    {
+      "name": "UKG Pro",
+      "slug": "ukg-pro",
+      "categories": [
+        "hr",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ukg-pro.svg"
+    },
+    {
+      "name": "UKG Pro (Workforce Management)",
+      "slug": "ukg-pro-wfm",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ukg-pro-wfm.svg"
+    },
+    {
+      "name": "UKG Pro HCM (Client Credentials)",
+      "slug": "ukg-pro-cc",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ukg-pro-cc.svg"
+    },
+    {
+      "name": "UKG Ready",
+      "slug": "ukg-ready",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/ukg-ready.svg"
+    },
+    {
+      "name": "UMAPI (Adobe User Management API)",
+      "slug": "adobe-umapi",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/adobe-umapi.svg"
+    },
+    {
+      "name": "Unanet",
+      "slug": "unanet",
+      "categories": [
+        "crm",
+        "erp",
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/unanet.svg"
+    },
+    {
+      "name": "Unauthenticated",
+      "slug": "unauthenticated",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/unauthenticated.svg"
+    },
+    {
+      "name": "Unipile",
+      "slug": "unipile",
+      "categories": [
+        "crm",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/unipile.svg"
+    },
+    {
+      "name": "Upsales",
+      "slug": "upsales",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/upsales.svg"
+    },
+    {
+      "name": "Valley (API Key)",
+      "slug": "valley-api-key",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/valley-api-key.svg"
+    },
+    {
+      "name": "Valley (OAuth)",
+      "slug": "valley",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/valley.svg"
+    },
+    {
+      "name": "Vanta",
+      "slug": "vanta",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/vanta.svg"
+    },
+    {
+      "name": "Veeva Vault",
+      "slug": "veeva-vault",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/veeva-vault.svg"
+    },
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/vercel.svg"
+    },
+    {
+      "name": "Vercel (MCP)",
+      "slug": "vercel-mcp",
+      "categories": [
+        "dev-tools",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/vercel-mcp.svg"
+    },
+    {
+      "name": "VideoAsk",
+      "slug": "videoask",
+      "categories": [
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/videoask.svg"
+    },
+    {
+      "name": "Vimeo (Basic Auth)",
+      "slug": "vimeo-basic",
+      "categories": [
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/vimeo-basic.svg"
+    },
+    {
+      "name": "Vimeo (OAuth)",
+      "slug": "vimeo",
+      "categories": [
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/vimeo.svg"
+    },
+    {
+      "name": "VTEX",
+      "slug": "vtex",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/vtex.svg"
+    },
+    {
+      "name": "Wakatime",
+      "slug": "wakatime",
+      "categories": [
+        "analytics",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wakatime.svg"
+    },
+    {
+      "name": "Walmart Marketplace",
+      "slug": "walmart",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/walmart.svg"
+    },
+    {
+      "name": "Wappalyzer",
+      "slug": "wappalyzer",
+      "categories": [
+        "marketing",
+        "analytics"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wappalyzer.svg"
+    },
+    {
+      "name": "Wave Accounting",
+      "slug": "wave-accounting",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wave-accounting.svg"
+    },
+    {
+      "name": "Wealthbox",
+      "slug": "wealthbox",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wealthbox.svg"
+    },
+    {
+      "name": "Webex",
+      "slug": "webex",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/webex.svg"
+    },
+    {
+      "name": "Webflow",
+      "slug": "webflow",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/webflow.svg"
+    },
+    {
+      "name": "WebinarJam",
+      "slug": "webinarjam",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/webinarjam.svg"
+    },
+    {
+      "name": "WeJam AI",
+      "slug": "wejam",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wejam.svg"
+    },
+    {
+      "name": "WhatsApp Business",
+      "slug": "whatsapp-business",
+      "categories": [
+        "communication",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/whatsapp-business.svg"
+    },
+    {
+      "name": "Whoop",
+      "slug": "whoop",
+      "categories": [
+        "sports"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/whoop.svg"
+    },
+    {
+      "name": "Wildix PBX",
+      "slug": "wildix-pbx",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wildix-pbx.svg"
+    },
+    {
+      "name": "Wise (API Key)",
+      "slug": "wise-api-key",
+      "categories": [
+        "banking",
+        "payment"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wise-api-key.svg"
+    },
+    {
+      "name": "Wiseagent",
+      "slug": "wiseagent",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wiseagent.svg"
+    },
+    {
+      "name": "Wiza",
+      "slug": "wiza",
+      "categories": [
+        "crm",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wiza.svg"
+    },
+    {
+      "name": "WooCommerce",
+      "slug": "woocommerce",
+      "categories": [
+        "e-commerce",
+        "dev-tools",
+        "design"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/woocommerce.svg"
+    },
+    {
+      "name": "WordPress",
+      "slug": "wordpress",
+      "categories": [
+        "dev-tools",
+        "design",
+        "cms"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wordpress.svg"
+    },
+    {
+      "name": "WordPress.com (MCP)",
+      "slug": "wordpress-mcp",
+      "categories": [
+        "cms",
+        "mcp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wordpress-mcp.svg"
+    },
+    {
+      "name": "Workable (API Key)",
+      "slug": "workable",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workable.svg"
+    },
+    {
+      "name": "Workable (OAuth)",
+      "slug": "workable-oauth",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workable-oauth.svg"
+    },
+    {
+      "name": "Workday",
+      "slug": "workday",
+      "categories": [
+        "hr",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workday.svg"
+    },
+    {
+      "name": "Workday (Client Credentials)",
+      "slug": "workday-cc",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workday-cc.svg"
+    },
+    {
+      "name": "Workday (OAuth)",
+      "slug": "workday-oauth",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workday-oauth.svg"
+    },
+    {
+      "name": "Workday (Refresh Token Auth)",
+      "slug": "workday-refresh-token",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workday-refresh-token.svg"
+    },
+    {
+      "name": "Workday Adaptive Planning",
+      "slug": "workday-adaptive-planning",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workday-adaptive-planning.svg"
+    },
+    {
+      "name": "Workday Adaptive Planning (Basic Auth)",
+      "slug": "workday-adaptive-planning-basic",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workday-adaptive-planning-basic.svg"
+    },
+    {
+      "name": "WorkOS",
+      "slug": "workos",
+      "categories": [
+        "productivity",
+        "iam"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workos.svg"
+    },
+    {
+      "name": "Workpath",
+      "slug": "workpath",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/workpath.svg"
+    },
+    {
+      "name": "Wrike",
+      "slug": "wrike",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/wrike.svg"
+    },
+    {
+      "name": "xAI",
+      "slug": "xai",
+      "categories": [
+        "productivity",
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/xai.svg"
+    },
+    {
+      "name": "Xero",
+      "slug": "xero",
+      "categories": [
+        "accounting",
+        "popular"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/xero.svg"
+    },
+    {
+      "name": "Xero (Client Credentials)",
+      "slug": "xero-oauth2-cc",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/xero-oauth2-cc.svg"
+    },
+    {
+      "name": "Yahoo",
+      "slug": "yahoo",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/yahoo.svg"
+    },
+    {
+      "name": "Yandex",
+      "slug": "yandex",
+      "categories": [
+        "social"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/yandex.svg"
+    },
+    {
+      "name": "Yotpo",
+      "slug": "yotpo",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/yotpo.svg"
+    },
+    {
+      "name": "YouCanBookMe",
+      "slug": "youcanbook-me",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/youcanbook-me.svg"
+    },
+    {
+      "name": "YouTube",
+      "slug": "youtube",
+      "categories": [
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/youtube.svg"
+    },
+    {
+      "name": "Zapier",
+      "slug": "zapier",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zapier.svg"
+    },
+    {
+      "name": "Zapier (SCIM API)",
+      "slug": "zapier-scim",
+      "categories": [
+        "dev-tools"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zapier-scim.svg"
+    },
+    {
+      "name": "Zapier NLA",
+      "slug": "zapier-nla",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zapier-nla.svg"
+    },
+    {
+      "name": "Zendesk",
+      "slug": "zendesk",
+      "categories": [
+        "popular",
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zendesk.svg"
+    },
+    {
+      "name": "Zendesk (API Token)",
+      "slug": "zendesk-api-key",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zendesk-api-key.svg"
+    },
+    {
+      "name": "Zendesk Sell",
+      "slug": "zendesk-sell",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zendesk-sell.svg"
+    },
+    {
+      "name": "Zenefits",
+      "slug": "zenefits",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zenefits.svg"
+    },
+    {
+      "name": "Zigpoll",
+      "slug": "zigpoll",
+      "categories": [
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zigpoll.svg"
+    },
+    {
+      "name": "Zoho",
+      "slug": "zoho",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho.svg"
+    },
+    {
+      "name": "Zoho Bigin",
+      "slug": "zoho-bigin",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-bigin.svg"
+    },
+    {
+      "name": "Zoho Books",
+      "slug": "zoho-books",
+      "categories": [
+        "accounting"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-books.svg"
+    },
+    {
+      "name": "Zoho Calendar",
+      "slug": "zoho-calendar",
+      "categories": [
+        "productivity"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-calendar.svg"
+    },
+    {
+      "name": "Zoho CRM",
+      "slug": "zoho-crm",
+      "categories": [
+        "crm"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-crm.svg"
+    },
+    {
+      "name": "Zoho Desk",
+      "slug": "zoho-desk",
+      "categories": [
+        "support",
+        "ticketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-desk.svg"
+    },
+    {
+      "name": "Zoho Inventory",
+      "slug": "zoho-inventory",
+      "categories": [
+        "e-commerce"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-inventory.svg"
+    },
+    {
+      "name": "Zoho Invoice",
+      "slug": "zoho-invoice",
+      "categories": [
+        "invoicing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-invoice.svg"
+    },
+    {
+      "name": "Zoho Mail",
+      "slug": "zoho-mail",
+      "categories": [
+        "productivity",
+        "communication"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-mail.svg"
+    },
+    {
+      "name": "Zoho People",
+      "slug": "zoho-people",
+      "categories": [
+        "hr"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-people.svg"
+    },
+    {
+      "name": "Zoho Recruit",
+      "slug": "zoho-recruit",
+      "categories": [
+        "ats"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoho-recruit.svg"
+    },
+    {
+      "name": "Zoom",
+      "slug": "zoom",
+      "categories": [
+        "video"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoom.svg"
+    },
+    {
+      "name": "ZoomInfo",
+      "slug": "zoominfo",
+      "categories": [
+        "crm",
+        "marketing"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zoominfo.svg"
+    },
+    {
+      "name": "Zorus",
+      "slug": "zorus",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zorus.svg"
+    },
+    {
+      "name": "Zuora",
+      "slug": "zuora",
+      "categories": [
+        "erp"
+      ],
+      "logo": "https://app.nango.dev/images/template-logos/zuora.svg"
+    }
+  ]
+}

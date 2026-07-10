@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { ArrowRight } from 'lucide-vue-next'
+
+const hireOpen = useHireModal()
 </script>
 
 <template>
@@ -22,13 +24,13 @@ import { ArrowRight } from 'lucide-vue-next'
         Working while you sleep.
       </p>
       <div class="reveal reveal-d3" style="margin-top: 40px; display: flex; justify-content: center">
-        <AbButton size="lg">
+        <AbButton size="lg" @click="hireOpen = true">
           <template #icon><ArrowRight :size="18" /></template>
           Hire Adam
         </AbButton>
       </div>
       <p class="reveal reveal-d3" style="margin: 22px 0 0; font-size: 14px; color: var(--gray-500)">
-        Cancel anytime · No contracts · GDPR compliant
+        One Real Task Test · Cancel anytime · GDPR compliant
       </p>
     </div>
   </section>

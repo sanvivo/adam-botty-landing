@@ -1,21 +1,26 @@
 <script setup lang="ts">
-import { ShieldCheck, ScrollText, Lock, ChevronDown } from 'lucide-vue-next'
+import { UserCheck, ScrollText, Server, Cpu, ChevronDown } from 'lucide-vue-next'
 
 const trustCards = [
   {
-    icon: ShieldCheck,
-    title: 'You define the boundaries',
-    body: 'Adam only touches what you give him permission to touch. You define which tools he can access, which actions he can take, and which data he can see. Nothing more. You\u2019re the employer. Adam follows your rules.',
+    icon: UserCheck,
+    title: 'Permissions per employee',
+    body: 'Every person in your company has a role — and Adam enforces it, on every single request. An employee without access to your financials can\u2019t get them out of Adam. Not by asking nicely, not by accident. Adam never leaks data across roles, and never takes orders from someone without the rights to give them.',
   },
   {
     icon: ScrollText,
     title: 'Full audit trail',
-    body: 'Every action Adam takes is logged. You can see exactly what he did, when, and why — at any time, in plain language. No black boxes. No guessing. Full visibility into everything.',
+    body: 'Every action Adam takes is logged. You can see exactly what he did, when, and why — at any time, in plain language. No black boxes. No guessing. Full visibility into everything, and anything consequential goes through your approval first.',
   },
   {
-    icon: Lock,
-    title: 'GDPR compliant',
-    body: 'Your data stays in the EU. A data processing agreement is available, and your data is never used to train external models. You can revoke Adam\u2019s access to any tool at any moment.',
+    icon: Server,
+    title: 'Your data, your servers',
+    body: 'Your data is stored where you choose — our EU cloud or your own infrastructure. GDPR compliance is built into the core, a data processing agreement is standard, and your data is never used to train external models. Revoke any access at any moment.',
+  },
+  {
+    icon: Cpu,
+    title: 'Your AI, your rules',
+    body: 'Choose the AI behind Adam: Anthropic, OpenAI, or Google — or run models fully locally, hosted inside your own environment. In that setup, not a single bit of your data ever leaves your company. Switch anytime.',
   },
 ]
 
@@ -37,12 +42,24 @@ const faqs = [
     a: 'Most teams are up and running the same day: connect your tools, Adam introduces himself in your Slack or Teams, and you give him his first task. The company brain fills in as he works.',
   },
   {
+    q: 'Do my employees need training?',
+    a: 'No. If they can send a Slack or Teams message, they can work with Adam. He introduces himself in your channels, and people simply ask him for things — the way they\u2019d ask a colleague. There is nothing to learn.',
+  },
+  {
+    q: 'Which AI models does Adam use?',
+    a: 'Your choice: top-tier models from Anthropic, OpenAI, or Google — or models hosted fully locally in your own environment, where no data ever leaves your company. You can switch anytime.',
+  },
+  {
+    q: 'What can\u2019t Adam do?',
+    a: 'Adam can\u2019t shake hands, and he won\u2019t make the calls you reserve for yourself — he brings you the analysis and waits for your decision. He also never acts outside the permissions you gave him. Everything digital inside your tools, though, is fair game.',
+  },
+  {
     q: 'What happens when I use more than 30,000 credits?',
     a: 'Consumption-based pricing kicks in automatically. You\u2019re always in control of usage. No surprise invoices.',
   },
   {
     q: 'Is there a free trial?',
-    a: 'Talk to us — we\u2019ll set Adam up on one real task from your week so you can judge him on actual work, not a demo.',
+    a: 'Better: the One Real Task Test. Give Adam one real task from your actual week. If he doesn\u2019t deliver, you don\u2019t pay a cent. You judge him on real work, not a demo.',
   },
 ]
 
@@ -59,8 +76,8 @@ const toggle = (i: number) => (open.value = open.value === i ? -1 : i)
       <p class="lede reveal reveal-d1" style="text-align: center; margin: 18px auto 0; max-width: 480px">
         The most important question a founder can ask. Here's the full answer.
       </p>
-      <div class="two-col" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 56px">
-        <div v-for="(c, i) in trustCards" :key="c.title" :class="`trust-card reveal reveal-d${i + 1}`">
+      <div class="two-col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 56px">
+        <div v-for="(c, i) in trustCards" :key="c.title" :class="`trust-card reveal reveal-d${(i % 2) + 1}`">
           <span class="pillar-icon"><component :is="c.icon" :size="20" /></span>
           <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--text-display)">
             {{ c.title }}

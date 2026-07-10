@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { ArrowRight, Check } from 'lucide-vue-next'
+import { ArrowRight, Check, ShieldCheck } from 'lucide-vue-next'
+
+const hireOpen = useHireModal()
 
 const mathRows = [
   ['Monthly cost', '€3,000 – 5,000', '€250'],
@@ -62,12 +64,25 @@ const features = [
                 {{ f }}
               </span>
             </div>
-            <AbButton size="lg">
+            <AbButton size="lg" @click="hireOpen = true">
               <template #icon><ArrowRight :size="18" /></template>
               Hire Adam
             </AbButton>
             <p style="margin: 20px 0 0; font-size: 13.5px; color: var(--gray-500)">
               Need more? Volume pricing available.
+            </p>
+          </div>
+        </div>
+        <div class="guarantee-card reveal reveal-d3">
+          <span class="pillar-icon" style="margin-bottom: 0; flex: none"><ShieldCheck :size="20" /></span>
+          <div>
+            <h3 style="margin: 0 0 8px; font-size: 18px; font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--text-display)">
+              The One Real Task Test
+            </h3>
+            <p style="margin: 0; font-size: 15px; line-height: 1.6; color: var(--text-secondary); text-wrap: pretty">
+              Don't judge Adam on a demo. Give him one real task from your actual
+              week — the annoying one you keep postponing. If he doesn't deliver,
+              you don't pay a cent. That's the whole interview.
             </p>
           </div>
         </div>

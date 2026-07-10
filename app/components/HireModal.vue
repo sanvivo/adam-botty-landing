@@ -3,6 +3,8 @@ import { X, ArrowRight, Check } from 'lucide-vue-next'
 
 const open = useHireModal()
 const sent = ref(false)
+const sending = ref(false)
+const sendError = ref(false)
 
 const form = reactive({
   name: '',
@@ -10,6 +12,7 @@ const form = reactive({
   company: '',
   platform: 'Slack',
   task: '',
+  website: '', // honeypot — stays empty for humans
 })
 const platforms = ['Slack', 'Microsoft Teams', 'Other']
 
@@ -32,20 +35,18 @@ onUnmounted(() => {
   window.removeEventListener('keydown', onKey)
 })
 
-function submit() {
-  const subject = `Hire Adam — ${form.company || form.name}`
-  const body = [
-    `Name: ${form.name}`,
-    `Email: ${form.email}`,
-    `Company: ${form.company}`,
-    `Platform: ${form.platform}`,
-    '',
-    "Adam's first task:",
-    form.task,
-  ].join('\n')
-  // Static site — the lead goes to sales by email for now
-  window.location.href = `mailto:hire@adambotty.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-  sent.value = true
+async function submit() {
+  if (sending.value) return
+  sending.value = true
+  sendError.value = false
+  try {
+    await $fetch('/api/hire', { method: 'POST', body: { ...form } })
+    sent.value = true
+  } catch {
+    sendError.value = true
+  } finally {
+    sending.value = false
+  }
 }
 </script>
 
@@ -70,7 +71,7 @@ function submit() {
             </div>
 
             <form style="margin-top: 28px; display: flex; flex-direction: column; gap: 18px" @submit.prevent="submit">
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px">
+              <div class="hm-grid">
                 <label class="ab-field">
                   <span class="ab-field__label">Your name</span>
                   <span class="ab-input"><input v-model="form.name" required autocomplete="name" placeholder="Eva Beispiel"></span>
@@ -109,11 +110,25 @@ function submit() {
                   placeholder="The annoying one you keep postponing…"
                 />
               </label>
-              <AbButton size="lg" style="width: 100%; margin-top: 4px">
+              <!-- Honeypot: invisible to humans, tempting for bots -->
+              <input
+                v-model="form.website"
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+                aria-hidden="true"
+                style="position: absolute; left: -9999px; height: 0; width: 0; opacity: 0"
+              >
+              <AbButton size="lg" style="width: 100%; margin-top: 4px" :disabled="sending">
                 <template #icon><ArrowRight :size="18" /></template>
-                Send &amp; meet Adam
+                {{ sending ? 'Sending…' : 'Send & meet Adam' }}
               </AbButton>
-              <p style="margin: 0; font-size: 13px; color: var(--text-tertiary); text-align: center">
+              <p v-if="sendError" style="margin: 0; font-size: 13.5px; color: var(--status-danger, #C2410C); text-align: center">
+                Something went wrong sending your request. Please try again — or
+                email us directly at hire@adambotty.com.
+              </p>
+              <p v-else style="margin: 0; font-size: 13px; color: var(--text-tertiary); text-align: center">
                 Our team gets back to you within one business day.
               </p>
             </form>

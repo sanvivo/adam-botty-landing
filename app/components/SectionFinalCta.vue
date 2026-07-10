@@ -20,7 +20,7 @@ const hireOpen = useHireModal()
         Adam is ready to work from day one.
       </p>
       <p class="reveal reveal-d2" style="margin: 26px auto 0; max-width: 420px; font-size: 17px; line-height: 1.6; color: var(--gray-100); font-weight: 500">
-        €250/month. Every tool in your stack connected. Every task remembered.
+        From €495/month. Every tool in your stack connected. Every task remembered.
         Working while you sleep.
       </p>
       <div class="reveal reveal-d3" style="margin-top: 40px; display: flex; justify-content: center">
@@ -30,7 +30,7 @@ const hireOpen = useHireModal()
         </AbButton>
       </div>
       <p class="reveal reveal-d3" style="margin: 22px 0 0; font-size: 14px; color: var(--gray-500)">
-        One Real Task Test · Cancel anytime · GDPR compliant
+        30-day money-back guarantee · Cancel anytime · GDPR compliant
       </p>
     </div>
   </section>

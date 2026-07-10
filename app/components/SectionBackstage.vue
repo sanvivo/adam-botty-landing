@@ -144,7 +144,7 @@ const wireList = computed(() => {
   <section class="section">
     <div class="wrap">
       <h2 class="display-lg reveal" style="text-align: center; max-width: 680px; margin: 0 auto">
-        One message in Slack. Hundreds of moves done for you
+        One message in Slack. Hundreds of steps done for you
       </h2>
       <p class="lede reveal reveal-d1" style="text-align: center; margin: 18px auto 0; max-width: 520px">
         You send one line. Adam wires himself into every tool your company runs on, does the work,

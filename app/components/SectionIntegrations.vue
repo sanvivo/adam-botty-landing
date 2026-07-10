@@ -13,7 +13,7 @@ const data = catalog as { total: number; topics: string[]; items: Item[] }
 const toolsLabel = (Math.floor(data.total / 100) * 100).toLocaleString('en-US')
 
 const VISIBLE_LIMIT = 60
-const active = ref(data.topics[0]) // "Popular"
+const active = ref(data.topics.includes('Popular') ? 'Popular' : data.topics[0])
 const query = ref('')
 const showAll = ref(false)
 
@@ -50,15 +50,36 @@ function cardTopics(i: Item) {
   <section class="section" id="integrations">
     <div class="wrap" style="text-align: center">
       <h2 class="display-lg reveal" style="max-width: 820px; margin: 0 auto">
-        Finally &mdash; an employee who uses over {{ toolsLabel }} tools like a real pro
+        Finally &mdash; an employee who uses <mark class="mark-green">over {{ toolsLabel }} tools</mark> like a pro
       </h2>
       <p class="lede reveal reveal-d1" style="margin: 18px auto 0; max-width: 540px">
         No migration. No new stack. Browse {{ data.topics.length - 1 }} categories &mdash; from CRM
-        and support to accounting, dev tools and marketing.
+        and support to accounting, dev tools, and marketing.
       </p>
     </div>
 
-    <div class="wrap reveal reveal-d2" style="margin-top: 44px">
+    <div class="wrap" style="margin-top: 56px">
+      <div class="connect-cols">
+        <div class="connect-copy reveal">
+          <h3 style="margin: 0; font-size: 28px; font-weight: 500; letter-spacing: var(--tracking-display); color: var(--text-display); text-wrap: balance">
+            Connecting a new tool is just <mark class="mark-green">one click</mark>
+          </h3>
+          <p class="lede" style="margin: 18px 0 0; font-size: 17px">
+            No API keys to hunt down. No IT ticket. When Adam needs a tool he
+            doesn't have, he asks — right in the chat. You click once. He connects
+            securely and finishes the job.
+          </p>
+        </div>
+        <div class="reveal reveal-d1">
+          <ConnectDemo />
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap reveal reveal-d2" style="margin-top: 64px">
+      <h3 style="margin: 0 0 28px; text-align: center; font-size: 22px; font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--text-display)">
+        Choose your integrations
+      </h3>
       <div class="ig-panel">
         <label class="ig-search">
           <Search :size="18" class="ig-search-icon" aria-hidden="true" />
@@ -97,7 +118,7 @@ function cardTopics(i: Item) {
                 v-for="i in visible"
                 :key="i.name"
                 class="ig-card"
-                :title="cardTopics(i)"
+                :title="`${i.name} · ${cardTopics(i)}`"
               >
                 <img
                   v-if="i.logo"

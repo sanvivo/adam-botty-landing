@@ -25,7 +25,7 @@ const stages = [
   { n: 1, label: 'A quiet Tuesday — one Adam on duty', hold: 2800 },
   { n: 7, label: 'Month-end close — Adams spin up', hold: 2600 },
   { n: 21, label: 'Launch week — more Adams, instantly', hold: 2600 },
-  { n: TOTAL, label: 'Sunday, 3am — the full swarm works while you sleep', hold: 3400 },
+  { n: TOTAL, label: 'Sunday, 3 a.m. — the full swarm works while you sleep', hold: 3400 },
   { n: 7, label: 'Rush over — Adams stand down. You only pay for what runs', hold: 3000 },
 ]
 

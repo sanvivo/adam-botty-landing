@@ -1,5 +1,13 @@
 <script setup lang="ts">
-import { UserCheck, ScrollText, Server, Cpu, ChevronDown } from 'lucide-vue-next'
+import { UserCheck, ScrollText, Server, Cpu, ChevronDown, ShieldCheck, MapPin, FileCheck, EyeOff, HardDrive } from 'lucide-vue-next'
+
+const badges = [
+  { icon: ShieldCheck, label: 'GDPR built-in' },
+  { icon: MapPin, label: 'EU data residency' },
+  { icon: FileCheck, label: 'DPA standard' },
+  { icon: EyeOff, label: 'Never trains on your data' },
+  { icon: HardDrive, label: 'Self-host available' },
+]
 
 const trustCards = [
   {
@@ -59,7 +67,7 @@ const faqs = [
   },
   {
     q: 'Is there a free trial?',
-    a: 'Better: the One Real Task Test. Give Adam one real task from your actual week. If he doesn\u2019t deliver, you don\u2019t pay a cent. You judge him on real work, not a demo.',
+    a: 'Better: a 30-day money-back guarantee. Put Adam on your real work for a full month — if he hasn\u2019t saved you more time than he costs, you get every euro back. You judge him on real work, not a demo.',
   },
 ]
 
@@ -74,8 +82,14 @@ const toggle = (i: number) => (open.value = open.value === i ? -1 : i)
         &ldquo;Can I actually trust Adam with my business data?&rdquo;
       </h2>
       <p class="lede reveal reveal-d1" style="text-align: center; margin: 18px auto 0; max-width: 480px">
-        The most important question a founder can ask. Here's the full answer.
+        The most important question you can ask. Here's the full answer.
       </p>
+      <div class="trust-badges reveal reveal-d1">
+        <span v-for="b in badges" :key="b.label" class="trust-badge">
+          <component :is="b.icon" :size="15" />
+          {{ b.label }}
+        </span>
+      </div>
       <div class="two-col" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 56px">
         <div v-for="(c, i) in trustCards" :key="c.title" :class="`trust-card reveal reveal-d${(i % 2) + 1}`">
           <span class="pillar-icon"><component :is="c.icon" :size="20" /></span>

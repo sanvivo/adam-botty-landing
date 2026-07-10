@@ -43,7 +43,10 @@ withDefaults(
     <span style="flex: 1; min-width: 0">
       <span class="ab-receipt__title">{{ title }}</span>
       <span v-if="tools.length" class="ab-receipt__tools">
-        <span v-for="t in tools" :key="t" class="ab-receipt__tool">{{ t }}</span>
+        <span v-for="t in tools" :key="t" class="ab-receipt__tool">
+          <img v-if="toolLogo(t)" :src="toolLogo(t)!" alt="" width="13" height="13" loading="lazy">
+          {{ t }}
+        </span>
       </span>
     </span>
     <span v-if="time" class="ab-receipt__time">{{ time }}</span>
@@ -68,8 +71,10 @@ withDefaults(
 }
 .ab-receipt__tools { display: flex; gap: 6px; margin-top: 7px; flex-wrap: wrap; }
 .ab-receipt__tool {
+  display: inline-flex; align-items: center; gap: 5px;
   font-size: 11.5px; font-weight: 500; color: var(--gray-600);
-  background: var(--gray-100); border-radius: 999px; padding: 3px 9px;
+  background: var(--gray-100); border-radius: 999px; padding: 3px 9px 3px 6px;
 }
+.ab-receipt__tool img { width: 13px; height: 13px; border-radius: 3px; flex: none; }
 .ab-receipt__time { font-size: 11.5px; color: var(--text-tertiary); flex: none; }
 </style>

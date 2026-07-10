@@ -9,12 +9,7 @@
         Adam is a person in your Slack or Teams — you talk to him exactly like
         you talk to your best employee:
       </p>
-      <div class="reveal reveal-d2 ease-demo sl-window" style="margin: 40px auto 0; max-width: 560px; text-align: left">
-        <SlackMsg name="Eva" initials="E" time="2:14 PM">
-          <span class="sl-mention">@Adam</span> the newsletter for Friday — check what
-          worked last time and make this one better.
-        </SlackMsg>
-      </div>
+      <EaseChat />
       <div class="reveal reveal-d2" style="margin: 36px auto 0; max-width: 540px; text-align: left">
         <p class="lede" style="margin: 0">
           That's it. That's the whole skill. Adam pulls the campaign numbers from

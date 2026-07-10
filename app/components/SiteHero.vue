@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ArrowRight } from 'lucide-vue-next'
 
-const founders = ['Sanvivo', 'Nordlicht Labs', 'Kassenwerk', 'Briefkasten', 'Volta Health']
+const founders = ['Sanvivo', 'MindReach', 'CovidBadge', 'HealGreen']
 
 /* Rotating department word — breadth proof, right in the headline */
 const words = [
@@ -67,7 +67,7 @@ const openHire = () => (hireOpen.value = true)
         <p class="lede" style="margin: 26px 0 36px; max-width: 480px">
           Zero technical knowledge needed. Adam is an AI employee who lives in your
           Slack or Microsoft Teams — message him like a colleague, and he gets it
-          done. No setup weeks. No training. Nothing new to learn.
+          done.
         </p>
         <div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap">
           <AbButton size="lg" @click="openHire">

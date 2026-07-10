@@ -35,11 +35,10 @@ onUnmounted(() => io?.disconnect())
     <SectionPain />
     <SectionMeetAdam />
     <SectionBackstage />
-    <SectionMechanism />
+    <SectionBrain />
     <SectionEase />
-    <SectionProof />
-    <SectionCapabilities />
     <SectionIntegrations />
+    <SectionWorklog />
     <SectionScale />
     <SectionMath />
     <SectionTrust />

@@ -97,7 +97,9 @@ onMounted(() => {
     // The replay only starts once the section scrolls into view
     io = new IntersectionObserver(
       (entries) => {
-        if (started || !entries.some((e) => e.isIntersecting)) return
+        // Initial callbacks report isIntersecting for any overlap — enforce the
+        // 30% visibility gate via the ratio as well
+        if (started || !entries.some((e) => e.isIntersecting && e.intersectionRatio >= 0.3)) return
         started = true
         io?.disconnect()
         tickLoop()

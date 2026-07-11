@@ -37,7 +37,9 @@ onMounted(() => {
   }
   io = new IntersectionObserver(
     (entries) => {
-      if (started || !entries.some((e) => e.isIntersecting)) return
+      // Initial callbacks report isIntersecting for any overlap — enforce the
+      // 40% visibility gate via the ratio as well
+      if (started || !entries.some((e) => e.isIntersecting && e.intersectionRatio >= 0.4)) return
       started = true
       io?.disconnect()
       play()

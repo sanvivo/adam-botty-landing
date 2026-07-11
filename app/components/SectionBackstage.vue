@@ -53,6 +53,8 @@ const tilePaths = ref<(string | null)[]>(new Array(bsSteps.length).fill(null))
 
 let timer: ReturnType<typeof setTimeout> | undefined
 let measureTimer: ReturnType<typeof setTimeout> | undefined
+let io: IntersectionObserver | undefined
+let started = false
 
 function tickLoop() {
   timer = setTimeout(() => {
@@ -92,7 +94,17 @@ onMounted(() => {
     reduced.value = true
     frame.value = 9
   } else {
-    tickLoop()
+    // The replay only starts once the section scrolls into view
+    io = new IntersectionObserver(
+      (entries) => {
+        if (started || !entries.some((e) => e.isIntersecting)) return
+        started = true
+        io?.disconnect()
+        tickLoop()
+      },
+      { threshold: 0.3 },
+    )
+    if (stageRef.value) io.observe(stageRef.value)
   }
   measureTimer = setTimeout(measure, 350)
   window.addEventListener('resize', measure)
@@ -101,6 +113,7 @@ onMounted(() => {
 onUnmounted(() => {
   clearTimeout(timer)
   clearTimeout(measureTimer)
+  io?.disconnect()
   window.removeEventListener('resize', measure)
 })
 

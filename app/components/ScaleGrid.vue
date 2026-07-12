@@ -31,7 +31,10 @@ const stages = [
 
 const stage = ref(0)
 const reduced = ref(false)
+const rootRef = ref<HTMLElement | null>(null)
 let timer: ReturnType<typeof setTimeout> | undefined
+let io: IntersectionObserver | undefined
+let started = false
 
 function tick() {
   timer = setTimeout(() => {
@@ -46,9 +49,25 @@ onMounted(() => {
     stage.value = 3
     return
   }
-  tick()
+  // Start the demand cycle only when the grid scrolls into view,
+  // so visitors always see it from the "one quiet Adam" opening
+  io = new IntersectionObserver(
+    (entries) => {
+      // Initial callbacks report isIntersecting for any overlap — enforce the
+      // 30% visibility gate via the ratio as well
+      if (started || !entries.some((e) => e.isIntersecting && e.intersectionRatio >= 0.3)) return
+      started = true
+      io?.disconnect()
+      tick()
+    },
+    { threshold: 0.3 },
+  )
+  if (rootRef.value) io.observe(rootRef.value)
 })
-onUnmounted(() => clearTimeout(timer))
+onUnmounted(() => {
+  clearTimeout(timer)
+  io?.disconnect()
+})
 
 const count = computed(() => stages[stage.value]!.n)
 const label = computed(() =>
@@ -59,7 +78,7 @@ const label = computed(() =>
 </script>
 
 <template>
-  <div class="scale-stage">
+  <div ref="rootRef" class="scale-stage">
     <div class="scale-grid" role="img" :aria-label="`${count} Adams working in parallel`">
       <div
         v-for="(rank, i) in order"
